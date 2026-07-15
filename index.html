@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amatör Telsizcilik — Türkiye Mevzuat Çalışması (Sürüm 1.0)</title>
+<style>
+  :root{ --navy:#1f3864; --blue:#2e75b6; --bg:#f6f8fb; --card:#fff; --line:#e2e8f0; --ink:#1f2933; --muted:#66727f; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; background:var(--bg); color:var(--ink); line-height:1.6; }
+  .wrap{ max-width:780px; margin:0 auto; padding:32px 20px 64px; }
+  header{ text-align:center; }
+  .kicker{ letter-spacing:.14em; text-transform:uppercase; font-size:.72rem; color:var(--muted); margin:0 0 6px; }
+  h1{ color:var(--navy); font-size:1.7rem; margin:.1rem 0 .3rem; }
+  .sub{ color:var(--blue); font-size:1rem; margin:0 0 6px; }
+  .badge{ display:inline-block; background:var(--navy); color:#fff; font-size:.75rem; font-weight:600; padding:3px 12px; border-radius:20px; }
+  .intro{ background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px; margin:24px 0; font-size:.96rem; }
+  h2{ font-size:1.05rem; color:var(--navy); border-bottom:2px solid var(--blue); padding-bottom:6px; margin:32px 0 14px; }
+  .files{ display:grid; gap:12px; }
+  a.file{ display:flex; align-items:center; gap:14px; text-decoration:none; color:inherit; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; transition:.15s; }
+  a.file:hover{ border-color:var(--blue); box-shadow:0 3px 12px rgba(46,117,182,.12); transform:translateY(-1px); }
+  .tag{ flex:0 0 auto; width:44px; height:44px; border-radius:9px; display:grid; place-items:center; font-weight:700; font-size:.72rem; color:#fff; }
+  .doc{ background:var(--blue); } .xls{ background:#217346; }
+  .file .t{ font-weight:600; } .file .d{ color:var(--muted); font-size:.83rem; }
+  .file .arrow{ margin-left:auto; color:var(--blue); font-size:1.2rem; }
+  .disclaimer{ background:#fff8ec; border:1px solid #f0d9a8; border-radius:12px; padding:18px 20px; margin-top:34px; font-size:.9rem; }
+  .disclaimer h3{ margin:0 0 10px; color:#8a5a00; font-size:1rem; }
+  .disclaimer ul{ margin:10px 0 0; padding-left:20px; } .disclaimer li{ margin:5px 0; }
+  footer{ text-align:center; color:var(--muted); font-size:.8rem; margin-top:40px; }
+  a{ color:var(--blue); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="kicker">Amatör Telsizcilik</p>
+    <h1>Türkiye Mevzuat Analizi ve Talep Çalışması</h1>
+    <p class="sub">Gri Alanlar · IARU/CEPT Boşlukları · Kurumlara Talep Yazıları</p>
+    <p><span class="badge">Sürüm 1.0 · 1 Temmuz 2026</span></p>
+  </header>
+
+  <div class="intro">
+    Bu çalışma, amatör telsizciliğe (amatör radyoculuğa) gönül vermiş kişilerin <strong>bireysel iyi niyetiyle</strong> ve
+    <strong>camiaya katkı amacıyla</strong> yürüttüğü bir mevzuat incelemesidir. Türkiye'de amatör
+    telsizciliğe ilişkin dağınık mevzuat derlenmiş; uygulamada belirsizlik yaratan sorunlu konular
+    (gri alanlar), IARU/CEPT boşlukları ve bunların kurumlar nezdinde çözümüne yönelik talepler
+    tarafsız biçimde belgelenmiştir. Tüm referanslar birincil kaynaklara (mevzuat.gov.tr, Resmî Gazete,
+    BTK, KEGM, ITU, CEPT) dayanır. Amaç, herhangi bir kurumun veya derneğin görüşünü temsil etmek değil;
+    camiaya açık, tartışmaya ve oylamaya elverişli bir zemin sunmaktır.
+  </div>
+
+
+  <h2>Mevzuat hiyerarşisi — bir bakışta</h2>
+  <div class="intro" style="padding:14px 16px;">
+    <figure style="margin:0 0 18px;"><svg width="100%" height="auto" viewBox="0 0 680 668" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="arrow1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="0" y="0" width="100%" height="auto" fill="#ffffff"/>
+<rect x="40" y="30" width="12" height="12" rx="2" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.75"/><text x="58" y="40" font-size="12" fill="#66727f">kanun</text>
+<rect x="113" y="30" width="12" height="12" rx="2" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.75"/><text x="131" y="40" font-size="12" fill="#66727f">yönetmelik</text>
+<rect x="218" y="30" width="12" height="12" rx="2" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.75"/><text x="236" y="40" font-size="12" fill="#66727f">idari/teknik</text>
+<rect x="336" y="30" width="12" height="12" rx="2" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.75"/><text x="354" y="40" font-size="12" fill="#66727f">uluslararası</text>
+<rect x="454" y="30" width="12" height="12" rx="2" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.75"/><text x="472" y="40" font-size="12" fill="#66727f">mülga</text>
+<rect x="40" y="58" width="600" height="76" rx="8" fill="none" stroke="#7F77DD" stroke-dasharray="6 4" stroke-width="0.75"/>
+<text x="52" y="76" font-size="12" fill="#66727f">Uluslararası çerçeve (kesikli: doğrudan iç hukuk değil)</text>
+<rect x="60" y="84" width="270" height="40" rx="4" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.75"/><text x="195" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#3C3489">ITU radyo tüzüğü (RR)</text><text x="195" y="116" text-anchor="middle" font-size="12" fill="#534AB7">md.25 · bağlayıcı antlaşma</text>
+<rect x="350" y="84" width="270" height="40" rx="4" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.75"/><text x="485" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#3C3489">CEPT tavsiyeleri</text><text x="485" y="116" text-anchor="middle" font-size="12" fill="#534AB7">T/R 61-01 · 61-02 · ECA EU9</text>
+<line x1="340" y1="134" x2="340" y2="162" stroke="#7F77DD" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow1)"/>
+<rect x="190" y="164" width="300" height="44" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.75"/><text x="340" y="182" text-anchor="middle" font-size="14" font-weight="bold" fill="#0C447C">Anayasa md.22</text><text x="340" y="198" text-anchor="middle" font-size="12" fill="#185FA5">haberleşme hürriyeti</text>
+<path d="M340 208 V224 M130 224 H550 M130 224 V232 M340 224 V232 M550 224 V232" fill="none" stroke="#888780" stroke-width="1"/>
+<line x1="130" y1="230" x2="130" y2="239" stroke="#888780" stroke-width="1" marker-end="url(#arrow1)"/>
+<line x1="340" y1="230" x2="340" y2="239" stroke="#888780" stroke-width="1" marker-end="url(#arrow1)"/>
+<line x1="550" y1="230" x2="550" y2="239" stroke="#888780" stroke-width="1" marker-end="url(#arrow1)"/>
+<rect x="40" y="240" width="180" height="44" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.75"/><text x="130" y="258" text-anchor="middle" font-size="13" font-weight="bold" fill="#0C447C">2813 telsiz kanunu</text><text x="130" y="274" text-anchor="middle" font-size="11.5" fill="#185FA5">1983 · çerçeve kanun</text>
+<rect x="240" y="240" width="200" height="44" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.75"/><text x="340" y="258" text-anchor="middle" font-size="13" font-weight="bold" fill="#0C447C">5809 EHK</text><text x="340" y="274" text-anchor="middle" font-size="11.5" fill="#185FA5">md.37/3 · ruhsatsız hak</text>
+<rect x="460" y="240" width="180" height="44" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.75"/><text x="550" y="258" text-anchor="middle" font-size="13" font-weight="bold" fill="#0C447C">Kesişen kanunlar</text><text x="550" y="274" text-anchor="middle" font-size="11.5" fill="#185FA5">TCK · KMK · KTK · 6112</text>
+<path d="M340 284 V300 M185 300 H495 M185 300 V308 M495 300 V308" fill="none" stroke="#888780" stroke-width="1"/>
+<line x1="185" y1="306" x2="185" y2="315" stroke="#888780" stroke-width="1" marker-end="url(#arrow1)"/>
+<line x1="495" y1="306" x2="495" y2="315" stroke="#888780" stroke-width="1" marker-end="url(#arrow1)"/>
+<rect x="40" y="316" width="290" height="44" rx="4" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.75"/><text x="185" y="334" text-anchor="middle" font-size="13" font-weight="bold" fill="#27500A">Spektrum yönetimi yönetmeliği</text><text x="185" y="350" text-anchor="middle" font-size="11.5" fill="#3B6D11">RG 27276 · md.7/1 ve 8/1</text>
+<rect x="350" y="316" width="290" height="44" rx="4" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.75"/><text x="495" y="334" text-anchor="middle" font-size="13" font-weight="bold" fill="#27500A">Telsiz yönetmeliği</text><text x="495" y="350" text-anchor="middle" font-size="11.5" fill="#3B6D11">RG 27291 · md.2/4 kapsam dışı</text>
+<rect x="40" y="372" width="290" height="44" rx="4" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.75"/><text x="185" y="390" text-anchor="middle" font-size="13" font-weight="bold" fill="#27500A">FTM yönetmeliği</text><text x="185" y="406" text-anchor="middle" font-size="11.5" fill="#3B6D11">RG 30608 · muafiyet + ek-5</text>
+<rect x="350" y="372" width="290" height="44" rx="4" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.75"/><text x="495" y="390" text-anchor="middle" font-size="13" font-weight="bold" fill="#27500A">KEGM sınav ve belgelendirme yön.</text><text x="495" y="406" text-anchor="middle" font-size="11.5" fill="#3B6D11">RG 27482 · md.18 atfı mülgaya</text>
+<path d="M185 416 V430 M495 416 V430 M132 430 H545 M132 430 V438 M337 430 V438 M545 430 V438" fill="none" stroke="#888780" stroke-width="1"/>
+<line x1="132" y1="434" x2="132" y2="443" stroke="#888780" stroke-width="1" marker-end="url(#arrow1)"/>
+<line x1="337" y1="434" x2="337" y2="443" stroke="#888780" stroke-width="1" marker-end="url(#arrow1)"/>
+<line x1="545" y1="434" x2="545" y2="443" stroke="#888780" stroke-width="1" marker-end="url(#arrow1)"/>
+<rect x="40" y="444" width="185" height="44" rx="4" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.75"/><text x="132" y="462" text-anchor="middle" font-size="13" font-weight="bold" fill="#633806">Milli frekans planı</text><text x="132" y="478" text-anchor="middle" font-size="11.5" fill="#854F0B">BTK · 2019</text>
+<rect x="245" y="444" width="185" height="44" rx="4" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.75"/><text x="337" y="462" text-anchor="middle" font-size="13" font-weight="bold" fill="#633806">TAD 2021</text><text x="337" y="478" text-anchor="middle" font-size="11.5" fill="#854F0B">amatör telsiz arayüzü</text>
+<rect x="450" y="444" width="190" height="44" rx="4" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.75"/><text x="545" y="462" text-anchor="middle" font-size="13" font-weight="bold" fill="#633806">FTM ek-5 · tablo 25</text><text x="545" y="478" text-anchor="middle" font-size="11.5" fill="#854F0B">güç/frekans sınırları</text>
+<rect x="40" y="516" width="600" height="100" rx="8" fill="none" stroke="#888780" stroke-dasharray="6 4" stroke-width="0.75"/>
+<text x="52" y="536" font-size="12" fill="#66727f">Mülga — ama gölgesi sürüyor</text>
+<rect x="60" y="546" width="270" height="44" rx="4" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.75"/><text x="195" y="564" text-anchor="middle" font-size="13" font-weight="bold" fill="#444441">Amatör telsizcilik yön. 2004</text><text x="195" y="580" text-anchor="middle" font-size="11.5" fill="#5F5E5A">RG 25406 · yerine yenisi yok</text>
+<rect x="350" y="546" width="270" height="44" rx="4" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.75"/><text x="485" y="564" text-anchor="middle" font-size="13" font-weight="bold" fill="#444441">Özel telsiz sistemleri yön.</text><text x="485" y="580" text-anchor="middle" font-size="11.5" fill="#5F5E5A">RG 27292 · KEGM md.18 atfı kırık</text>
+<text x="340" y="648" text-anchor="middle" font-size="12.5" fill="#1f2933">Haklar en az yedi ayrı mevzuattan derleniyor — 2004'ten beri tek çatı yönetmelik yok.</text>
+</svg>
+<figcaption style="text-align:center;color:var(--muted);font-size:.83rem;margin-top:6px;">Şekil 1 — Bugün: haklar en az yedi ayrı mevzuattan derleniyor; mülga düzenlemelerin gölgesi sürüyor. Kesikli çizgiler doğrudan iç hukuk olmayan uluslararası çerçeveyi gösterir.</figcaption></figure>
+    <figure style="margin:0;"><svg width="100%" height="auto" viewBox="0 0 680 478" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="arrow2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="0" y="0" width="100%" height="auto" fill="#ffffff"/>
+<rect x="190" y="16" width="300" height="44" rx="4" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.75"/><text x="340" y="34" text-anchor="middle" font-size="14" font-weight="bold" fill="#444441">GA-1 talebi</text><text x="340" y="50" text-anchor="middle" font-size="12" fill="#5F5E5A">kapsamlı tek yönetmelik</text>
+<line x1="340" y1="60" x2="340" y2="76" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow2)"/>
+<rect x="40" y="80" width="600" height="76" rx="8" fill="none" stroke="#7F77DD" stroke-dasharray="6 4" stroke-width="0.75"/>
+<text x="52" y="98" font-size="12" fill="#66727f">Uluslararası çerçeve</text>
+<rect x="60" y="106" width="560" height="40" rx="4" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.75"/><text x="340" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#3C3489">ITU RR · CEPT tavsiyeleri</text><text x="340" y="138" text-anchor="middle" font-size="12" fill="#534AB7">T/R 61-01 · 61-02 iç hukuka işlenmiş</text>
+<line x1="340" y1="156" x2="340" y2="172" stroke="#7F77DD" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow2)"/>
+<rect x="190" y="174" width="300" height="44" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.75"/><text x="340" y="192" text-anchor="middle" font-size="14" font-weight="bold" fill="#0C447C">Anayasa md.22</text><text x="340" y="208" text-anchor="middle" font-size="12" fill="#185FA5">haberleşme hürriyeti</text>
+<line x1="340" y1="218" x2="340" y2="234" stroke="#888780" stroke-width="1" marker-end="url(#arrow2)"/>
+<rect x="190" y="236" width="300" height="44" rx="4" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.75"/><text x="340" y="254" text-anchor="middle" font-size="14" font-weight="bold" fill="#0C447C">5809 EHK md.37/3 + 2813</text><text x="340" y="270" text-anchor="middle" font-size="12" fill="#185FA5">yasal dayanak</text>
+<line x1="340" y1="280" x2="340" y2="296" stroke="#888780" stroke-width="1" marker-end="url(#arrow2)"/>
+<rect x="120" y="298" width="440" height="64" rx="4" fill="#EAF3DE" stroke="#3B6D11" stroke-width="1"/><text x="340" y="320" text-anchor="middle" font-size="14" font-weight="bold" fill="#27500A">Amatör telsizcilik yönetmeliği (tek çatı)</text><text x="340" y="338" text-anchor="middle" font-size="12" fill="#3B6D11">sınıf-yetki tablosu · RX serbestisi · röle/EMCOMM</text><text x="340" y="354" text-anchor="middle" font-size="12" fill="#3B6D11">dijital modlar · SK/çağrı işareti · CEPT uyumu</text>
+<line x1="340" y1="362" x2="340" y2="378" stroke="#888780" stroke-width="1" marker-end="url(#arrow2)"/>
+<rect x="190" y="380" width="300" height="44" rx="4" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.75"/><text x="340" y="398" text-anchor="middle" font-size="14" font-weight="bold" fill="#633806">Teknik ekler</text><text x="340" y="414" text-anchor="middle" font-size="12" fill="#854F0B">TAD · bant planı · tablolar</text>
+<text x="340" y="456" text-anchor="middle" font-size="12.5" fill="#1f2933">Tek kapı: operatörün tüm hakları tek belgede, uluslararası tavsiyelerle hizalı.</text>
+</svg>
+<figcaption style="text-align:center;color:var(--muted);font-size:.83rem;margin-top:6px;">Şekil 2 — Hedef: mevcut anayasal ve yasal dayanak üzerine kurulan kapsamlı tek amatör telsizcilik yönetmeliği (GA-1).</figcaption></figure>
+  </div>
+
+  <h2>Belgeler</h2>
+  <div class="files">
+    <a class="file" href="Amator_Telsizcilik_Tablo_A_Mevzuat_Analizi_v1.0.docx">
+      <span class="tag doc">DOCX</span>
+      <span><span class="t">Tablo A — Mevzuat Analizi (v1.0)</span><br><span class="d">Gri alanlar, IARU/CEPT eksikleri, karşılaştırmalı analiz, herkes için özet</span></span>
+      <span class="arrow">↓</span>
+    </a>
+    <a class="file" href="Amator_Telsizcilik_Tablo_A_Mevzuat_Envanteri_v1.0.xlsx">
+      <span class="tag xls">XLSX</span>
+      <span><span class="t">Tablo A — Mevzuat Envanteri (v1.0)</span><br><span class="d">24 maddelik mevzuat envanteri + resmî kaynak linkleri, gri alanlar tablosu</span></span>
+      <span class="arrow">↓</span>
+    </a>
+    <a class="file" href="Amator_Telsizcilik_Tablo_B_Kurum_Talep_Yazilari_Taslak_v1.0.docx">
+      <span class="tag doc">DOCX</span>
+      <span><span class="t">Tablo B — Kurumlara Talep Yazıları (v1.0, taslak)</span><br><span class="d">21 talebin matrisi + kuruma göre örnek başvuru taslakları</span></span>
+      <span class="arrow">↓</span>
+    </a>
+    <a class="file" href="Amator_Telsizcilik_Uzlasi_Oy_Pusulasi_v1.0.docx">
+      <span class="tag doc">DOCX</span>
+      <span><span class="t">Uzlaşı Oy Pusulası (v1.0)</span><br><span class="d">Her gri alan için topluluk oylama pusulası (A/B/C/D/E)</span></span>
+      <span class="arrow">↓</span>
+    </a>
+  </div>
+
+  <div class="disclaimer">
+    <h3>Bilgilendirme / Sorumluluk Reddi</h3>
+    <p>Bu çalışma, amatör telsiz camiasına katkı amacıyla gönüllü olarak hazırlanmıştır. Metinler
+    <strong>Claude Opus</strong> desteğiyle üretilmiş; kapsamlı hata analizi, doğrulama ve son düzeltmeler <strong>Claude Fable 5</strong> desteğiyle yapılmıştır. <strong>Taslak niteliğindedir;
+    hata, eksik veya güncelliğini yitirmiş bilgi içerebilir.</strong></p>
+    <ul>
+      <li><strong>Hukuki tavsiye değildir.</strong> Resmî işlem yapmadan önce bilgileri birincil kaynaklardan (mevzuat.gov.tr, Resmî Gazete, BTK, KEGM) ve gerekirse bir hukuk danışmanından doğrulayın.</li>
+      <li>Belgeler <strong>1 Temmuz 2026 itibarıyla</strong> geçerli mevzuata göre hazırlanmıştır; sonraki değişiklikler yansımayabilir.</li>
+      <li>İçerik <strong>ticari amaç taşımaz</strong>, herhangi bir kurumun veya derneğin resmî görüşünü temsil etmez.</li>
+      <li>Kişisel veri içermez; başvuru taslaklarındaki boş alanlar kullanıcı tarafından doldurulur.</li>
+      <li>Katkı, düzeltme ve geri bildirimler memnuniyetle karşılanır: <a href="https://github.com/TA3HRJ/amator-telsiz-mevzuat">github.com/TA3HRJ/amator-telsiz-mevzuat</a></li>
+    </ul>
+    <p style="margin-top:10px; color:var(--muted); font-size:.85rem;">Not: IARU Bölge 1 Türkiye üyesi kuruluş TRAC'tır (bilgi amaçlı). Bu çalışma herhangi bir derneğe rol atfetmez ve resmî bir TRAC yayını değildir.</p>
+  </div>
+
+  <footer>
+    Amatör telsiz camiasına açık katkı · Bireysel gönüllü çalışma · Sürüm 1.0
+  </footer>
+</div>
+</body>
+</html>
