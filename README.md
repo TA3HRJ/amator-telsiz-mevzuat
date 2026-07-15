@@ -30,9 +30,6 @@ işareti vesayeti (GA-SK)** ve **bölge değişiminde çağrı işareti taşına
 Tüm dayanaklar birincil kaynaklara (mevzuat.gov.tr, Resmî Gazete, BTK, KEGM, ITU, CEPT) bağlanmıştır.
 Taslaklar Claude Opus desteğiyle hazırlanmış; kapsamlı hata analizi, doğrulama ve son düzenlemeler Claude Fable 5 desteğiyle, insan gözetimiyle yapılmıştır.
 
-## Yayımlama (GitHub Pages)
-Settings → Pages → Branch: `main` / `root` seçin; sayfa `index.html` üzerinden yayınlanır.
-
 ## Katkı
 Düzeltme ve öneriler için Issue/Pull Request açabilirsiniz. Amaç camia yararına açık ve doğru bir kaynak.
 
