@@ -38,3 +38,7 @@
 - **GA-CIHAZ — Cihaz uygunluğu, piyasa gözetimi ve devir:** satışta belge kontrolü, spurious emisyon denetimi (dayanak: BTK'nın Aralık 2019 güvensiz cihaz kararı — UV-5R dahil; ARRL Lab testleri), ikinci el devir bildirim usulü ve SDR (ADALM-Pluto) dual-use rehberi talepleri. Dört belgeye işlendi; Tablo B'ye Taslak 11 eklendi.
 - **GA-EMCOMM — AFAD ile afet haberleşme protokolü (MOU):** IARU ETG modeli; il eşleşmesi ve tatbikat usulü. Tablo B'ye Taslak 10 (AFAD) eklendi.
 - Talep sayısı 19'dan 21'e çıktı (Analiz §6, Tablo B matrisi, README/index güncellendi); Oy Pusulası 22 maddeye, Envanter gri alan sayfası 21 koda ulaştı; Herkes İçin Özet'e iki yeni soru-cevap eklendi.
+
+### Toplantı sunumu eklendi — 26 Temmuz 2026
+
+- **Uzlaşı Oy Pusulası — Toplantı Sunumu (PowerPoint, v1.0):** Oy pusulasındaki 22 gri alanın her biri ayrı bir slayt olacak şekilde hazırlandı (sorun açıklaması + A/B/C/D/E seçenekleri). Başlık, "nasıl oy kullanılır", gündem ve kapanış slaytlarıyla toplam 26 slayt. Toplantıda sunum ve oylama kolaylığı için. `Amator_Telsizcilik_Uzlasi_Oy_Pusulasi_Sunum_v1.0.pptx` olarak eklendi; index.html indirme listesine işlendi.
