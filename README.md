@@ -16,7 +16,7 @@ tartışmaya ve oylamaya elverişli bir zemin sunmaktır.
 |-------|----------|
 | **Tablo A — Mevzuat Analizi (v1.0)** | Gri alanlar, IARU/CEPT eksikleri, karşılaştırmalı analiz, herkes için özet |
 | **Tablo A — Mevzuat Envanteri (v1.0)** | 24 maddelik mevzuat envanteri + resmî kaynak linkleri + gri alanlar tablosu |
-| **Tablo B — Kurumlara Talep Yazıları (v1.0, taslak)** | 21 talebin matrisi + kuruma göre örnek başvuru taslakları |
+| **Tablo B — Kurumlara Talep Yazıları (v1.0, taslak)** | 22 talebin matrisi + kuruma göre örnek başvuru taslakları |
 | **Uzlaşı Oy Pusulası (v1.0)** | Her gri alan için topluluk oylama pusulası (A/B/C/D/E) |
 | **index.html** | İndirme sayfası (GitHub Pages ile yayımlanabilir) |
 

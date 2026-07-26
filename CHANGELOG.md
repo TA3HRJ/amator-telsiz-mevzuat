@@ -42,3 +42,8 @@
 ### Toplantı sunumu eklendi — 26 Temmuz 2026
 
 - **Uzlaşı Oy Pusulası — Toplantı Sunumu (PowerPoint, v1.0):** Oy pusulasındaki 22 gri alanın her biri ayrı bir slayt olacak şekilde hazırlandı (sorun açıklaması + A/B/C/D/E seçenekleri). Başlık, "nasıl oy kullanılır", gündem ve kapanış slaytlarıyla toplam 26 slayt. Toplantıda sunum ve oylama kolaylığı için. `Amator_Telsizcilik_Uzlasi_Oy_Pusulasi_Sunum_v1.0.pptx` olarak eklendi; index.html indirme listesine işlendi.
+
+### GA-RX/Kanal talebi ve Tablo B tamamlanması — 26 Temmuz 2026
+
+- **Yeni talep — GA-RX/Kanal (Kanal hafızası ve delil takdiri):** Oy Pusulası'nda bulunan ancak Tablo B'de talebi/dilekçesi olmayan GA-RX/Kanal gri alanı için **Taslak 12 — BTK ve Adalet Bakanlığı** dilekçesi eklendi. Talep: kanal/tarama hafızasının olağan teknik özellik olduğu, salt frekans kaydının başlı başına suç kastı göstermediği yönünde teknik açıklama ve delil takdirinde bu teknik gerçeğin gözetilmesi. Talep sayısı **21'den 22'ye** çıktı (Tablo B matrisi + Analiz §6 tablosu; README/index güncellendi); Envanter'de ilgili satırın kodu `GA-RX/Kanal` olarak hizalandı.
+- **Yapısal düzeltmeler (Tablo B):** Taslak 9, 10 ve 11 başlık stiline (Başlık 2) kavuşturuldu (Word gezinme panelinde görünür oldular); Taslak 10 ve 11'e eksik muhatap/adres satırı eklendi. Matris GA-1 dayanağı "CEPT ERC" → "CEPT T/R 61-01/61-02" olarak düzeltildi.
