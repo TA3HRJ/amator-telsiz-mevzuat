@@ -56,3 +56,18 @@
 ### Analiz'de görsel biçim tutarlılığı — 26 Temmuz 2026
 
 - **Tablo A Mevzuat Analizi'nde 11 gri alan bölümü (GA-BAND-1, GA-BAND-2, GA-BAND-3, GA-ARAC, GA-POTA, GA-AREDN, GA-LORA, GA-SK, GA-CALL, GA-CIHAZ, GA-EMCOMM) düz paragraf biçiminden, diğer 11 bölümde (GA-1…GA-ENFORC) kullanılan renkli kutulu-tablo biçimine çevrildi.** İçerik değişmedi; sadece TR Mevzuatı / IARU-CEPT / Diğer Ülkeler / Öneri-Talep / Strateji Notu alanları artık tüm 22 gri alanda aynı renk kodlu tablo görünümünde. Belge artık baştan sona görsel olarak tek biçim.
+
+### Tablo B — Talep Matrisi'ne "İlgili Taslak No" sütunu — 26 Temmuz 2026
+
+- **Talep Matrisi (§2) 6. bir sütunla genişletildi:** Her GA satırının hangi kuruma göre örnek başvuru taslağıyla (Taslak 1-12) karşılandığı artık matriste doğrudan görünüyor. 22 talebin tamamı en az bir taslakta kapsanıyor; bazı taslaklar (özellikle Taslak 2 — BTK ve Taslak 3 — BTK/KEGM) aynı kuruma giden birden fazla talebi tek dilekçede birleştirdiği için taslak sayısı (12) talep sayısından (22) az — bu, aynı adrese çok sayıda ayrı mektup göndermemek için bilinçli bir tasarım. Mevcut tablo biçimi (başlık rengi, kenarlık, hücre genişlikleri) korunarak diğer 5 sütun orantılı şekilde küçültüldü.
+
+### Analiz — kutu dönüşümünden kalan gömülü ayırıcı metin hatası düzeltildi — 26 Temmuz 2026
+
+- **Hata:** Önceki geçişte (11 bölümün kutulu tabloya çevrilmesi) GA-BAND-3, GA-ARAC, GA-POTA ve GA-AREDN bölümlerinin "Öneri / Talep" kutularının içeriğine, aradaki eski ayırıcı başlık metinleri ("── GA-ARAC: ... ──" vb.) yanlışlıkla gömülü kalmıştı. Görsel olarak fark edilmesi zor bir yerdeydi (aynı kutunun sonunda, küçük punto); dört hücreden de temizlendi, asıl içerik dokunulmadan korundu.
+- Ayrıca "6. Talep Özeti" bölümündeki bir yazım hatası ("eksiklikleribe" → "eksikliklerine") düzeltildi.
+- Word'ün adım adım kaydetmesi sırasında önceden ayrı-ayrı tablolar olan renkli kutular otomatik olarak tek çok-satırlı tablolara birleşti (görsel sonuç aynı, OOXML yapısı sadeleşti); 23 sayfa tam olarak yeniden render edilip doğrulandı.
+
+### Envanter ve sunum küçük güncellemeler — 26 Temmuz 2026
+
+- Envanter "Açıklama ve Renk Kodu" sayfasındaki kısaltmalar listesine "Amatör Telsizcilik" tanımı eklendi.
+- Uzlaşı Oy Pusulası Sunumu (PowerPoint) yeniden kaydedildi (içerik değişmedi).
