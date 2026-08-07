@@ -1,0 +1,753 @@
+{
+ "surum": "1.0",
+ "maddeler": [
+  {
+   "kod": "GA-1",
+   "ad": "Kapsamlı Tek Amatör Telsizcilik Yönetmeliği ('Part 97 TR')",
+   "sorun": "2004'te yayımlanan özel yönetmelik (RG 25406) yürürlükten kaldırıldı; yerine geçen tek çatı düzenleme çıkarılmadı. Haklar en az yedi ayrı mevzuattan derleniyor; sahada belirsizlik doğuruyor.",
+   "sade": "Amatör telsizcinin hakları tek bir yönetmelikte toplanmadığı için, bir sorunla karşılaştığınızda hangi kurala dayanacağınızı bulmak zor.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "Dağınık mevzuat derleme zinciriyle yönetilebilir; yeni yönetmelik hakları daraltma riski taşır, açılmasın."
+    },
+    {
+     "harf": "B",
+     "etiket": "Topluluk Derlemesi",
+     "aciklama": "Dernek ve kulüpler bu çalışma gibi mevzuat derlemelerini güncel tutup camiaya yayar."
+    },
+    {
+     "harf": "C",
+     "etiket": "Yazılı Görüş Talep Et",
+     "aciklama": "BTK'dan amatör telsizciliğe özgü tek yönetmelik planı olup olmadığına dair resmî görüş istenir."
+    },
+    {
+     "harf": "D",
+     "etiket": "Mevzuat Değişikliği",
+     "aciklama": "Kapsamlı tek amatör telsizcilik yönetmeliği ('Part 97 TR') çıkarılması için başvuru yapılır."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": true
+  },
+  {
+   "kod": "GA-3",
+   "ad": "CEPT T/R 61-01/61-02: Yurt Dışı Operasyon ve B/C Sınıfı Boşluğu",
+   "sorun": "TR, CEPT T/R 61-01 ve 61-02'ye taraftır; A sınıfı, KEGM HAREC belgesiyle yurt dışında çalışabiliyor. B/C sınıfının HAREC muadili yok; yabancı amatörlerin TR'de geçici çalışma usulü mevzuatta tanımsız.",
+   "sade": "A sınıfı belgeyle yurt dışında çalışabiliyorsunuz; B ve C sınıfı belgede bu hak yok.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "A sınıfına geçiş (sınav) zaten açık bir yol; ek düzenleme gerekmez."
+    },
+    {
+     "harf": "B",
+     "etiket": "Topluluk Kılavuzu",
+     "aciklama": "Dernek ve kulüpler 'yurt dışında operasyon / HAREC' kullanım kılavuzu yayımlar."
+    },
+    {
+     "harf": "C",
+     "etiket": "Yazılı Görüş Talep Et",
+     "aciklama": "KEGM / Ulaştırma Bakanlığı'ndan B/C sınıfı için HAREC yolu ve yabancı amatör usulü hakkında görüş istenir."
+    },
+    {
+     "harf": "D",
+     "etiket": "Mevzuat Değişikliği",
+     "aciklama": "CEPT tavsiyelerinin yönetmeliğe işlenmesi ve B/C için kademeli HAREC yolu talep edilir."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": true
+  },
+  {
+   "kod": "GA-RX",
+   "ad": "Alıcı Cihaz (RX) ile Dinleme Serbestisi",
+   "sorun": "Türkiye'de yalnızca dinlemek (sinyal yaymadan) yasal mı? 2813 Kanunu yayın yapmayı düzenler; salt dinlemeye dair açık bir serbesti maddesi yoktur. Bazı frekansları (askeri, emniyet) dinlemek ek riskler taşıyabilir.",
+   "sade": "Sadece dinlemek — yani hiç yayın yapmamak — yasal mı? Mevzuat bunu açıkça yazmıyor.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "Yasal belirsizlik sürsün; pratik risk düşük, bireysel yönetilsin."
+    },
+    {
+     "harf": "B",
+     "etiket": "Topluluk Duyurusu",
+     "aciklama": "amatör telsiz dernek ve kulüpleri ve kulüpler 'amatör bantlarda dinleme serbesttir' açıklaması yayımlar."
+    },
+    {
+     "harf": "C",
+     "etiket": "Yazılı Görüş Talep Et",
+     "aciklama": "BTK/KEGM'ye 2813 Md.36 kapsamında RX serbestisi konusunda bağlayıcı olmayan resmi görüş başvurusu yapılır."
+    },
+    {
+     "harf": "D",
+     "etiket": "Mevzuat Değişikliği",
+     "aciklama": "2813 Kanunu'na 'salt alım yapan cihazlar lisans muafiyetindedir' maddesi eklenmesi için başvuru."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": true
+  },
+  {
+   "kod": "GA-RX/Kanal",
+   "ad": "Kanal Hafızasına Yetkisiz Frekans Kaydetme",
+   "sorun": "Cihaz hafızasına askeri/güvenlik frekansı kaydedilmesi, CMK Md.134 el koyması sonrası 'kasıtlı izleme hazırlığı' kanıtı sayılabilir. Anlık tarama aynı riski taşımaz. Duyurulmamış bir hukuki tuzak.",
+   "sade": "Telsizinizin hafızasına kaydettiğiniz frekanslar, bir inceleme durumunda aleyhinize yorumlanabiliyor.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Kişisel Sorumluluk",
+     "aciklama": "Mevcut durumu koru; bilinçlendirme bireysel seviyede kalır."
+    },
+    {
+     "harf": "B",
+     "etiket": "Frekans Hijyeni Kılavuzu",
+     "aciklama": "dernek ve kulüpler 'cihaz hafızanızı yalnızca amatör bantlarla sınırlı tutun' kılavuzu yayımlar."
+    },
+    {
+     "harf": "C",
+     "etiket": "Hukuki Risk Duyurusu",
+     "aciklama": "CMK/TCK riski hakkında tüm üyelere yazılı resmi uyarı gönderilir."
+    },
+    {
+     "harf": "D",
+     "etiket": "Mevzuat Muafiyeti",
+     "aciklama": "CMK Md.134 kapsamında telsiz cihaz hafızasının 'teknik not' sayılması için yasal düzenleme."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-NODE",
+   "ad": "Remote Telsiz Nodu ve İnternet-RF Köprüsü (EchoLink, WebSDR)",
+   "sorun": "EchoLink/AllStar gibi internet-RF köprüleri amatör bantta yayın yapar; WebSDR alınan sinyali internete açar. Her ikisi de RTÜK 6112 Kanunu'ndaki 'ses yayını' tanımına girebilir. Bugüne kadar BTK harekete geçmemiştir.",
+   "sade": "Telsiz sinyalini internete bağlamak (EchoLink gibi) telsiz mevzuatında açıkça serbest; belirsizlik yayın mevzuatı tarafında.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Toleransı Koru",
+     "aciklama": "BTK harekete geçmediği sürece mevcut durumu sürdür; risk bireysel yönetilir."
+    },
+    {
+     "harf": "B",
+     "etiket": "İyi Uygulama Standardı",
+     "aciklama": "Dernekler EchoLink/AllStar için 'teknik etik kodu' belirler (callsign zorunluluğu, link log tutma vb.)."
+    },
+    {
+     "harf": "C",
+     "etiket": "BTK/RTÜK Görüş Talebi",
+     "aciklama": "İnternet-RF köprüsünün 6112 Kanunu kapsamı dışında olduğuna dair resmi görüş talep edilir."
+    },
+    {
+     "harf": "D",
+     "etiket": "FTM'ye Düzenleme",
+     "aciklama": "FTM/TAD güncellemesine 'internet-RF arayüzü kullanan amatör sistemler' maddesi eklenmesi."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-CROSS",
+   "ad": "Bireysel Cross-Band ve Geçici Röle İşletimi",
+   "sorun": "Röle işletimi yalnızca tüzel kişiliğe sahip derneklere verilmiştir. Bireysel cross-band bağlantısı teknik olarak 'röle' sayılır. Acil durumda ihtiyaç duyulduğunda bireysel geçici işletim fiilen yasadışıdır.",
+   "sade": "Röle kurma hakkı yalnızca derneklere verilmiş; bireysel amatör kendi rölesini kuramıyor.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Şartı Koru",
+     "aciklama": "Dernek şartı değişmesin; cross-band kullanımı 'dernek üyesi/gözetiminde' sınırlı kalsın."
+    },
+    {
+     "harf": "B",
+     "etiket": "Acil Durum SOP",
+     "aciklama": "Kulüpler 'acil cross-band' standart işletim prosedürü yayımlar; dernek onaylı geçici etiket sistemi."
+    },
+    {
+     "harf": "C",
+     "etiket": "Geçici Muafiyet Talebi",
+     "aciklama": "KEGM'den AFAD/112 koordinasyonlu durumlarda bireysel geçici cross-band için prosedür."
+    },
+    {
+     "harf": "D",
+     "etiket": "FTM Değişikliği",
+     "aciklama": "FTM'ye 'acil durum kapsamında bireysel cross-band geçici işletim muafiyeti' maddesi eklenmesi."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-POC",
+   "ad": "POC Cihazları ve Amatör Telsiz Tanımının Yanlış Kullanımı",
+   "sorun": "Standart Push-to-Talk over Cellular (POC/Zello) cihazlar amatör banttaki RF’le çalışmaz; ITU-RR tanımına göre amatör telsiz değildir. Bazı satıcılar bunları 'lisanssız telsiz' olarak pazarlamaktadır. Alıcılar mağdur olabilir.",
+   "sade": "Cep telefonu şebekesiyle çalışan cihazlar amatör telsiz değildir; ama öyle pazarlanıyor.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Pazara Bırak",
+     "aciklama": "Tüketici hakkı mekanizmaları sorunu çözene dek müdahale yok."
+    },
+    {
+     "harf": "B",
+     "etiket": "dernek ve kulüpler Uyarısı",
+     "aciklama": "amatör telsiz dernek ve kulüpleri 'POC amatör telsiz değildir' açıklaması yayımlar; medyaya duyurulur."
+    },
+    {
+     "harf": "C",
+     "etiket": "BTK Sektör Uyarısı",
+     "aciklama": "BTK'ya hatalı pazarlama konusunda şikâyet; BTK'nın e-ticaret platformlarına uyarı yönlendirmesi talep edilir."
+    },
+    {
+     "harf": "D",
+     "etiket": "Tüketici Bildirimi",
+     "aciklama": "TÜKAS/Rekabet Kurumu'na sistematik şikâyet; sahte ürün kaydına karşı hukuki girişim."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-DIG",
+   "ad": "Dijital Modlar — FT8, Winlink, APRS (Şifreleme mi?)",
+   "sorun": "2813 Kanunu ve FTM, 'anlam gizleme' amacıyla şifrelemeyi yasaklar. FT8, Winlink (Open B2F), APRS gibi modlar açık ve belgelidir; ITU-RR Md.25 testini karşılar. Ancak BTK yorumu henüz netleşmemiştir.",
+   "sade": "FT8, Winlink gibi modern dijital modlar resmî emisyon listelerinde yok; kullanımı belirsiz kalıyor.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Kullanımı Sürdür",
+     "aciklama": "Açık protokol gerekçesiyle FT8/Winlink/APRS kullanımına devam; bireysel risk düşük."
+    },
+    {
+     "harf": "B",
+     "etiket": "dernek ve kulüpler Teknik Açıklama",
+     "aciklama": "dernek ve kulüpler 'bu modlar şifreleme değildir' teknik notu yayımlar; ITU-RR Md.25 testine atıfta bulunur."
+    },
+    {
+     "harf": "C",
+     "etiket": "BTK Görüş Talebi",
+     "aciklama": "BTK'ya FT8/Winlink/APRS protokollerinin 2813 Md.36 şifreleme yasağı kapsamı dışında olduğuna dair görüş."
+    },
+    {
+     "harf": "D",
+     "etiket": "FTM'ye Açık Protokol Listesi",
+     "aciklama": "FTM/TAD güncellemesine uluslararası amatör standart açık protokollerin listeyle muafiyet maddesi eklenmesi."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": true
+  },
+  {
+   "kod": "GA-ENFORC",
+   "ad": "Röle Mandalcılığı ve Uygulama Asimetrisi",
+   "sorun": "Röle bloke eden (mandalcı) bireylerin tespiti teknik olarak güçtür; BTK yalnızca lisanslı operatörlere karşı işlem yapabilir. Anonim girişimciler fiilen dokunulmazdır. 'Frekans polisi' olarak bilinen bireysel yaptırımın yasal dayanağı yoktur.",
+   "sade": "Röleyi kasten bloke edeni tespit etmek zor; oysa belgeli amatör her zaman denetlenebiliyor.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "Uygulama asimetrisi kabul edilir; topluluk sosyal baskıyla yönetir."
+    },
+    {
+     "harf": "B",
+     "etiket": "Röle Etik Kodu",
+     "aciklama": "Kulüpler kendi röleleri için etik işletim kodu + şikâyet mekanizması oluşturur."
+    },
+    {
+     "harf": "C",
+     "etiket": "BTK Tavsiye Kararı",
+     "aciklama": "BTK'ya röle erişim hakkı ve etik işletim için sektör rehberi/tavsiye kararı talebi."
+    },
+    {
+     "harf": "D",
+     "etiket": "Mevzuat Düzenlemesi",
+     "aciklama": "KEGM Yönetmeliği'ne röle erişim hakkı ve ihlal prosedürü maddesi eklenmesi."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-BAND-1",
+   "ad": "A/B/C Sınıfı Yetki Tablosu Belirsizliği",
+   "sorun": "Sınıf bazlı yetki tablosu aslında yayımlanmış durumda (FTM Teknik Ölçütler, BTK Kurul Kararı 23.09.2022; Md.22 ve Tablo 25). Ancak KEGM Sınav Yönetmeliği Md.18 hâlâ mülga bir yönetmeliğe atıf yapıyor ve haklar camiada bilinmiyor. Örnek: 50 MHz'in C sınıfına kapalı olduğu, B sınıfının 40m ve 10m'de 5W homebrew ile çalışabileceği, B ve C sınıfının gözetim altında tüm bantları kullanabileceği yeterince bilinmiyor.",
+   "sade": "Hangi belge sınıfının hangi bantta çalışacağı yayımlanmış durumda — ama yönetmelik hâlâ kaldırılmış eski bir belgeye yönlendiriyor.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Dağınık Durumu Koru",
+     "aciklama": "TAD + FTM Tablo 25 birlikte okunmaya devam eder."
+    },
+    {
+     "harf": "B",
+     "etiket": "dernek ve kulüpler Özet Tablo",
+     "aciklama": "dernek ve kulüpler tek sayfalık 'sınıf × bant' yetki tablosu hazırlar ve yayımlar."
+    },
+    {
+     "harf": "C",
+     "etiket": "KEGM Resmi Tablo Talebi",
+     "aciklama": "KEGM'den tüm sınıfların yetkili bantlarını ve güç limitlerini gösteren resmi belge yayımlanması talep edilir."
+    },
+    {
+     "harf": "D",
+     "etiket": "CEPT T/R 61-01 Uyum",
+     "aciklama": "KEGM Sınav Yönetmeliği'nin CEPT Tier 1/Tier 2 yapısıyla uyumlu kapsamlı güncellemesi talep edilir."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": true
+  },
+  {
+   "kod": "GA-BAND-2",
+   "ad": "4m Bandı (70–70,5 MHz) — Türkiye'de Tahsis Yok",
+   "sorun": "70–70,5 MHz CEPT üyesi bazı ülkelerde (GB, IE, NL, SK, DK) ikincil amatör tahsislidir. BTK Milli Frekans Planı'nda amatör tahsis yoktur.",
+   "sade": "70 MHz (4 metre) bandı bazı Avrupa ülkelerinde amatörlere açık; Türkiye'de hiç tahsis edilmemiş.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "70 MHz bandı amatör dışında kalsın."
+    },
+    {
+     "harf": "B",
+     "etiket": "Bilgi Sunumu",
+     "aciklama": "BTK'ya CEPT ülkelerindeki 70 MHz amatör kullanımı hakkında teknik bilgi sunumu yapılır."
+    },
+    {
+     "harf": "C",
+     "etiket": "MFP Tahsis Talebi",
+     "aciklama": "BTK'ya 70,0–70,5 MHz bandının Milli Frekans Planı'na ikincil amatör tahsis olarak eklenmesi talep edilir."
+    },
+    {
+     "harf": "D",
+     "etiket": "ERC/REC 25-10 Çerçevesinde Müzakere",
+     "aciklama": "dernek ve kulüpler, BTK aracılığıyla ECC'ye Türkiye adına 70 MHz ikincil tahsis talebini iletir."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-BAND-3",
+   "ad": "Mikrodalga Bantları (2,4 / 5,7 / 10 / 24 GHz) — MFP Var, TAD Yok",
+   "sorun": "BTK MFP bazı mikrodalga bantlarını ikincil amatör tahsisli listeler; ancak TAD 2021 bu bantlar için teknik parametreler içermiyor. 2,4 GHz hem WiFi SRD hem amatör alanda bulunuyor.",
+   "sade": "Mikrodalga bantlar frekans planında amatörlere ayrılmış, ama teknik şartları hiç yazılmamış.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "Mikrodalga kullanımı pratikte sorunsuz sürsün."
+    },
+    {
+     "harf": "B",
+     "etiket": "dernek ve kulüpler Kullanım Rehberi",
+     "aciklama": "dernek ve kulüpler 'mikrodalga amatör kullanım rehberi' yayımlar; IARU R1 bandplan referansıyla."
+    },
+    {
+     "harf": "C",
+     "etiket": "TAD Parametresi Talebi",
+     "aciklama": "BTK'ya MFP'deki ikincil amatör tahsisli bantlar için TAD 2021'e ek teknik parametre maddesi eklenmesi."
+    },
+    {
+     "harf": "D",
+     "etiket": "Öncelikli 2,4 GHz TAD",
+     "aciklama": "En yaygın kullanım olduğu için 2,4 GHz'i öncelikli hedef olarak BTK'ya sunar; diğer bantlar ikincil adımda ele alınır."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-ARAC",
+   "ad": "Araçta Amatör Telsiz Kullanımı",
+   "sorun": "FTM Tablo 25 amatör telsizi 'sabit, araç ve el telsizlerini' kapsar; araç telsizi FTM muafiyetindedir. Ancak sabit anten montajı, sürüş sırasında el telsizi tutma ve kurumsal araç izni konusunda belirsizlik vardır.",
+   "sade": "Araca telsiz takmak ve sürüş sırasında kullanmak konusunda net bir kılavuz yok.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Belirsizliği Koru",
+     "aciklama": "Pratik sorun nadir; bireysel sorumluluk yeterli."
+    },
+    {
+     "harf": "B",
+     "etiket": "Araç Montaj Kılavuzu",
+     "aciklama": "dernek ve kulüpler 'amatör araç telsiz montaj ve kullanım kılavuzu' yayımlar; mag-mount önerir, sürüşte hands-free vurgular."
+    },
+    {
+     "harf": "C",
+     "etiket": "BTK Duyuru Talebi",
+     "aciklama": "BTK'dan mobil amatör istasyon anten montajı ve trafik mevzuatı konusunda net duyuru talep edilir."
+    },
+    {
+     "harf": "D",
+     "etiket": "KTK/FTM Net Düzenleme",
+     "aciklama": "2918 KTK Md.29 ve FTM kapsamında araç amatör istasyonu için net yasal çerçeve talebi."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-POTA",
+   "ad": "Park Aktivasyonu (POTA) — Arazi Kullanım İzinleri",
+   "sorun": "FTM muafiyeti frekans spektrumunu kapsar; arazi kullanım izni ayrıdır. Milli park, devlet ormanı, belediye parkı ve kıyı gibi farklı arazi türlerinde hangi kuruma başvurulacağı belirsizdir.",
+   "sade": "Parkta veya ormanda telsiz kurmak için hangi kurumdan izin alınacağı belli değil.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Bireysel Sorumluluk",
+     "aciklama": "Her aktivatör kendi araştırmasını yapar; mevcut tolerans yeterli."
+    },
+    {
+     "harf": "B",
+     "etiket": "dernek ve kulüpler İzin Rehberi",
+     "aciklama": "dernek ve kulüpler 'POTA izin rehberi' yayımlar: arazi türüne göre hangi kuruma başvurulur tablosuyla."
+    },
+    {
+     "harf": "C",
+     "etiket": "Bakanlıklarla Protokol",
+     "aciklama": "Tarım ve Orman Bakanlığı + ÇŞİB ile dernek ve kulüpler arasında amatör telsiz aktivasyonu kolaylaştırıcı ortak protokol."
+    },
+    {
+     "harf": "D",
+     "etiket": "BTK Tebliğ Talebi",
+     "aciklama": "BTK'nın FTM muafiyetinin arazi iznini kapsamadığını açıklayan resmi tebliğ yayımlaması; arazi sahiplerine bildirim."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-AREDN",
+   "ad": "AREDN Amatör Mesh Ağı (2,4 / 5,8 GHz)",
+   "sorun": "AREDN, değiştirilmiş WiFi donanımıyla 2,4 ve 5,8 GHz amatör bantlarda mesh ağ kurar. Türkiye'de bu bantlar ikincil amatör tahsisli; ancak TAD'da teknik parametre yoktur. 2,4 GHz hem WiFi SRD hem amatör bant.",
+   "sade": "WiFi donanımıyla amatör bantta mesh ağ kurmak teknik olarak mümkün, hukuken belirsiz.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Amatör Lisansla Kullan",
+     "aciklama": "A/B sınıfı lisansla, amatör çağrı işareti yayınlayarak kullanım mevcut haliyle sürsün."
+    },
+    {
+     "harf": "B",
+     "etiket": "dernek ve kulüpler AREDN Rehberi",
+     "aciklama": "dernek ve kulüpler Türkiye AREDN kullanım rehberi ve ağ koordinasyon noktası oluşturur."
+    },
+    {
+     "harf": "C",
+     "etiket": "TAD Parametre Talebi",
+     "aciklama": "BTK'ya 2,4/5,8 GHz amatör kullanımı için TAD 2021'e teknik parametre maddesi eklenmesi."
+    },
+    {
+     "harf": "D",
+     "etiket": "Firmware=Kendi İmalatı Açıklaması",
+     "aciklama": "KEGM'den 'firmware değiştirilen ticari donanım kendi imalatı sayılır mı?' sorusuna resmi yanıt."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-LORA",
+   "ad": "LoRa / Meshtastic / LoRa-APRS — 433/868/915 MHz",
+   "sorun": "Türkiye'de 868 MHz FTM-muaf SRD (lisanssız, 25 mW). 433 MHz FTM-muaf SRD (10 mW) ancak amatör band. 915 MHz Türkiye'de GSM/LTE spektrumu — YASADIŞI. LoRa-APRS TX callsign ile amatör operasyon sayılır.",
+   "sade": "LoRa/Meshtastic'te hangi frekansın lisanssız, hangisinin amatör olduğu karışıyor. 915 MHz Türkiye'de yasa dışı.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "Kullanıcılar kendi araştırmasını yapar; 868 MHz zaten yasal."
+    },
+    {
+     "harf": "B",
+     "etiket": "dernek ve kulüpler/Kulüp Duyurusu",
+     "aciklama": "dernek ve kulüpler '915 MHz Türkiye'de yasadışı; 868 MHz kullanın' duyurusu yayımlar; Meshtastic topluluğuna iletir."
+    },
+    {
+     "harf": "C",
+     "etiket": "BTK Sektör Uyarısı",
+     "aciklama": "BTK'ya 915 MHz preset'li ithal cihazlar için tüketici uyarısı ve e-ticaret platformlarına bildirim talebi."
+    },
+    {
+     "harf": "D",
+     "etiket": "LoRa-APRS TX Muafiyeti",
+     "aciklama": "FTM düzenlemesine callsign içeren LoRa-APRS iletimlerinin SRD muafiyeti kapsamında kalması için madde."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-4",
+   "ad": "Yurt Dışı Geçici Cihaz Çıkışı (Gümrük)",
+   "sorun": "Amatör telsizcinin seyahatte cihazını yurt dışına çıkarması için standart bir gümrük prosedürü yoktur. Gümrük Yönetmeliği Ek-71 kullanılmakla birlikte uygulama il bazında değişir; CEPT karşılıklı tanıma (T/R 61-01) da TR'de uygulanmaz.",
+   "sade": "Telsizinizle yurt dışına çıkarken gümrükte izleyeceğiniz standart bir prosedür yok.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "Ek-71 ile bireysel çözüm sürsün; sorun nadir yaşanır."
+    },
+    {
+     "harf": "B",
+     "etiket": "dernek ve kulüpler Rehberi",
+     "aciklama": "dernek ve kulüpler 'yurt dışına telsiz çıkışı' kılavuzu yayımlar (Ek-71 örneği, ATA Karnesi bilgisi)."
+    },
+    {
+     "harf": "C",
+     "etiket": "Yazılı Görüş Talep Et",
+     "aciklama": "Ticaret Bakanlığı / Gümrükler Genel Müdürlüğü'nden amatör cihazların geçici çıkışı için standart prosedür görüşü istenir."
+    },
+    {
+     "harf": "D",
+     "etiket": "Mevzuat/Prosedür Düzenlemesi",
+     "aciklama": "Amatör cihazların geçici çıkışı için standart gümrük prosedür belgesi ve CEPT T/R 61-01 uyumu talep edilir."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-6",
+   "ad": "Anten Kurulumu ve Kat Mülkiyeti (KMK) Çatışması",
+   "sorun": "Amatör anten kurmak isteyen operatör, 634 sayılı KMK Md.19 kapsamında ortak alan değişikliği için kat maliklerinin nitelikli çoğunluğunun onayına takılır. Mevzuatta amatör antene özgü muafiyet veya güvence yoktur; emsal mahkeme kararları dağınıktır.",
+   "sade": "Apartmanda anten kurmak, kat mülkiyeti kuralları yüzünden çoğu zaman mümkün olmuyor.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "Uyuşmazlıklar bireysel/mahkeme yoluyla çözülsün."
+    },
+    {
+     "harf": "B",
+     "etiket": "dernek ve kulüpler Emsal Derlemesi",
+     "aciklama": "dernek ve kulüpler, anten uyuşmazlıklarında kullanılabilecek emsal karar derlemesi ve örnek dilekçe yayımlar."
+    },
+    {
+     "harf": "C",
+     "etiket": "Yazılı Görüş/Genelge Talep Et",
+     "aciklama": "BTK/KEGM'den KMK Md.19 ile çatışmayı açıklayan görüş/genelge; Çevre ve Şehircilik Bakanlığı'na başvuru."
+    },
+    {
+     "harf": "D",
+     "etiket": "Mevzuat Değişikliği",
+     "aciklama": "634 KMK veya alt düzenlemede amatör antenine özgü hak/güvence maddesi eklenmesi talebi."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": true
+  },
+  {
+   "kod": "GA-SK",
+   "ad": "Silent Key, Çağrı İşareti Yaşam Döngüsü ve Vesayet",
+   "sorun": "KEGM Yönetmeliği Md.7/2, vefat/vesayet hâlinde çağrı işaretinin — belgenin geçerlilik süresi içinde, aynı bölgede ikamet eden ve eşdeğer belgeye sahip bir varis/vasiye, hak sahipliği belgelenerek — tahsis edilebileceğini düzenler. Yani 'tanımsız' algısı isabetli değil; ancak dar kapsamlı: süre sonrası akıbet açık değil, belgesiz aile üyeleri kapsam dışı, tahsis KEGM takdirinde.",
+   "sade": "Vefat eden amatörün çağrı işareti dar şartlarla varise geçebiliyor; süre dolduktan sonrası belirsiz.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "Md.7/2'deki şartlı vesayet mekanizması (varis/vasi + aynı bölge + eşdeğer belge + süre içinde) olduğu gibi sürsün."
+    },
+    {
+     "harf": "B",
+     "etiket": "Topluluk Kılavuzu",
+     "aciklama": "Dernek ve kulüpler SK terminolojisi, Md.7/2 vesayet usulü ve saygı protokolünü içeren bir farkındalık kılavuzu yayımlar."
+    },
+    {
+     "harf": "C",
+     "etiket": "Yazılı Görüş Talep Et",
+     "aciklama": "KEGM'den Md.7/2'nin süre sonrası akıbeti ve 'eşdeğer belge' şartının esnetilmesi için resmî görüş."
+    },
+    {
+     "harf": "D",
+     "etiket": "Mevzuat Düzenlemesi",
+     "aciklama": "Md.7/2'nin süre sonrası akıbeti tanımlansın; eşdeğer belge şartı gözden geçirilsin — devir seçenekleri (süre sonu serbest / kalıcı anıt / aile-kulüp genişletme) değerlendirilsin."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-CALL",
+   "ad": "Bölge Değişikliğinde Çağrı İşareti ve Taşınabilirlik",
+   "sorun": "Bölgeye taşınınca 3 ay içinde başvuru zorunlu; ya yeni çağrı ya '/bölge' ile koruma (ör. TA3A/4). 3 ay başvuru yükü, '/bölge' korumasının kalıcı kabulü belirsiz; afet göçüyle kural fiilen işlemiyor. (Tam farklı işarete geçiş zorunlu değildir.)",
+   "sade": "Başka şehre taşınınca çağrı işaretinizi korumak mümkün — ama bu kural yeterince bilinmiyor.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "3 ay + yeni çağrı ya da /bölge kuralı sürsün."
+    },
+    {
+     "harf": "B",
+     "etiket": "Topluluk Kılavuzu",
+     "aciklama": "Dernek ve kulüpler '/bölge ile koruma' hakkını ve 'zorunlu tam değişim' yanlış algısının düzeltilmesini anlatan kılavuz yayımlar."
+    },
+    {
+     "harf": "C",
+     "etiket": "Yazılı Görüş Talep Et",
+     "aciklama": "KEGM'den kalıcı ikamette '/bölge' korumasının süresiz kabulü, 3 ay yükünün hafifletilmesi ve afet muafiyeti için resmî görüş."
+    },
+    {
+     "harf": "D",
+     "etiket": "Mevzuat Değişikliği",
+     "aciklama": "Bölge tabanlı yeniden tahsis kalksın; çağrı işareti ülke genelinde taşınabilir olsun."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": false
+  },
+  {
+   "kod": "GA-CIHAZ",
+   "ad": "Cihaz Uygunluğu, Piyasa Gözetimi ve Devir Kaydı",
+   "sorun": "Uygunluk beyanına dayalı rejimde, istenmeyen emisyon limitlerini karşılamayan ucuz verici cihazlar e-ticarette belge kontrolü olmadan satılıyor (BTK 2019'da UV-5R dahil bazı modelleri güvensiz ilan edip toplattı). Cihaz devrinde bildirim usulü yok; izlenebilirlik zayıf.",
+   "sade": "İnternette belgesiz satılan ucuz telsizlerin çoğu teknik limitleri karşılamıyor; fatura belgeli amatöre çıkıyor.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "Piyasa serbestisi sürsün; sorumluluk kullanıcıda kalsın."
+    },
+    {
+     "harf": "B",
+     "etiket": "Topluluk Duyurusu",
+     "aciklama": "Dernek ve kulüpler 'uyumlu cihaz listesi' ve devir kaydı iyi uygulama rehberi yayımlar."
+    },
+    {
+     "harf": "C",
+     "etiket": "Yazılı Görüş Talep Et",
+     "aciklama": "BTK'dan satışta belge kontrolü ve piyasa gözetimi uygulaması hakkında resmî görüş istenir."
+    },
+    {
+     "harf": "D",
+     "etiket": "Mevzuat/Prosedür",
+     "aciklama": "Satışta belge kontrolü, sıkı emisyon denetimi ve devir bildirim usulü talep edilir."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": true
+  },
+  {
+   "kod": "GA-EMCOMM",
+   "ad": "Afet Haberleşmesi: AFAD ile Resmî Protokol (MOU)",
+   "sorun": "Amatör telsiz dernekleri, ulusal afet haberleşme planı yazışmalarında 2012-2024 arasında ismen “çözüm ortağı” olarak anılıyor; FTM Md.22 §3-§4 de afette yardım dayanağı veriyor. Ancak amatöre hangi görevin verildiği (teknik destek, malzeme, operatörlük) kamuya açık değil ve dernek üyesi olmayan bireysel amatörün konumu hiç tanımlı değil.",
+   "sade": "Amatör telsiz dernekleri afet haberleşme planında “çözüm ortağı” sayılıyor; ama amatörlere tam olarak hangi görevin verildiği ve bireysel amatörün nasıl dâhil olacağı yazılı değil.",
+   "secenekler": [
+    {
+     "harf": "A",
+     "etiket": "Mevcut Durumu Koru",
+     "aciklama": "Gönüllü ve gayriresmî katkı yeterli."
+    },
+    {
+     "harf": "B",
+     "etiket": "Topluluk Hazırlığı",
+     "aciklama": "Kulüpler kendi EMCOMM planlarını ve tatbikatlarını yapar; ETG Türkçe baskısı yaygınlaştırılır."
+    },
+    {
+     "harf": "C",
+     "etiket": "Yazılı Görüş Talep Et",
+     "aciklama": "AFAD'dan amatörlerin il afet planlarındaki yeri hakkında görüş istenir."
+    },
+    {
+     "harf": "D",
+     "etiket": "Mevzuat/Protokol",
+     "aciklama": "AFAD ile ulusal MOU ve ortak tatbikat usulü talep edilir."
+    },
+    {
+     "harf": "E",
+     "etiket": "",
+     "aciklama": "Diğer görüş / not:"
+    }
+   ],
+   "toplantida": true
+  }
+ ]
+}

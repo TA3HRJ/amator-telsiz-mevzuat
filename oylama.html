@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uzlaşı Oylaması — Amatör Telsizcilik Mevzuat Çalışması</title>
+<style>
+  :root{ --navy:#1f3864; --blue:#2e75b6; --bg:#f6f8fb; --card:#fff; --line:#e2e8f0;
+         --ink:#1f2933; --muted:#66727f; --yesil:#2e7d32; --turuncu:#c05000; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--ink);
+        font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; }
+  .wrap{ max-width:920px; margin:0 auto; padding:24px 16px 80px; }
+  header{ text-align:center; padding:8px 0 4px; }
+  .kicker{ color:var(--muted); font-size:.8rem; letter-spacing:.14em; text-transform:uppercase; margin:0; }
+  h1{ color:var(--navy); font-size:1.7rem; margin:6px 0 4px; }
+  .sub{ color:var(--muted); margin:0 0 12px; }
+  .badge{ display:inline-block; background:var(--navy); color:#fff; font-size:.75rem;
+          font-weight:600; padding:3px 12px; border-radius:20px; }
+  .kutu{ background:var(--card); border:1px solid var(--line); border-radius:12px;
+         padding:16px 18px; margin:18px 0; }
+  .uyari{ background:#fdf2f2; border:1px solid #e8b4b4; border-left:5px solid #c0392b; }
+  .uyari h3{ margin:0 0 8px; color:#a5281b; font-size:1rem; }
+  .uyari ul{ margin:8px 0 0; padding-left:20px; } .uyari li{ margin:5px 0; }
+  .sayac{ background:var(--navy); color:#fff; border-radius:12px; padding:14px 18px;
+          display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; }
+  .sayac b{ font-size:1.4rem; }
+
+  .madde{ background:var(--card); border:1px solid var(--line); border-radius:12px;
+          padding:18px 20px; margin:16px 0; }
+  .madde.oylandi{ border-color:#9bc17a; background:#fbfdf9; }
+  .mbas{ display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:2px; }
+  .kod{ font-weight:700; color:var(--navy); font-size:.95rem; }
+  .canli{ background:#fce4d6; color:#8a3b00; font-size:.7rem; font-weight:700;
+          padding:2px 8px; border-radius:10px; letter-spacing:.04em; }
+  .mad{ font-weight:600; font-size:1.05rem; margin:0 0 8px; }
+  .sade{ background:#eef4fb; border-left:3px solid var(--blue); padding:8px 12px;
+         border-radius:0 6px 6px 0; font-size:.92rem; margin:0 0 10px; }
+  .sorun{ color:#3f4a56; font-size:.9rem; margin:0 0 14px; }
+  details.kaynak summary{ cursor:pointer; color:var(--blue); font-size:.85rem; }
+
+  label.sec{ display:flex; gap:10px; align-items:flex-start; padding:9px 11px; margin:6px 0;
+             border:1px solid var(--line); border-radius:8px; cursor:pointer; background:#fff; }
+  label.sec:hover{ border-color:var(--blue); background:#fafcff; }
+  label.sec input{ margin-top:4px; flex:none; width:17px; height:17px; cursor:pointer; }
+  .harf{ font-weight:700; color:var(--navy); flex:none; }
+  .etiket{ font-weight:600; }
+  .aciklama{ color:#4a5563; font-size:.9rem; }
+  textarea{ width:100%; margin-top:8px; padding:9px 11px; border:1px solid var(--line);
+            border-radius:8px; font:inherit; font-size:.92rem; resize:vertical; min-height:70px; }
+  .notuyari{ color:var(--turuncu); font-size:.8rem; margin-top:4px; }
+
+  .sonuc{ margin-top:14px; padding-top:12px; border-top:1px dashed var(--line); }
+  .sonuc h4{ margin:0 0 8px; font-size:.85rem; color:var(--muted); font-weight:600;
+             text-transform:uppercase; letter-spacing:.06em; }
+  .bar{ display:grid; grid-template-columns:22px 1fr 54px; gap:8px; align-items:center;
+        margin:5px 0; font-size:.88rem; }
+  .bardis{ background:#eef1f5; border-radius:5px; height:19px; overflow:hidden; }
+  .bardolu{ background:var(--blue); height:100%; border-radius:5px; transition:width .4s; }
+  .bardolu.onde{ background:var(--yesil); }
+  .barsayi{ text-align:right; color:var(--muted); font-variant-numeric:tabular-nums; }
+
+  .gonder{ position:sticky; bottom:0; background:rgba(246,248,251,.97);
+           border-top:1px solid var(--line); padding:14px 16px; margin:24px -16px -80px;
+           display:flex; gap:12px; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+  button{ background:var(--navy); color:#fff; border:0; border-radius:8px; padding:12px 26px;
+          font:inherit; font-weight:600; cursor:pointer; }
+  button:disabled{ background:#98a2b0; cursor:not-allowed; }
+  button.ikincil{ background:#fff; color:var(--navy); border:1px solid var(--navy); }
+  .durum{ font-size:.9rem; color:var(--muted); }
+  .basarili{ background:#e2efda; border:1px solid #9bc17a; color:#265b10; }
+  .hata{ background:#fdf2f2; border:1px solid #e8b4b4; color:#a5281b; }
+  footer{ text-align:center; color:var(--muted); font-size:.82rem; margin-top:36px; }
+  footer a{ color:var(--blue); }
+  @media (max-width:600px){ h1{ font-size:1.35rem; } .wrap{ padding:16px 12px 90px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="kicker">Amatör Telsizcilik — Türkiye Mevzuat Çalışması</p>
+  <h1>Uzlaşı Oylaması</h1>
+  <p class="sub">22 gri alan · Topluluk tercihi</p>
+  <p><span class="badge" id="durumRozet">Yükleniyor…</span></p>
+</header>
+
+<div class="kutu uyari">
+  <h3>Oylamaya başlamadan önce</h3>
+  <ul>
+    <li><strong>Bu oylama bağlayıcı değildir.</strong> Sonuç, camianın eğilimini gösteren bir uzlaşı
+        yoklamasıdır; hiçbir kurumu, derneği veya kişiyi bağlamaz.</li>
+    <li><strong>Kimlik istenmiyor.</strong> Çağrı işareti, e-posta veya giriş yok. Hiçbir kişisel
+        veri toplanmıyor; IP adresi saklanmıyor.</li>
+    <li><strong>Mükerrer oy teknik olarak engellenmemektedir.</strong> Bu nedenle sonuçlar
+        “kaç kişi” değil <strong>“kaç oy”</strong> olarak okunmalıdır.</li>
+    <li><strong>Ham veri yayımlanacaktır.</strong> Oylama kapandığında tüm oylar zaman damgalarıyla
+        birlikte CSV olarak açık şekilde paylaşılacaktır.</li>
+    <li>Her madde için <strong>birden fazla seçenek</strong> işaretleyebilirsiniz. Fikriniz olmayan
+        maddeleri <strong>boş bırakabilirsiniz</strong> — kısmi oy geçerlidir.</li>
+  </ul>
+</div>
+
+<div class="kutu sayac">
+  <div>Şu ana kadar gönderilen pusula: <b id="toplamPusula">—</b></div>
+  <div class="durum" style="color:#d6e4f0">Sonuçlar oylama boyunca canlı gösterilir.</div>
+</div>
+
+<div id="liste"></div>
+
+<div class="kutu" id="sonKutu" style="display:none"></div>
+
+<div class="gonder">
+  <div class="durum" id="secimDurum">Henüz seçim yapılmadı.</div>
+  <div style="display:flex; gap:10px; align-items:center;">
+    <div id="turnstile"></div>
+    <button id="gonderBtn" disabled>Oyumu gönder</button>
+  </div>
+</div>
+
+<footer>
+  Bu çalışma bireysel gönüllü katkıdır; herhangi bir derneğin resmî girişimi değildir.<br>
+  <a href="index.html">Belgeler ve analiz</a> ·
+  <a href="https://github.com/TA3HRJ/amator-telsiz-mevzuat">GitHub</a>
+</footer>
+
+</div>
+
+<script>
+// Worker adresi — deploy sonrasi guncellenir.
+const API = "https://uzlasi-oylama.heo-520.workers.dev";
+const TURNSTILE_SITE_KEY = "";   // bos ise Turnstile devre disi
+
+const secimler = {};   // { "GA-1": Set("A","D") }
+const notlar   = {};   // { "GA-1": "serbest metin" }
+let maddeler = [];
+let gonderildi = localStorage.getItem("uzlasi_oy_gonderildi") === "1";
+
+const el = (s) => document.querySelector(s);
+
+function uuid() {
+  return (crypto.randomUUID ? crypto.randomUUID()
+    : "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c) => {
+        const r = (Math.random() * 16) | 0;
+        return (c === "x" ? r : (r & 0x3) | 0x8).toString(16);
+      }));
+}
+
+function kac() {
+  return Object.values(secimler).reduce((t, s) => t + s.size, 0);
+}
+
+function durumGuncelle() {
+  const madde = Object.values(secimler).filter((s) => s.size > 0).length;
+  const btn = el("#gonderBtn");
+  if (gonderildi) {
+    el("#secimDurum").textContent = "Bu tarayıcıdan oy gönderildi. Teşekkürler.";
+    btn.disabled = true;
+    btn.textContent = "Gönderildi";
+    return;
+  }
+  el("#secimDurum").textContent = madde === 0
+    ? "Henüz seçim yapılmadı."
+    : `${madde} maddede toplam ${kac()} seçenek işaretlendi.`;
+  btn.disabled = madde === 0;
+}
+
+function ciz() {
+  const kap = el("#liste");
+  kap.innerHTML = "";
+  maddeler.forEach((m, i) => {
+    const d = document.createElement("div");
+    d.className = "madde";
+    d.id = "m-" + m.kod;
+
+    let h = `<div class="mbas"><span class="kod">${i + 1}. ${m.kod}</span>`;
+    if (m.toplantida) h += `<span class="canli">TOPLANTIDA TARTIŞILACAK</span>`;
+    h += `</div><p class="mad">${m.ad}</p>`;
+    if (m.sade) h += `<p class="sade">${m.sade}</p>`;
+    if (m.sorun) h += `<details class="kaynak"><summary>Ayrıntılı sorun tanımı</summary>
+                       <p class="sorun" style="margin-top:8px">${m.sorun}</p></details>`;
+
+    m.secenekler.forEach((s) => {
+      const id = `${m.kod}-${s.harf}`.replace(/[^\w-]/g, "_");
+      const yazi = s.etiket
+        ? `<span class="etiket">${s.etiket}</span> — <span class="aciklama">${s.aciklama}</span>`
+        : `<span class="aciklama">${s.aciklama}</span>`;
+      h += `<label class="sec" for="${id}">
+              <input type="checkbox" id="${id}" data-kod="${m.kod}" data-harf="${s.harf}">
+              <span class="harf">${s.harf})</span>
+              <span>${yazi}</span>
+            </label>`;
+      if (s.harf === "E") {
+        h += `<textarea data-not="${m.kod}" placeholder="Görüşünüzü buraya yazabilirsiniz (isteğe bağlı). Rapora aynen geçer."></textarea>
+              <div class="notuyari">Bu alana çağrı işareti, ad-soyad, e-posta gibi kişisel bilgi yazmayın — metin olduğu gibi yayımlanacaktır.</div>`;
+      }
+    });
+
+    h += `<div class="sonuc" id="s-${m.kod.replace(/[^\w-]/g, "_")}"></div>`;
+    d.innerHTML = h;
+    kap.appendChild(d);
+  });
+
+  kap.addEventListener("change", (e) => {
+    const t = e.target;
+    if (t.type === "checkbox") {
+      const kod = t.dataset.kod, harf = t.dataset.harf;
+      (secimler[kod] ||= new Set());
+      t.checked ? secimler[kod].add(harf) : secimler[kod].delete(harf);
+      el("#m-" + kod)?.classList.toggle("oylandi", secimler[kod].size > 0);
+      durumGuncelle();
+    }
+  });
+  kap.addEventListener("input", (e) => {
+    if (e.target.dataset.not) notlar[e.target.dataset.not] = e.target.value.trim();
+  });
+}
+
+function sonucCiz(veri) {
+  el("#toplamPusula").textContent = veri.toplam_pusula ?? 0;
+  for (const m of maddeler) {
+    const hedef = document.getElementById("s-" + m.kod.replace(/[^\w-]/g, "_"));
+    if (!hedef) continue;
+    const say = veri.maddeler?.[m.kod] || {};
+    const kat = veri.katilim?.[m.kod] || 0;
+    if (!kat) { hedef.innerHTML = ""; continue; }
+    const enCok = Math.max(...["A","B","C","D","E"].map((x) => say[x] || 0));
+    let h = `<h4>Şu anki dağılım — ${kat} pusulada işaretlendi</h4>`;
+    for (const harf of ["A","B","C","D","E"]) {
+      const n = say[harf] || 0;
+      const yuzde = kat ? Math.round((n / kat) * 100) : 0;
+      h += `<div class="bar"><span class="harf">${harf}</span>
+              <span class="bardis"><span class="bardolu${n === enCok && n > 0 ? " onde" : ""}"
+                    style="width:${yuzde}%"></span></span>
+              <span class="barsayi">${n} · %${yuzde}</span></div>`;
+    }
+    hedef.innerHTML = h;
+  }
+}
+
+async function sonucCek() {
+  try {
+    const r = await fetch(API + "/sonuc", { cache: "no-store" });
+    if (!r.ok) return;
+    const veri = await r.json();
+    sonucCiz(veri);
+    el("#durumRozet").textContent = veri.acik ? "Oylama açık" : "Oylama kapandı";
+    if (!veri.acik) { el("#gonderBtn").disabled = true; gonderildi = true; }
+  } catch { /* sonuc cekilemezse sayfa yine calisir */ }
+}
+
+async function gonder() {
+  const btn = el("#gonderBtn");
+  btn.disabled = true; btn.textContent = "Gönderiliyor…";
+
+  const oylar = [];
+  for (const [kod, kume] of Object.entries(secimler))
+    for (const harf of kume) oylar.push({ kod, secim: harf });
+
+  const notDizi = Object.entries(notlar)
+    .filter(([, v]) => v)
+    .map(([kod, metin]) => ({ kod, metin }));
+
+  const govde = { pusula: uuid(), oylar, notlar: notDizi };
+  const ts = window.turnstile && TURNSTILE_SITE_KEY
+    ? window.turnstile.getResponse() : null;
+  if (ts) govde.turnstile = ts;
+
+  try {
+    const r = await fetch(API + "/oy", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(govde),
+    });
+    const c = await r.json();
+    const kutu = el("#sonKutu");
+    kutu.style.display = "block";
+    if (r.ok && c.tamam) {
+      localStorage.setItem("uzlasi_oy_gonderildi", "1");
+      gonderildi = true;
+      kutu.className = "kutu basarili";
+      kutu.innerHTML = "<strong>Oyunuz kaydedildi. Teşekkür ederiz.</strong><br>" +
+        "Sonuçlar aşağıda canlı olarak güncellenmektedir. Oylama kapandığında ham veri " +
+        "ve sayım raporu GitHub'da yayımlanacaktır.";
+      kutu.scrollIntoView({ behavior: "smooth", block: "center" });
+      sonucCek();
+    } else {
+      kutu.className = "kutu hata";
+      kutu.textContent = "Gönderilemedi: " + (c.hata || "bilinmeyen hata");
+      btn.disabled = false;
+    }
+  } catch (e) {
+    const kutu = el("#sonKutu");
+    kutu.style.display = "block";
+    kutu.className = "kutu hata";
+    kutu.textContent = "Sunucuya ulaşılamadı. İnternet bağlantınızı kontrol edip tekrar deneyin.";
+    btn.disabled = false;
+  }
+  btn.textContent = gonderildi ? "Gönderildi" : "Oyumu gönder";
+}
+
+(async function baslat() {
+  const r = await fetch("maddeler.json", { cache: "no-store" });
+  maddeler = (await r.json()).maddeler;
+  ciz();
+  durumGuncelle();
+  el("#gonderBtn").addEventListener("click", gonder);
+  sonucCek();
+  setInterval(sonucCek, 20000);
+})();
+</script>
+</body>
+</html>
