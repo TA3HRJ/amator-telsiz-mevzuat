@@ -97,7 +97,9 @@
     <li><strong>Ham veri yayımlanacaktır.</strong> Oylama kapandığında tüm oylar zaman damgalarıyla
         birlikte CSV olarak açık şekilde paylaşılacaktır.</li>
     <li>Her madde için <strong>birden fazla seçenek</strong> işaretleyebilirsiniz. Fikriniz olmayan
-        maddeleri <strong>boş bırakabilirsiniz</strong> — kısmi oy geçerlidir.</li>
+        maddeleri <strong>boş bırakabilirsiniz</strong> — kısmi oy geçerlidir. Ancak oyunuzu bir kez
+        gönderdikten sonra <strong>boş bıraktığınız maddelere geri dönemezsiniz</strong>; oylama tek
+        seferliktir. Bu nedenle göndermeden önce 22 maddenin tamamını gözden geçirmenizi öneririz.</li>
   </ul>
 </div>
 
@@ -251,6 +253,17 @@ async function sonucCek() {
 
 async function gonder() {
   const btn = el("#gonderBtn");
+
+  // Gonderim tek seferlik — bos kalan maddeleri hatirlat.
+  const oylanan = Object.values(secimler).filter((s) => s.size > 0).length;
+  const bos = maddeler.length - oylanan;
+  const mesaj = bos > 0
+    ? `${maddeler.length} maddeden ${oylanan} tanesinde oy kullandınız; ${bos} madde boş kalacak.\n\n` +
+      `Gönderdikten sonra boş bıraktığınız maddelere geri dönemezsiniz — oylama tek seferliktir.\n\n` +
+      `Yine de göndermek istiyor musunuz?`
+    : `${maddeler.length} maddenin tamamında oy kullandınız.\n\nGöndermek istiyor musunuz?`;
+  if (!confirm(mesaj)) return;
+
   btn.disabled = true; btn.textContent = "Gönderiliyor…";
 
   const oylar = [];
