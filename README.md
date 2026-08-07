@@ -1,6 +1,6 @@
 # Amatör Telsizcilik — Türkiye Mevzuat Analizi ve Talep Çalışması
 
-**Sürüm 1.2 · 7 Ağustos 2026**
+**Sürüm 1.3 · 7 Ağustos 2026**
 
 Türkiye'de amatör telsizciliğe (amatör radyoculuğa) gönül vermiş kişilerin **bireysel iyi niyetiyle** ve **camiaya katkı
 amacıyla** yürüttüğü, tarafsız bir mevzuat inceleme çalışması. Amatör telsizciliğe ilişkin dağınık
@@ -38,7 +38,7 @@ tartışmaya ve oylamaya elverişli bir zemin sunmaktır.
 | **Tablo A — Mevzuat Analizi (v1.1)** | Gri alanlar, IARU/CEPT eksikleri, karşılaştırmalı analiz, herkes için özet |
 | **Tablo A — Mevzuat Envanteri (v1.1)** | 24 maddelik mevzuat envanteri + resmî kaynak linkleri + gri alanlar tablosu |
 | **Tablo B — Kurumlara Talep Yazıları (v1.1, taslak)** | 22 talebin matrisi + kuruma göre örnek başvuru taslakları |
-| **Uzlaşı Oy Pusulası (v1.1)** | Her gri alan için topluluk oylama pusulası (A/B/C/D/E) |
+| **Uzlaşı Oy Pusulası (v1.3)** | Her gri alan için topluluk oylama pusulası (A/B/C/D/E) |
 | **index.html** | İndirme sayfası (GitHub Pages ile yayımlanabilir) |
 
 > **Toplantı sunumu (38 slayt):** çevrim içi Ulusal Değerlendirme Toplantısı için hazırlanmıştır —

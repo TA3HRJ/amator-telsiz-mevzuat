@@ -1,5 +1,28 @@
 # Değişiklik Günlüğü
 
+## Sürüm 1.3 — 7 Ağustos 2026
+
+**GA-BAND-1 sorun tanımındaki belirsizlik giderildi.**
+
+Metin şöyleydi: *"Ancak KEGM Sınav Yönetmeliği Md.18 hâlâ mülga bir yönetmeliğe atıf yapıyor."*
+Hangi yönetmeliğin mülga olduğu yazılmadığı için, bir önceki cümlede geçen FTM Teknik Ölçütler'e
+atıf yapıldığı sanılabiliyordu. Oysa durum tersidir: **atıf yapan KEGM Yönetmeliği, atıf yapılan
+mülga Özel Telsiz Sistemleri Yönetmeliği'dir**; FTM ise onun yerine geçen düzenlemedir.
+
+Yeni metin, mülga yönetmeliğin adını ve sonucunu açıkça yazıyor: KEGM Sınav Yönetmeliği Md.18 sınıf
+yetkilerini hâlâ mülga Özel Telsiz Sistemleri Yönetmeliği'nin EK-4 Tablo-1'ine atıfla tanımladığı
+için, belgesinin hangi hakları verdiğini öğrenmek isteyen amatör **var olmayan bir tabloya**
+yönlendirilmektedir.
+
+Düzeltilen dosyalar: `maddeler.json` (oylama sitesi), **Uzlaşı Oy Pusulası v1.3** ve
+**Toplantı Sunumu v1.3** (slayt 10).
+
+Analiz, Envanter ve Tablo B'de aynı konu zaten mülga yönetmeliğin adı yazılarak anlatıldığı için
+(*"Md.18 ile mülga Özel Telsiz Sistemleri Yönetmeliği EK-4 Tablo-1'e atıf — atıf zinciri kırık"*)
+bu dosyalara dokunulmadı; v1.1 sürümlerinde kaldılar.
+
+---
+
 ## Sürüm 1.2 — 7 Ağustos 2026
 
 **Çevrim içi uzlaşı oylaması yayına girdi; oylama usulü değişti.**

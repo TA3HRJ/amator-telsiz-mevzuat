@@ -310,7 +310,7 @@
   {
    "kod": "GA-BAND-1",
    "ad": "A/B/C Sınıfı Yetki Tablosu Belirsizliği",
-   "sorun": "Sınıf bazlı yetki tablosu aslında yayımlanmış durumda (FTM Teknik Ölçütler, BTK Kurul Kararı 23.09.2022; Md.22 ve Tablo 25). Ancak KEGM Sınav Yönetmeliği Md.18 hâlâ mülga bir yönetmeliğe atıf yapıyor ve haklar camiada bilinmiyor. Örnek: 50 MHz'in C sınıfına kapalı olduğu, B sınıfının 40m ve 10m'de 5W homebrew ile çalışabileceği, B ve C sınıfının gözetim altında tüm bantları kullanabileceği yeterince bilinmiyor.",
+   "sorun": "Sınıf bazlı yetki tablosu aslında yayımlanmış durumda (FTM Teknik Ölçütler, BTK Kurul Kararı 23.09.2022; Md.22 ve Tablo 25). Ancak KEGM Sınav Yönetmeliği Md.18, sınıf yetkilerini hâlâ 27/11/2018'de mülga edilen Özel Telsiz Sistemleri Yönetmeliği'nin EK-4 Tablo-1'ine atıfla tanımlıyor; belgesinin hangi hakları verdiğini öğrenmek isteyen amatör, var olmayan bir tabloya yönlendiriliyor. Haklar yayımlanmış olmasına rağmen camiada bilinmiyor. Örnek: 50 MHz'in C sınıfına kapalı olduğu, B sınıfının 40m ve 10m'de 5W homebrew ile çalışabileceği, B ve C sınıfının gözetim altında tüm bantları kullanabileceği yeterince bilinmiyor.",
    "sade": "Hangi belge sınıfının hangi bantta çalışacağı yayımlanmış durumda — ama yönetmelik hâlâ kaldırılmış eski bir belgeye yönlendiriyor.",
    "secenekler": [
     {
