@@ -63,7 +63,6 @@
   .gonder{ position:sticky; bottom:0; background:var(--bg); box-shadow:0 -6px 14px rgba(31,56,100,.07);
            border-top:1px solid var(--line); padding:14px 16px; margin:24px -16px 0;
            display:flex; gap:12px; align-items:center; justify-content:space-between; flex-wrap:wrap; }
-  .gonder.gizli{ display:none; }
   button{ background:var(--navy); color:#fff; border:0; border-radius:8px; padding:12px 26px;
           font:inherit; font-weight:600; cursor:pointer; }
   button:disabled{ background:#98a2b0; cursor:not-allowed; }
@@ -71,7 +70,7 @@
   .durum{ font-size:.9rem; color:var(--muted); }
   .basarili{ background:#e2efda; border:1px solid #9bc17a; color:#265b10; }
   .hata{ background:#fdf2f2; border:1px solid #e8b4b4; color:#a5281b; }
-  footer{ text-align:center; color:var(--muted); font-size:.82rem; margin-top:36px; }
+  footer{ text-align:center; color:var(--muted); font-size:.82rem; margin-top:28px; padding-top:8px; }
   footer a{ color:var(--blue); }
   @media (max-width:600px){ h1{ font-size:1.35rem; } .wrap{ padding:16px 12px 90px; } }
 </style>
@@ -155,12 +154,9 @@ function durumGuncelle() {
   const madde = Object.values(secimler).filter((s) => s.size > 0).length;
   const btn = el("#gonderBtn");
   if (gonderildi) {
-    el("#secimDurum").textContent = "Bu tarayıcıdan oy gönderildi. Teşekkürler.";
+    el("#secimDurum").innerHTML = "<strong style='color:#265b10'>✓ Oyunuz kaydedildi.</strong> Teşekkür ederiz.";
     btn.disabled = true;
     btn.textContent = "Gönderildi";
-    document.querySelector(".gonder")?.classList.add("gizli");
-    document.querySelectorAll("#liste input[type=checkbox], #liste textarea")
-      .forEach((e) => { e.disabled = true; });
     return;
   }
   el("#secimDurum").textContent = madde === 0
@@ -308,6 +304,14 @@ async function gonder() {
   const r = await fetch("maddeler.json", { cache: "no-store" });
   maddeler = (await r.json()).maddeler;
   ciz();
+  if (gonderildi) {
+    const kutu = el("#sonKutu");
+    kutu.style.display = "block";
+    kutu.className = "kutu basarili";
+    kutu.innerHTML = "<strong>Bu tarayıcıdan oy gönderilmiş.</strong><br>" +
+      "Aşağıdaki sonuçlar canlı olarak güncellenmektedir. Oylama kapandığında ham veri " +
+      "ve sayım raporu GitHub'da yayımlanacaktır.";
+  }
   durumGuncelle();
   el("#gonderBtn").addEventListener("click", gonder);
   sonucCek();
