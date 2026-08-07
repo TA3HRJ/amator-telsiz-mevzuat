@@ -20,15 +20,24 @@ tartışmaya ve oylamaya elverişli bir zemin sunmaktır.
 | **Uzlaşı Oy Pusulası (v1.0)** | Her gri alan için topluluk oylama pusulası (A/B/C/D/E) |
 | **index.html** | İndirme sayfası (GitHub Pages ile yayımlanabilir) |
 
+> **Toplantı sunumu (38 slayt):** çevrim içi Ulusal Değerlendirme Toplantısı için hazırlanmıştır —
+> açılış ve gerekçe slaytları, 22 gri alan için oylama slaytları ve tıklanabilir bir terim sözlüğü içerir.
+> Sunum dosyasını PowerPoint'te **Slayt Gösterisi** modunda açarsanız "? Sözlük" butonları çalışır.
+
 ## Kapsanan gri alanlar (özet)
 Ruhsatsız kullanım zinciri, belge sınıfı yetki tablosu, CEPT/HAREC, dijital modlar ve SDR, RX (dinleme)
 serbestisi, internet-RF köprüleri, röle/cross-band, POC cihazları, anten & kat mülkiyeti, araçta
-kullanım, POTA arazi izinleri, AREDN mesh, LoRa/Meshtastic, gümrük geçici çıkış, cihaz uygunluğu ve piyasa gözetimi (GA-CIHAZ), afet haberleşmesi MOU (GA-EMCOMM), **Silent Key & çağrı
+kullanım, POTA arazi izinleri, AREDN mesh, LoRa/Meshtastic, gümrük geçici çıkış, cihaz uygunluğu ve piyasa gözetimi (GA-CIHAZ), **afet haberleşmesinde amatörün rolü ve kapsam tanımı (GA-EMCOMM)**, **Silent Key & çağrı
 işareti vesayeti (GA-SK)** ve **bölge değişiminde çağrı işareti taşınabilirliği (GA-CALL)**.
 
 ## Yöntem
 Tüm dayanaklar birincil kaynaklara (mevzuat.gov.tr, Resmî Gazete, BTK, KEGM, ITU, CEPT) bağlanmıştır.
 Taslaklar Claude (Anthropic) yapay zekâsı desteğiyle hazırlanmış; kapsamlı hata analizi, birincil kaynak doğrulaması ve son düzenlemeler insan gözetimiyle yapılmıştır.
+
+## İlgili çalışma
+
+Aynı camiaya yönelik sınav hazırlık seti ayrı bir repoda yayımlanmaktadır:
+[github.com/TA3HRJ/amator-telsiz-egitimi](https://github.com/TA3HRJ/amator-telsiz-egitimi)
 
 ## Katkı
 Düzeltme ve öneriler için Issue/Pull Request açabilirsiniz. Amaç camia yararına açık ve doğru bir kaynak.

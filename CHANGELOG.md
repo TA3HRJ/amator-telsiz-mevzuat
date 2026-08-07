@@ -84,3 +84,38 @@ Tüm belgelerin birincil kaynaklara ve güncel mevzuata karşı yeniden denetlen
 
 - Envanter "Açıklama ve Renk Kodu" sayfasındaki kısaltmalar listesine "Amatör Telsizcilik" tanımı eklendi.
 - Uzlaşı Oy Pusulası Sunumu (PowerPoint) yeniden kaydedildi (içerik değişmedi).
+
+### GA-EMCOMM yeniden çerçevelendi; toplantı sunumu yenilendi — 7 Ağustos 2026
+
+**1. GA-EMCOMM — "protokol yok" iddiası kanıta dayalı çerçeveyle değiştirildi (beş belgede).**
+Önceki metinler afet haberleşmesini düz biçimde "AFAD ile resmî protokol (MOU) yoktur" diye
+tanımlıyordu. Birincil belgeler incelendiğinde bunun eksik olduğu görüldü:
+
+- **TAMP** (Türkiye Afet Müdahale Planı) ana metninde amatör telsiz dernekleri **ismen geçmez**;
+  yalnızca genel "STK" kategorisi destek çözüm ortağı olarak sayılır.
+- Buna karşılık TAMP'ın öngördüğü **Ulusal Düzey Afet Haberleşme Grubu Planı** yazışmalarında
+  TRAC **2012** (AFAD süreç analizi daveti), **2015** ve **2024** (Ulaştırma ve Altyapı Bakanlığı)
+  tarihli resmî yazılarda **ismen "çözüm ortağı"** olarak anılmaktadır.
+- **FTM Teknik Ölçütler Md.22 §3–§4**, amatörlere afette koordinasyon kuruluşlarına yardım etme ve
+  izinle kurum frekansı kullanma dayanağı verir.
+
+Talep bu nedenle "protokol imzalansın"dan **"rolün içeriği ve kapsamı tanımlansın"a** çevrildi.
+Belgelenen gerçek boşluk üç başlıkta toplandı: (a) ortaklığın somut içeriği — teknik destek mi,
+malzeme mi, operatörlük mü — kamuya açık değildir; (b) dernek üyesi olmayan **bireysel amatörün**
+konumu hiç tanımlı değildir; (c) 2000 tarihli protokolün imzacı kurumu kalkmıştır, güncel
+geçerliliği teyit edilememektedir. Tablo B'deki **Taslak 10 yeniden yazıldı** ve muhatabı
+**AFAD + Ulaştırma ve Altyapı Bakanlığı** olarak güncellendi (üç somut talep). Değişiklik Analiz,
+Envanter, Tablo B, Oy Pusulası ve Sunum'a tutarlı biçimde işlendi.
+
+**2. Sunumdaki sözlük bağlantıları fiilen çalışır hâle getirildi.**
+22 gri alan slaytındaki "? Sözlük" ve sözlük slaytlarındaki "← Geri" butonları tıklandığında
+hiçbir yere gitmiyordu. Kök neden: bağlantı dikdörtgen şekle verilmiş, ancak buton yazısı ayrı bir
+metin kutusu olarak **şeklin üstüne** çizilmişti; tıklama üstteki kutuya gidip linkli şekle
+ulaşmıyordu. Yazı, linkli şeklin kendi metin çerçevesine taşındı. **27 butonun 27'si** PowerPoint
+üzerinden fiilen tıklanarak doğrulandı.
+
+**3. Sunum yerleşimi düzeltildi.** Uzun "SORUN" metinleri A/B/C/D/E seçenek kutularının üzerine
+biniyordu; kutu yüksekliği ve seçenek başlangıcı artık metin uzunluğuna göre uyarlanıyor.
+Dokuz karakterli gri alan kodları (GA-EMCOMM) rozet kutusunu taşırıyordu; rozet genişliği eşiği
+düzeltildi. 38 slaytın tamamı yeniden render edilip görsel olarak doğrulandı.
+
