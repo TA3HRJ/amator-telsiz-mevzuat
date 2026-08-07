@@ -1,5 +1,38 @@
 # Değişiklik Günlüğü
 
+## Sürüm 1.1 — 7 Ağustos 2026
+
+**Bu sürümde içerik değişmedi; sürüm numarası düzeltildi.**
+
+1 Temmuz 2026'daki ilk yayından bu yana belgeler ondan fazla kez revize edildi — bazıları maddi
+hata düzeltmesiydi. Ancak dosya adları ve site rozeti `v1.0 · 1 Temmuz 2026` olarak kaldı; bu yüzden
+belgeleri daha önce indirenler güncellendiklerini fark edemedi. Bu sürümle:
+
+- Beş yayın dosyasının adı `_v1.0` → `_v1.1` olarak değiştirildi.
+- Analiz ve Tablo B belgelerinin **içindeki künyeler** (sürüm ve tarih satırları, üstbilgi) güncellendi.
+- Site başlığı, sürüm rozeti, altbilgi ve sorumluluk reddindeki geçerlilik tarihi güncellendi.
+- Siteye ve README'ye, **v1.0 indirenler için maddi düzeltme listesi** içeren uyarı bölümü eklendi.
+
+**Bundan sonraki kural:** Yayımlanmış bir dosyanın içeriği değişirse sürüm numarası da değişir.
+Aynı ad altında sessiz güncelleme yapılmaz.
+
+### v1.0 kullanıcıları için kritik düzeltmeler
+
+Aşağıdakiler 1 Temmuz – 7 Ağustos arasında yapıldı. İlk yayını indirip kuruma başvuru hazırlayanlar
+için önemlidir:
+
+| Konu | v1.0'da ne yazıyordu | Düzeltme |
+|---|---|---|
+| **FTM Teknik Ölçütler** | Md.22 "henüz yürürlüğe girmemiş taslak"; BTK'dan yürürlüğe konması talep ediliyordu | BTK Kurul Kararı 23.09.2022 (2022/İK-SYD/245) ile onaylı, **2022'den beri yürürlükte**. Talep, hakkın duyurulması olarak değiştirildi |
+| **GA-BAND-1** | "Sınıf bazlı yetki tablosu yayımlanmamıştır" | Tablo, FTM Teknik Ölçütler **Tablo 25**'te mevcut. Sorun yeniden çerçevelendi |
+| **GA-SK** | "Vesayet yolu tanımsız, hukuki dayanağı yok" | **KEGM Yönetmeliği Md.7/2** vefat/vesayet için ayrı hüküm içeriyor; bölüm yeniden yazıldı |
+| **GA-EMCOMM** | "AFAD ile protokol yok" | Birincil kaynağa dayalı çerçeve: TRAC 2012/2015/2024 yazışmalarında "çözüm ortağı"; FTM Md.22 §3–§4 dayanağı |
+| **GA-NODE** | Mevzuatta tümüyle tanımsız | Md.22 §12 internet-telsiz arayüzünü düzenliyor; belirsizlik 6112 sayılı Kanun tarafında |
+| **GA-5 / GA-DIG** | Dijital modlar mevzuatta tanımsız | Md.22 §13 RTTY, SSTV, PSK, PACTOR, APRS, TCP/IP vb. ismen sayıyor; boşluk emisyon tablolarında |
+| **Kapsam** | 21 talep, sunum yok | GA-RX/Kanal eklendi (**22 talep**); Uzlaşı Oy Pusulası Toplantı Sunumu eklendi |
+
+---
+
 ## Sürüm 1.0 — 1 Temmuz 2026 (ilk yayın)
 
 > Dosya adlarında yayın sürümü **v1.0** kullanılır. Aşağıda anılan v9/v7/v2/v3 numaraları iç çalışma sürümleridir (v1.0 = Analiz v9, Envanter v7, Tablo B v2, Oy Pusulası v3).

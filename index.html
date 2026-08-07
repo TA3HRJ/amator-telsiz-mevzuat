@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Amatör Telsizcilik — Türkiye Mevzuat Çalışması (Sürüm 1.0)</title>
+<title>Amatör Telsizcilik — Türkiye Mevzuat Çalışması (Sürüm 1.1)</title>
 <style>
   :root{ --navy:#1f3864; --blue:#2e75b6; --bg:#f6f8fb; --card:#fff; --line:#e2e8f0; --ink:#1f2933; --muted:#66727f; }
   *{ box-sizing:border-box; }
@@ -23,6 +23,9 @@
   .doc{ background:var(--blue); } .xls{ background:#217346; } .ppt{ background:#c43e1c; }
   .file .t{ font-weight:600; } .file .d{ color:var(--muted); font-size:.83rem; }
   .file .arrow{ margin-left:auto; color:var(--blue); font-size:1.2rem; }
+  .revnote{ background:#fdf2f2; border:1px solid #e8b4b4; border-left:5px solid #c0392b; border-radius:12px; padding:18px 20px; margin:24px 0; font-size:.9rem; }
+  .revnote h3{ margin:0 0 8px; color:#a5281b; font-size:1rem; }
+  .revnote ul{ margin:10px 0 0; padding-left:20px; } .revnote li{ margin:6px 0; }
   .disclaimer{ background:#fff8ec; border:1px solid #f0d9a8; border-radius:12px; padding:18px 20px; margin-top:34px; font-size:.9rem; }
   .disclaimer h3{ margin:0 0 10px; color:#8a5a00; font-size:1rem; }
   .disclaimer ul{ margin:10px 0 0; padding-left:20px; } .disclaimer li{ margin:5px 0; }
@@ -36,7 +39,7 @@
     <p class="kicker">Amatör Telsizcilik</p>
     <h1>Türkiye Mevzuat Analizi ve Talep Çalışması</h1>
     <p class="sub">Gri Alanlar · IARU/CEPT Boşlukları · Kurumlara Talep Yazıları</p>
-    <p><span class="badge">Sürüm 1.0 · 1 Temmuz 2026</span></p>
+    <p><span class="badge">Sürüm 1.1 · 7 Ağustos 2026</span></p>
   </header>
 
   <div class="intro">
@@ -115,31 +118,58 @@
 <figcaption style="text-align:center;color:var(--muted);font-size:.83rem;margin-top:6px;">Şekil 2 — Hedef: mevcut anayasal ve yasal dayanak üzerine kurulan kapsamlı tek amatör telsizcilik yönetmeliği (GA-1).</figcaption></figure>
   </div>
 
+  <div class="revnote">
+    <h3>Daha önce indirdiyseniz — lütfen okuyun</h3>
+    <p>Belgeler <strong>1 Temmuz 2026</strong> tarihli ilk yayından bu yana birkaç kez düzeltildi; ancak dosya
+    adları <code>v1.0</code> olarak kaldığı için <strong>daha önce indirenler değişiklikleri fark edemedi.</strong>
+    7 Ağustos 2026 itibarıyla dosyalar <strong>v1.1</strong> olarak yeniden adlandırıldı ve site sürüm bilgisi
+    güncellendi. Bu, bundan sonra tekrarlanmayacak.</p>
+    <p style="margin-top:10px;"><strong>Elinizde v1.0 varsa aşağıdaki düzeltmeler sizde yok.</strong>
+    Bir kuruma başvuru yapmadan önce v1.1'i indirmenizi öneririz:</p>
+    <ul>
+      <li><strong>FTM Teknik Ölçütler bir taslak değil, yürürlükteki düzenlemedir.</strong> v1.0 metinleri
+      Madde 22'yi &ldquo;henüz yürürlüğe girmemiş taslak&rdquo; sayıyor ve BTK'dan yürürlüğe konmasını talep
+      ediyordu. Oysa metin <strong>BTK Kurul Kararı 23.09.2022 (2022/İK-SYD/245)</strong> ile onaylanmıştır ve
+      2022'den beri yürürlüktedir. v1.0'daki bu talep, zaten yürürlükte olan bir düzenleme için yapılmış olurdu.</li>
+      <li><strong>GA-BAND-1:</strong> &ldquo;Sınıf bazlı yetki tablosu yayımlanmamıştır&rdquo; tespiti hatalıydı;
+      tablo FTM Teknik Ölçütler <strong>Tablo 25</strong>'te &ldquo;İzin verilen belge sınıfı&rdquo; sütunuyla mevcuttur.</li>
+      <li><strong>GA-SK:</strong> &ldquo;Vesayet yolu tanımsız, hukuki dayanağı yok&rdquo; öncülü
+      <strong>KEGM Yönetmeliği Md.7/2</strong> ile çelişiyordu; bölüm yeniden yazıldı.</li>
+      <li><strong>GA-EMCOMM:</strong> &ldquo;AFAD ile protokol yok&rdquo; düz iddiası, birincil kaynaklara dayalı
+      bir çerçeveyle değiştirildi (TRAC'ın 2012/2015/2024 yazışmalarında &ldquo;çözüm ortağı&rdquo; olarak anılması;
+      FTM Md.22 §3–§4 dayanağı).</li>
+      <li><strong>GA-NODE ve GA-5 / GA-DIG:</strong> Madde 22 §12 ve §13 karşısında aşırı iddialı olan tespitler düzeltildi.</li>
+      <li><strong>Kapsam:</strong> GA-RX/Kanal talebi eklendi (talep sayısı 21 &rarr; 22) ve Toplantı Sunumu yayına girdi.</li>
+    </ul>
+    <p style="margin-top:10px;">Değişikliklerin tamamı için
+    <a href="https://github.com/TA3HRJ/amator-telsiz-mevzuat/blob/main/CHANGELOG.md">CHANGELOG.md</a>.</p>
+  </div>
+
   <h2>Belgeler</h2>
   <div class="files">
-    <a class="file" href="Amator_Telsizcilik_Tablo_A_Mevzuat_Analizi_v1.0.docx">
+    <a class="file" href="Amator_Telsizcilik_Tablo_A_Mevzuat_Analizi_v1.1.docx">
       <span class="tag doc">DOCX</span>
-      <span><span class="t">Tablo A — Mevzuat Analizi (v1.0)</span><br><span class="d">Gri alanlar, IARU/CEPT eksikleri, karşılaştırmalı analiz, herkes için özet</span></span>
+      <span><span class="t">Tablo A — Mevzuat Analizi (v1.1)</span><br><span class="d">Gri alanlar, IARU/CEPT eksikleri, karşılaştırmalı analiz, herkes için özet</span></span>
       <span class="arrow">↓</span>
     </a>
-    <a class="file" href="Amator_Telsizcilik_Tablo_A_Mevzuat_Envanteri_v1.0.xlsx">
+    <a class="file" href="Amator_Telsizcilik_Tablo_A_Mevzuat_Envanteri_v1.1.xlsx">
       <span class="tag xls">XLSX</span>
-      <span><span class="t">Tablo A — Mevzuat Envanteri (v1.0)</span><br><span class="d">24 maddelik mevzuat envanteri + resmî kaynak linkleri, gri alanlar tablosu</span></span>
+      <span><span class="t">Tablo A — Mevzuat Envanteri (v1.1)</span><br><span class="d">24 maddelik mevzuat envanteri + resmî kaynak linkleri, gri alanlar tablosu</span></span>
       <span class="arrow">↓</span>
     </a>
-    <a class="file" href="Amator_Telsizcilik_Tablo_B_Kurum_Talep_Yazilari_Taslak_v1.0.docx">
+    <a class="file" href="Amator_Telsizcilik_Tablo_B_Kurum_Talep_Yazilari_Taslak_v1.1.docx">
       <span class="tag doc">DOCX</span>
-      <span><span class="t">Tablo B — Kurumlara Talep Yazıları (v1.0, taslak)</span><br><span class="d">22 talebin matrisi + kuruma göre örnek başvuru taslakları</span></span>
+      <span><span class="t">Tablo B — Kurumlara Talep Yazıları (v1.1, taslak)</span><br><span class="d">22 talebin matrisi + kuruma göre örnek başvuru taslakları</span></span>
       <span class="arrow">↓</span>
     </a>
-    <a class="file" href="Amator_Telsizcilik_Uzlasi_Oy_Pusulasi_v1.0.docx">
+    <a class="file" href="Amator_Telsizcilik_Uzlasi_Oy_Pusulasi_v1.1.docx">
       <span class="tag doc">DOCX</span>
-      <span><span class="t">Uzlaşı Oy Pusulası (v1.0)</span><br><span class="d">Her gri alan için topluluk oylama pusulası (A/B/C/D/E)</span></span>
+      <span><span class="t">Uzlaşı Oy Pusulası (v1.1)</span><br><span class="d">Her gri alan için topluluk oylama pusulası (A/B/C/D/E)</span></span>
       <span class="arrow">↓</span>
     </a>
-    <a class="file" href="Amator_Telsizcilik_Uzlasi_Oy_Pusulasi_Sunum_v1.0.pptx">
+    <a class="file" href="Amator_Telsizcilik_Uzlasi_Oy_Pusulasi_Sunum_v1.1.pptx">
       <span class="tag ppt">PPTX</span>
-      <span><span class="t">Uzlaşı Oy Pusulası — Toplantı Sunumu (v1.0)</span><br><span class="d">38 slayt — gerekçe ve açılış bölümü, 22 gri alan için sorun + A/B/C/D/E oylama slaytları, tıklanabilir terim sözlüğü</span></span>
+      <span><span class="t">Uzlaşı Oy Pusulası — Toplantı Sunumu (v1.1)</span><br><span class="d">38 slayt — gerekçe ve açılış bölümü, 22 gri alan için sorun + A/B/C/D/E oylama slaytları, tıklanabilir terim sözlüğü</span></span>
       <span class="arrow">↓</span>
     </a>
   </div>
@@ -151,7 +181,7 @@
     hata, eksik veya güncelliğini yitirmiş bilgi içerebilir.</strong></p>
     <ul>
       <li><strong>Hukuki tavsiye değildir.</strong> Resmî işlem yapmadan önce bilgileri birincil kaynaklardan (mevzuat.gov.tr, Resmî Gazete, BTK, KEGM) ve gerekirse bir hukuk danışmanından doğrulayın.</li>
-      <li>Belgeler <strong>1 Temmuz 2026 itibarıyla</strong> geçerli mevzuata göre hazırlanmıştır; sonraki değişiklikler yansımayabilir.</li>
+      <li>Belgeler <strong>7 Ağustos 2026 itibarıyla</strong> geçerli mevzuata göre hazırlanmıştır; sonraki değişiklikler yansımayabilir.</li>
       <li>İçerik <strong>ticari amaç taşımaz</strong>, herhangi bir kurumun veya derneğin resmî görüşünü temsil etmez.</li>
       <li>Kişisel veri içermez; başvuru taslaklarındaki boş alanlar kullanıcı tarafından doldurulur.</li>
       <li>Katkı, düzeltme ve geri bildirimler memnuniyetle karşılanır: <a href="https://github.com/TA3HRJ/amator-telsiz-mevzuat">github.com/TA3HRJ/amator-telsiz-mevzuat</a></li>
@@ -161,7 +191,7 @@
   </div>
 
   <footer>
-    Amatör telsiz camiasına açık katkı · Bireysel gönüllü çalışma · Sürüm 1.0
+    Amatör telsiz camiasına açık katkı · Bireysel gönüllü çalışma · Sürüm 1.1
   </footer>
 </div>
 </body>
