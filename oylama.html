@@ -60,9 +60,10 @@
   .bardolu.onde{ background:var(--yesil); }
   .barsayi{ text-align:right; color:var(--muted); font-variant-numeric:tabular-nums; }
 
-  .gonder{ position:sticky; bottom:0; background:rgba(246,248,251,.97);
-           border-top:1px solid var(--line); padding:14px 16px; margin:24px -16px -80px;
+  .gonder{ position:sticky; bottom:0; background:var(--bg); box-shadow:0 -6px 14px rgba(31,56,100,.07);
+           border-top:1px solid var(--line); padding:14px 16px; margin:24px -16px 0;
            display:flex; gap:12px; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+  .gonder.gizli{ display:none; }
   button{ background:var(--navy); color:#fff; border:0; border-radius:8px; padding:12px 26px;
           font:inherit; font-weight:600; cursor:pointer; }
   button:disabled{ background:#98a2b0; cursor:not-allowed; }
@@ -157,6 +158,9 @@ function durumGuncelle() {
     el("#secimDurum").textContent = "Bu tarayıcıdan oy gönderildi. Teşekkürler.";
     btn.disabled = true;
     btn.textContent = "Gönderildi";
+    document.querySelector(".gonder")?.classList.add("gizli");
+    document.querySelectorAll("#liste input[type=checkbox], #liste textarea")
+      .forEach((e) => { e.disabled = true; });
     return;
   }
   el("#secimDurum").textContent = madde === 0
@@ -282,6 +286,7 @@ async function gonder() {
       kutu.innerHTML = "<strong>Oyunuz kaydedildi. Teşekkür ederiz.</strong><br>" +
         "Sonuçlar aşağıda canlı olarak güncellenmektedir. Oylama kapandığında ham veri " +
         "ve sayım raporu GitHub'da yayımlanacaktır.";
+      durumGuncelle();
       kutu.scrollIntoView({ behavior: "smooth", block: "center" });
       sonucCek();
     } else {
