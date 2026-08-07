@@ -1,6 +1,6 @@
 # Amatör Telsizcilik — Türkiye Mevzuat Analizi ve Talep Çalışması
 
-**Sürüm 1.1 · 7 Ağustos 2026**
+**Sürüm 1.2 · 7 Ağustos 2026**
 
 Türkiye'de amatör telsizciliğe (amatör radyoculuğa) gönül vermiş kişilerin **bireysel iyi niyetiyle** ve **camiaya katkı
 amacıyla** yürüttüğü, tarafsız bir mevzuat inceleme çalışması. Amatör telsizciliğe ilişkin dağınık

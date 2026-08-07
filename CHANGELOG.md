@@ -1,5 +1,34 @@
 # Değişiklik Günlüğü
 
+## Sürüm 1.2 — 7 Ağustos 2026
+
+**Çevrim içi uzlaşı oylaması yayına girdi; oylama usulü değişti.**
+
+Oylama, 22 gri alanın tamamı için tek bir sayfada toplandı:
+[oylama.html](https://ta3hrj.github.io/amator-telsiz-mevzuat/oylama.html). Toplantıdaki canlı
+oylama ile çevrim içi katılım **aynı veri havuzunda** birleşir; ayrı bir anket aracı (Slido vb.)
+kullanılmaz. Bunun sebebi şeffaflıktır: iki ayrı kanalda toplanan oyun ham verisi tek parça
+yayımlanamaz ve sayım yöntemi karşılaştırılabilir olmaz.
+
+**Kimlik istenmiyor.** Çağrı işareti, e-posta veya giriş yok; IP adresi saklanmıyor. Böylece KVKK
+kapsamında veri sorumluluğu doğmuyor ve projenin "kişisel veri içermez" duruşu korunuyor. Bunun
+bedeli, mükerrer oyun teknik olarak engellenememesidir; bu nedenle sonuçlar "kaç kişi" değil
+**"kaç oy"** olarak raporlanacak ve ham veri oylama kapanışında CSV olarak yayımlanacaktır.
+
+Değişenler:
+
+- **Yeni:** `oylama.html` (22 madde, çoklu seçim, kısmi oy, canlı sonuç), `maddeler.json`
+  (madde metinleri, Oy Pusulası ve sunumdan programatik olarak çıkarıldı) ve `oylama-worker/`
+  (Cloudflare Worker kaynağı + veritabanı şeması — sayım yöntemi denetlenebilsin diye açık).
+- **Toplantı Sunumu v1.2:** Sayım usulünden "çağrı işareti ile teslim eder" ibaresi kaldırıldı;
+  oylama adresi eklendi (slayt 7 ve 32); "oylaması çevrim içi sürecek 14 madde" ifadesi
+  "oylaması sitede açık olan 14 madde" olarak düzeltildi; takvim güncellendi.
+- **index.html:** Ana sayfaya oylama çağrısı eklendi.
+- Diğer dosyalar (Analiz, Envanter, Tablo B, Oy Pusulası) **v1.1 sürümünde değişmeden kaldı** —
+  içerikleri bu sürümde değişmediği için yeniden adlandırılmadı.
+
+---
+
 ## Sürüm 1.1 — 7 Ağustos 2026
 
 **Bu sürümde içerik değişmedi; sürüm numarası düzeltildi.**
