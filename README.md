@@ -10,26 +10,18 @@ mevzuat tek yerde derlenmiş; uygulamada belirsizlik yaratan **sorunlu konular (
 Bu çalışma herhangi bir kurumun veya derneğin resmî görüşünü temsil etmez; amacı camiaya açık,
 tartışmaya ve oylamaya elverişli bir zemin sunmaktır.
 
-> ### ⚠ Daha önce indirdiyseniz
+> ### Sürüm notu
 >
-> Belgeler 1 Temmuz 2026 tarihli ilk yayından bu yana birkaç kez düzeltildi; ancak dosya adları
-> `v1.0` olarak kaldığı için **daha önce indirenler değişiklikleri fark edemedi.** 7 Ağustos 2026
-> itibarıyla dosyalar **v1.1** olarak yeniden adlandırıldı. Bundan sonra içerik değiştiğinde sürüm
-> numarası da değişecektir.
+> Belgeler 1 Temmuz 2026'daki ilk yayından sonra birkaç kez düzeltildi. O dönemde dosya adları
+> değişmediği için erken indirenler güncellemeleri fark edemedi; 7 Ağustos'tan itibaren içerik
+> değiştiğinde sürüm numarası da değişiyor.
 >
-> **Elinizde v1.0 varsa aşağıdaki düzeltmeler sizde yok** — bir kuruma başvuru yapmadan önce v1.1'i indirin:
+> Temmuz'da indirdiyseniz güncel sürümü almanızı öneririz. Düzeltmelerin en önemlisi şudur:
+> **FTM Teknik Ölçütler 2022'den beri yürürlüktedir**, ilk sürümlerde "henüz yürürlüğe girmemiş
+> taslak" sayılıyordu. Ayrıca GA-BAND-1, GA-SK, GA-EMCOMM, GA-NODE ve GA-5/GA-DIG bölümleri
+> birincil kaynaklara göre yeniden yazıldı, GA-RX/Kanal talebi eklendi.
 >
-> - **FTM Teknik Ölçütler bir taslak değil, yürürlükteki düzenlemedir.** v1.0 metinleri Md.22'yi
->   "henüz yürürlüğe girmemiş taslak" sayıyor ve BTK'dan yürürlüğe konmasını talep ediyordu. Metin
->   **BTK Kurul Kararı 23.09.2022 (2022/İK-SYD/245)** ile onaylanmıştır, 2022'den beri yürürlüktedir.
-> - **GA-BAND-1:** "Sınıf bazlı yetki tablosu yayımlanmamıştır" tespiti hatalıydı; tablo FTM Teknik
->   Ölçütler **Tablo 25**'te mevcuttur.
-> - **GA-SK:** "Vesayet yolu tanımsız" öncülü **KEGM Yönetmeliği Md.7/2** ile çelişiyordu; yeniden yazıldı.
-> - **GA-EMCOMM:** "AFAD ile protokol yok" düz iddiası, birincil kaynağa dayalı çerçeveyle değiştirildi.
-> - **GA-NODE, GA-5 / GA-DIG:** Md.22 §12–§13 karşısında aşırı iddialı tespitler düzeltildi.
-> - **Kapsam:** GA-RX/Kanal talebi eklendi (21 → 22); Toplantı Sunumu yayına girdi.
->
-> Tam liste: [CHANGELOG.md](CHANGELOG.md)
+> Ayrıntılar: [CHANGELOG.md](CHANGELOG.md)
 
 ## İçindekiler
 
