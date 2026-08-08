@@ -1,4 +1,4 @@
-# Amatör Telsizcilik — Türkiye Mevzuat Analizi ve Talep Çalışması
+# Amatör Telsizcilik Mevzuatı — İnceleme ve Öneri Çalışması
 
 **Sürüm 1.3 · 7 Ağustos 2026**
 
