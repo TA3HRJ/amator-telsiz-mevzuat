@@ -51,10 +51,10 @@
   </header>
 
   <div class="oyla">
-    <h2>Uzlaşı Oylaması açık</h2>
+    <h2 id="oylamaBaslik">Uzlaşı Oylaması</h2>
     <p>22 gri alanın her biri için görüşünüzü bildirin. Kimlik, çağrı işareti veya üyelik istenmez;
        istediğiniz maddeyi oylayıp çıkabilirsiniz.</p>
-    <a class="btn" href="oylama.html">Oylamaya katıl →</a>
+    <a class="btn" id="oylamaBtn" href="oylama.html">Oylama sayfasını gör →</a>
     <small>Sonuçlar canlı görünür · Oylama bağlayıcı değildir · Ham veri kapanışta yayımlanacaktır</small>
   </div>
 
@@ -196,5 +196,18 @@
     Amatör telsiz camiasına açık katkı · Bireysel gönüllü çalışma · Sürüm 1.3
   </footer>
 </div>
+
+<script>
+// Oylamanin acik/kapali oldugu tek yerde tutulur: Worker'daki OYLAMA_ACIK.
+// Ana sayfa durumu oradan ogrenir; HTML'de sabit "acik" ibaresi tutulmaz.
+fetch("https://uzlasi-oylama.heo-520.workers.dev/sonuc", { cache: "no-store" })
+  .then((r) => r.json())
+  .then((v) => {
+    if (!v.acik) return;                       // kapaliysa notr metin kalir
+    document.getElementById("oylamaBaslik").textContent = "Uzlaşı Oylaması açık";
+    document.getElementById("oylamaBtn").textContent = "Oylamaya katıl →";
+  })
+  .catch(() => {});                            // ulasilamazsa notr metin kalir
+</script>
 </body>
 </html>

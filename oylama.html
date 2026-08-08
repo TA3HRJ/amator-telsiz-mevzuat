@@ -246,7 +246,7 @@ async function sonucCek() {
     if (!r.ok) return;
     const veri = await r.json();
     sonucCiz(veri);
-    el("#durumRozet").textContent = veri.acik ? "Oylama açık" : "Oylama kapandı";
+    el("#durumRozet").textContent = veri.acik ? "Oylama açık" : "Oylama şu an kapalı";
     if (!veri.acik) { el("#gonderBtn").disabled = true; gonderildi = true; }
   } catch { /* sonuc cekilemezse sayfa yine calisir */ }
 }
