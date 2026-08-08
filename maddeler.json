@@ -83,7 +83,7 @@
     {
      "harf": "B",
      "etiket": "Topluluk Duyurusu",
-     "aciklama": "amatör telsiz dernek ve kulüpleri ve kulüpler 'amatör bantlarda dinleme serbesttir' açıklaması yayımlar."
+     "aciklama": "Dernek ve kulüpler 'amatör bantlarda dinleme serbesttir' açıklaması yayımlar."
     },
     {
      "harf": "C",
@@ -218,8 +218,8 @@
     },
     {
      "harf": "B",
-     "etiket": "dernek ve kulüpler Uyarısı",
-     "aciklama": "amatör telsiz dernek ve kulüpleri 'POC amatör telsiz değildir' açıklaması yayımlar; medyaya duyurulur."
+     "etiket": "Topluluk Uyarısı",
+     "aciklama": "Dernek ve kulüpler 'POC amatör telsiz değildir' açıklaması yayımlar; medyaya duyurulur."
     },
     {
      "harf": "C",
@@ -252,7 +252,7 @@
     },
     {
      "harf": "B",
-     "etiket": "dernek ve kulüpler Teknik Açıklama",
+     "etiket": "Teknik Açıklama",
      "aciklama": "dernek ve kulüpler 'bu modlar şifreleme değildir' teknik notu yayımlar; ITU-RR Md.25 testine atıfta bulunur."
     },
     {
@@ -320,7 +320,7 @@
     },
     {
      "harf": "B",
-     "etiket": "dernek ve kulüpler Özet Tablo",
+     "etiket": "Özet Tablo",
      "aciklama": "dernek ve kulüpler tek sayfalık 'sınıf × bant' yetki tablosu hazırlar ve yayımlar."
     },
     {
@@ -388,7 +388,7 @@
     },
     {
      "harf": "B",
-     "etiket": "dernek ve kulüpler Kullanım Rehberi",
+     "etiket": "Kullanım Rehberi",
      "aciklama": "dernek ve kulüpler 'mikrodalga amatör kullanım rehberi' yayımlar; IARU R1 bandplan referansıyla."
     },
     {
@@ -456,7 +456,7 @@
     },
     {
      "harf": "B",
-     "etiket": "dernek ve kulüpler İzin Rehberi",
+     "etiket": "İzin Rehberi",
      "aciklama": "dernek ve kulüpler 'POTA izin rehberi' yayımlar: arazi türüne göre hangi kuruma başvurulur tablosuyla."
     },
     {
@@ -490,7 +490,7 @@
     },
     {
      "harf": "B",
-     "etiket": "dernek ve kulüpler AREDN Rehberi",
+     "etiket": "AREDN Rehberi",
      "aciklama": "dernek ve kulüpler Türkiye AREDN kullanım rehberi ve ağ koordinasyon noktası oluşturur."
     },
     {
@@ -558,7 +558,7 @@
     },
     {
      "harf": "B",
-     "etiket": "dernek ve kulüpler Rehberi",
+     "etiket": "Topluluk Rehberi",
      "aciklama": "dernek ve kulüpler 'yurt dışına telsiz çıkışı' kılavuzu yayımlar (Ek-71 örneği, ATA Karnesi bilgisi)."
     },
     {
@@ -592,7 +592,7 @@
     },
     {
      "harf": "B",
-     "etiket": "dernek ve kulüpler Emsal Derlemesi",
+     "etiket": "Emsal Derlemesi",
      "aciklama": "dernek ve kulüpler, anten uyuşmazlıklarında kullanılabilecek emsal karar derlemesi ve örnek dilekçe yayımlar."
     },
     {
@@ -724,22 +724,22 @@
     {
      "harf": "A",
      "etiket": "Mevcut Durumu Koru",
-     "aciklama": "Gönüllü ve gayriresmî katkı yeterli."
+     "aciklama": "Fiilî iş birliği yeterlidir; ek bir tanım veya protokol aranmasın."
     },
     {
      "harf": "B",
-     "etiket": "Topluluk Hazırlığı",
-     "aciklama": "Kulüpler kendi EMCOMM planlarını ve tatbikatlarını yapar; ETG Türkçe baskısı yaygınlaştırılır."
+     "etiket": "Topluluk Kaydı",
+     "aciklama": "Dernek ve kulüpler afet görev tanımlarını, eğitim ve tatbikat kayıtlarını kendileri derleyip yayımlar."
     },
     {
      "harf": "C",
-     "etiket": "Yazılı Görüş Talep Et",
-     "aciklama": "AFAD'dan amatörlerin il afet planlarındaki yeri hakkında görüş istenir."
+     "etiket": "Plan İçeriği Talebi",
+     "aciklama": "Ulusal Düzey Afet Haberleşme Grubu Planı’nın amatör telsize ilişkin bölümünün ve amatörlere verilen somut görevin kamuya açıklanması istenir."
     },
     {
      "harf": "D",
-     "etiket": "Mevzuat/Protokol",
-     "aciklama": "AFAD ile ulusal MOU ve ortak tatbikat usulü talep edilir."
+     "etiket": "Kapsam ve Tanım Talebi",
+     "aciklama": "Amatörlerin afetteki yetki ve sorumlulukları ile bireysel amatörlerin dâhil olma usulü yazılı olarak tanımlanır; il düzeyinde eşleşme ve tatbikat esasa bağlanır."
     },
     {
      "harf": "E",
