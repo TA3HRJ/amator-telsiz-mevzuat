@@ -15,7 +15,7 @@ Kalıcı/devlet kaynakları önceliklendirildi (mevzuat.gov.tr, Resmî Gazete, B
 | 9 | KEGM Yön. Değişikliği (27852) — *konsolide 13769* | https://www.mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=13769&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5 |
 | 10 | Amatör Telsizcilik Yön. (2004) — *mülga, RG arşivi* | https://www.resmigazete.gov.tr/eskiler/2004/03/Amat%C3%B6r%20Telsizcilik%20Y%C3%B6netmeli%C4%9Fi.doc |
 | 11 | BTK Milli Frekans Planı | https://www.btk.gov.tr/milli-frekans-plani |
-| 12 | BTK Amatör Sistemleri TAD (2021) | https://www.btk.gov.tr/uploads/pages/amator-sistemleri-tad.pdf |
+| 12 | BTK Amatör Sistemleri TAD (2018, v1.0) | https://www.btk.gov.tr/uploads/pages/amator-sistemleri-tad.pdf |
 | 13 | MFP — ITU-RR Dipnotları | https://www.btk.gov.tr/milli-frekans-plani |
 | 14 | FTM Teknik Ölçütler (Ek-5, Tablo 25) | https://www.btk.gov.tr/uploads/pages/frekans-tahsisinden-muaf-telsiz-cihaz-sistemleri-olcutler-633d4ca68c0b1.pdf |
 | 15 | FTM Güncelleme Taslağı (2022) — *taslak sayfası* | https://www.btk.gov.tr/frekans-tahsisinden-muaf-telsiz-cihaz-ve-sistemleri |
@@ -23,8 +23,8 @@ Kalıcı/devlet kaynakları önceliklendirildi (mevzuat.gov.tr, Resmî Gazete, B
 | 17 | Gümrük Yönetmeliği — Ek-71 (Geçici İhracat) | https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.13472.htm |
 | 18 | T.C. Anayasası — Md.22 (2709) | https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2709.pdf |
 | 19 | ITU Radio Regulations — Md.25 | https://www.itu.int/pub/R-REG-RR |
-| 20 | CEPT T/R 61-01 | https://docdb.cept.org/download/2ae38a89-e58a/TR6101.pdf |
-| 21 | KEGM Amatör Sınav/Belge Harcı (492) | https://www.kiyiemniyeti.gov.tr/telsiz_ucret_tarifesi |
+| 20 | CEPT T/R 61-01 (güncel baskı: 18 Ekim 2024) | https://docdb.cept.org/download/4541 |
+| 21 | KEGM Amatör Sınav/Belge Ücreti (KEGM Yönetim Kurulu tarifesi) | https://www.kiyiemniyeti.gov.tr/telsiz_ucret_tarifesi |
 | 22 | KEGM Kıyı Emniyeti Ücret Tarifesi | https://www.kiyiemniyeti.gov.tr/telsiz_ucret_tarifesi |
 | 23 | Türk Ceza Kanunu — Md.132-133 (5237) | https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5237.pdf |
 | 24 | Kat Mülkiyeti Kanunu — Md.19 (634) | https://www.mevzuat.gov.tr/mevzuatmetin/1.5.634.pdf |
