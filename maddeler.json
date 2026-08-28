@@ -72,7 +72,7 @@
   {
    "kod": "GA-RX",
    "ad": "Alıcı Cihaz (RX) ile Dinleme Serbestisi",
-   "sorun": "Türkiye'de yalnızca dinlemek (sinyal yaymadan) yasal mı? 2813 Kanunu yayın yapmayı düzenler; salt dinlemeye dair açık bir serbesti maddesi yoktur. Bazı frekansları (askeri, emniyet) dinlemek ek riskler taşıyabilir.",
+   "sorun": "Türkiye'de yalnızca dinlemek (sinyal yaymadan) yasal mı? Telsiz mevzuatı yayın yapmayı (TX) düzenler; salt dinlemeye dair açık bir serbesti maddesi yoktur. Bazı frekansları (askeri, emniyet) dinlemek ek riskler taşıyabilir.",
    "sade": "Sadece dinlemek — yani hiç yayın yapmamak — yasal mı? Mevzuat bunu açıkça yazmıyor.",
    "secenekler": [
     {
@@ -88,12 +88,12 @@
     {
      "harf": "C",
      "etiket": "Yazılı Görüş Talep Et",
-     "aciklama": "BTK/KEGM'ye 2813 Md.36 kapsamında RX serbestisi konusunda bağlayıcı olmayan resmi görüş başvurusu yapılır."
+     "aciklama": "BTK/KEGM'ye salt alım (RX) serbestisi konusunda bağlayıcı olmayan resmi görüş başvurusu yapılır."
     },
     {
      "harf": "D",
      "etiket": "Mevzuat Değişikliği",
-     "aciklama": "2813 Kanunu'na 'salt alım yapan cihazlar lisans muafiyetindedir' maddesi eklenmesi için başvuru."
+     "aciklama": "5809 sayılı Kanun'a 'salt alım yapan cihazlar lisans muafiyetindedir' maddesi eklenmesi için başvuru."
     },
     {
      "harf": "E",
@@ -242,7 +242,7 @@
   {
    "kod": "GA-DIG",
    "ad": "Dijital Modlar — FT8, Winlink, APRS (Şifreleme mi?)",
-   "sorun": "2813 Kanunu ve FTM, 'anlam gizleme' amacıyla şifrelemeyi yasaklar. FT8, Winlink (Open B2F), APRS gibi modlar açık ve belgelidir; ITU-RR Md.25 testini karşılar. Ancak BTK yorumu henüz netleşmemiştir.",
+   "sorun": "5809 sayılı Kanun (Md.39) ve FTM, 'anlam gizleme' amaçlı kodlu/kriptolu haberleşmeyi yasaklar. FT8, Winlink (Open B2F), APRS gibi modlar açık ve belgelidir; ITU-RR Md.25 testini karşılar. Ancak BTK yorumu henüz netleşmemiştir.",
    "sade": "FT8, Winlink gibi modern dijital modlar resmî emisyon listelerinde yok; kullanımı belirsiz kalıyor.",
    "secenekler": [
     {
@@ -258,7 +258,7 @@
     {
      "harf": "C",
      "etiket": "BTK Görüş Talebi",
-     "aciklama": "BTK'ya FT8/Winlink/APRS protokollerinin 2813 Md.36 şifreleme yasağı kapsamı dışında olduğuna dair görüş."
+     "aciklama": "BTK'ya FT8/Winlink/APRS protokollerinin 5809 Md.39 kodlu/kriptolu haberleşme yasağı kapsamı dışında olduğuna dair görüş."
     },
     {
      "harf": "D",
@@ -364,7 +364,7 @@
     },
     {
      "harf": "D",
-     "etiket": "ERC/REC 25-10 Çerçevesinde Müzakere",
+     "etiket": "ECC Çerçevesinde Müzakere",
      "aciklama": "dernek ve kulüpler, BTK aracılığıyla ECC'ye Türkiye adına 70 MHz ikincil tahsis talebini iletir."
     },
     {
@@ -378,7 +378,7 @@
   {
    "kod": "GA-BAND-3",
    "ad": "Mikrodalga Bantları (2,4 / 5,7 / 10 / 24 GHz) — MFP Var, TAD Yok",
-   "sorun": "BTK MFP bazı mikrodalga bantlarını ikincil amatör tahsisli listeler; ancak TAD 2021 bu bantlar için teknik parametreler içermiyor. 2,4 GHz hem WiFi SRD hem amatör alanda bulunuyor.",
+   "sorun": "BTK MFP bazı mikrodalga bantlarını ikincil amatör tahsisli listeler; ancak TAD (2018) bu bantlar için teknik parametreler içermiyor. 2,4 GHz hem WiFi SRD hem amatör alanda bulunuyor.",
    "sade": "Mikrodalga bantlar frekans planında amatörlere ayrılmış, ama teknik şartları hiç yazılmamış.",
    "secenekler": [
     {
@@ -394,7 +394,7 @@
     {
      "harf": "C",
      "etiket": "TAD Parametresi Talebi",
-     "aciklama": "BTK'ya MFP'deki ikincil amatör tahsisli bantlar için TAD 2021'e ek teknik parametre maddesi eklenmesi."
+     "aciklama": "BTK'ya MFP'deki ikincil amatör tahsisli bantlar için TAD (2018)'e ek teknik parametre maddesi eklenmesi."
     },
     {
      "harf": "D",
@@ -433,7 +433,7 @@
     {
      "harf": "D",
      "etiket": "KTK/FTM Net Düzenleme",
-     "aciklama": "2918 KTK Md.29 ve FTM kapsamında araç amatör istasyonu için net yasal çerçeve talebi."
+     "aciklama": "2918 KTK Md.32 ve FTM kapsamında araç amatör istasyonu için net yasal çerçeve talebi."
     },
     {
      "harf": "E",
@@ -496,7 +496,7 @@
     {
      "harf": "C",
      "etiket": "TAD Parametre Talebi",
-     "aciklama": "BTK'ya 2,4/5,8 GHz amatör kullanımı için TAD 2021'e teknik parametre maddesi eklenmesi."
+     "aciklama": "BTK'ya 2,4/5,8 GHz amatör kullanımı için TAD (2018)'e teknik parametre maddesi eklenmesi."
     },
     {
      "harf": "D",
@@ -548,7 +548,7 @@
   {
    "kod": "GA-4",
    "ad": "Yurt Dışı Geçici Cihaz Çıkışı (Gümrük)",
-   "sorun": "Amatör telsizcinin seyahatte cihazını yurt dışına çıkarması için standart bir gümrük prosedürü yoktur. Gümrük Yönetmeliği Ek-71 kullanılmakla birlikte uygulama il bazında değişir; CEPT karşılıklı tanıma (T/R 61-01) da TR'de uygulanmaz.",
+   "sorun": "Amatör telsizcinin seyahatte cihazını yurt dışına çıkarması için standart bir gümrük prosedürü yoktur. Gümrük Yönetmeliği Ek-71 kullanılmakla birlikte uygulama il bazında değişir; CEPT karşılıklı tanıma (T/R 61-01) da gümrük uygulamasına yansımamıştır.",
    "sade": "Telsizinizle yurt dışına çıkarken gümrükte izleyeceğiniz standart bir prosedür yok.",
    "secenekler": [
     {
