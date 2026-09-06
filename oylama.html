@@ -22,6 +22,9 @@
   .uyari{ background:#fdf2f2; border:1px solid #e8b4b4; border-left:5px solid #c0392b; }
   .uyari h3{ margin:0 0 8px; color:#a5281b; font-size:1rem; }
   .uyari ul{ margin:8px 0 0; padding-left:20px; } .uyari li{ margin:5px 0; }
+  .sonCagri{ background:#fff6e5; border:1px solid #f0c987; border-left:5px solid #d68910; }
+  .sonCagri h3{ margin:0 0 6px; color:#8a5a00; font-size:1rem; }
+  .sonCagri p{ margin:0; font-size:.94rem; }
   .sayac{ background:var(--navy); color:#fff; border-radius:12px; padding:14px 18px;
           display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; }
   .sayac b{ font-size:1.4rem; }
@@ -84,6 +87,13 @@
   <p class="sub">22 gri alan · Topluluk tercihi</p>
   <p><span class="badge" id="durumRozet">Yükleniyor…</span></p>
 </header>
+
+<div class="kutu sonCagri" id="sonCagri" hidden>
+  <h3>Son 48 saat</h3>
+  <p>Oylama <strong>8 Eylül 2026 Salı 23:59</strong> (TSİ) itibarıyla kapanacaktır. Bu tarihten
+     sonra oy gönderilemez; ham veri (CSV) ve sayım raporu yayımlanır. Görüşünüzü bildirmek
+     istiyorsanız son gündür.</p>
+</div>
 
 <div class="kutu uyari">
   <h3>Oylamaya başlamadan önce</h3>
@@ -247,6 +257,7 @@ async function sonucCek() {
     const veri = await r.json();
     sonucCiz(veri);
     el("#durumRozet").textContent = veri.acik ? "Oylama açık" : "Oylama şu an kapalı";
+    el("#sonCagri").hidden = !veri.acik;      // kapaninca son cagri da kalkar
     if (!veri.acik) { el("#gonderBtn").disabled = true; gonderildi = true; }
   } catch { /* sonuc cekilemezse sayfa yine calisir */ }
 }

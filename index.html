@@ -31,6 +31,9 @@
                padding:13px 34px; border-radius:8px; text-decoration:none; font-size:1.02rem; }
   .oyla a.btn:hover{ background:#eef4fb; }
   .oyla small{ display:block; margin-top:12px; color:#b9cde4; font-size:.83rem; }
+  .oyla .sonTarih{ background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.35);
+                   border-radius:8px; padding:10px 12px; margin:0 0 14px; color:#fff;
+                   font-size:.92rem; font-weight:600; }
   .revnote{ background:#f4f7fb; border:1px solid #d7e3f0; border-left:4px solid var(--blue); border-radius:12px; padding:16px 20px; margin:24px 0; font-size:.9rem; }
   .revnote h3{ margin:0 0 8px; color:var(--navy); font-size:.95rem; }
   .revnote p{ margin:8px 0 0; }
@@ -54,6 +57,9 @@
     <h2 id="oylamaBaslik">Uzlaşı Oylaması</h2>
     <p>22 gri alanın her biri için görüşünüzü bildirin. Kimlik, çağrı işareti veya üyelik istenmez;
        istediğiniz maddeyi oylayıp çıkabilirsiniz.</p>
+    <p class="sonTarih" id="sonTarih" hidden>Son 48 saat — oylama
+       <strong>8 Eylül 2026 Salı 23:59</strong> (TSİ) itibarıyla kapanacak; ardından ham veri
+       ve sayım raporu yayımlanacaktır.</p>
     <a class="btn" id="oylamaBtn" href="oylama.html">Oylama sayfasını gör →</a>
     <small>Sonuçlar canlı görünür · Oylama bağlayıcı değildir · Ham veri kapanışta yayımlanacaktır</small>
   </div>
@@ -206,6 +212,7 @@ fetch("https://uzlasi-oylama.heo-520.workers.dev/sonuc", { cache: "no-store" })
     if (!v.acik) return;                       // kapaliysa notr metin kalir
     document.getElementById("oylamaBaslik").textContent = "Uzlaşı Oylaması açık";
     document.getElementById("oylamaBtn").textContent = "Oylamaya katıl →";
+    document.getElementById("sonTarih").hidden = false;   // kapaninca kendiliginden gizlenir
   })
   .catch(() => {});                            // ulasilamazsa notr metin kalir
 </script>

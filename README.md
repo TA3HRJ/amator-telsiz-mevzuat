@@ -2,6 +2,8 @@
 
 **Sürüm 1.3 · 7 Ağustos 2026**
 
+**Yayın sayfası:** <https://ta3hrj.github.io/amator-telsiz-mevzuat/> — belgelerin indirme sayfası ve uzlaşı oylaması.
+
 Türkiye'de amatör telsizciliğe (amatör radyoculuğa) gönül vermiş kişilerin **bireysel iyi niyetiyle** ve **camiaya katkı
 amacıyla** yürüttüğü, tarafsız bir mevzuat inceleme çalışması. Amatör telsizciliğe ilişkin dağınık
 mevzuat tek yerde derlenmiş; uygulamada belirsizlik yaratan **sorunlu konular (gri alanlar)**,
@@ -31,7 +33,8 @@ tartışmaya ve oylamaya elverişli bir zemin sunmaktır.
 | **Tablo A — Mevzuat Envanteri (v1.1)** | 24 maddelik mevzuat envanteri + resmî kaynak linkleri + gri alanlar tablosu |
 | **Tablo B — Kurumlara Talep Yazıları (v1.1, taslak)** | 22 talebin matrisi + kuruma göre örnek başvuru taslakları |
 | **Uzlaşı Oy Pusulası (v1.3)** | Her gri alan için topluluk oylama pusulası (A/B/C/D/E) |
-| **index.html** | İndirme sayfası (GitHub Pages ile yayımlanabilir) |
+| **index.html** | İndirme sayfası — yayında: [ta3hrj.github.io/amator-telsiz-mevzuat](https://ta3hrj.github.io/amator-telsiz-mevzuat/) |
+| **oylama.html** | Uzlaşı oylaması — [oylama sayfası](https://ta3hrj.github.io/amator-telsiz-mevzuat/oylama.html) |
 
 > **Toplantı sunumu (38 slayt):** çevrim içi Ulusal Değerlendirme Toplantısı için hazırlanmıştır —
 > açılış ve gerekçe slaytları, 22 gri alan için oylama slaytları ve tıklanabilir bir terim sözlüğü içerir.
