@@ -55,13 +55,15 @@
 
   <div class="oyla">
     <h2 id="oylamaBaslik">Uzlaşı Oylaması</h2>
-    <p>22 gri alanın her biri için görüşünüzü bildirin. Kimlik, çağrı işareti veya üyelik istenmez;
-       istediğiniz maddeyi oylayıp çıkabilirsiniz.</p>
+    <p id="oylamaMetin">Oylama <strong>8 Eylül 2026</strong> itibarıyla kapandı. 22 gri alanın
+       tamamı 50 pusula ile oylandı; sayım raporu ve ham veri yayımlanmıştır.</p>
     <p class="sonTarih" id="sonTarih" hidden>Son 48 saat — oylama
        <strong>8 Eylül 2026 Salı 23:59</strong> (TSİ) itibarıyla kapanacak; ardından ham veri
        ve sayım raporu yayımlanacaktır.</p>
-    <a class="btn" id="oylamaBtn" href="oylama.html">Oylama sayfasını gör →</a>
-    <small>Sonuçlar canlı görünür · Oylama bağlayıcı değildir · Ham veri kapanışta yayımlanacaktır</small>
+    <a class="btn" id="oylamaBtn" href="https://github.com/TA3HRJ/amator-telsiz-mevzuat/blob/main/Uzlasi_Oylamasi_Sayim_Raporu_v1.0.md">Sayım raporunu oku →</a>
+    <small id="oylamaAlt">Oylama bağlayıcı değildir ·
+      <a href="Uzlasi_Oylamasi_Ham_Veri.csv" style="color:#fff">Ham veri (CSV)</a> ·
+      <a href="oylama.html" style="color:#fff">Madde madde sonuçlar</a></small>
   </div>
 
   <div class="intro">
@@ -211,7 +213,14 @@ fetch("https://uzlasi-oylama.heo-520.workers.dev/sonuc", { cache: "no-store" })
   .then((v) => {
     if (!v.acik) return;                       // kapaliysa notr metin kalir
     document.getElementById("oylamaBaslik").textContent = "Uzlaşı Oylaması açık";
-    document.getElementById("oylamaBtn").textContent = "Oylamaya katıl →";
+    document.getElementById("oylamaMetin").textContent =
+      "22 gri alanın her biri için görüşünüzü bildirin. Kimlik, çağrı işareti veya üyelik " +
+      "istenmez; istediğiniz maddeyi oylayıp çıkabilirsiniz.";
+    const btn = document.getElementById("oylamaBtn");
+    btn.textContent = "Oylamaya katıl →";
+    btn.href = "oylama.html";
+    document.getElementById("oylamaAlt").textContent =
+      "Sonuçlar canlı görünür · Oylama bağlayıcı değildir · Ham veri kapanışta yayımlanacaktır";
     document.getElementById("sonTarih").hidden = false;   // kapaninca kendiliginden gizlenir
   })
   .catch(() => {});                            // ulasilamazsa notr metin kalir

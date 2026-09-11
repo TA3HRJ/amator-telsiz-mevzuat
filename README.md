@@ -35,6 +35,8 @@ tartışmaya ve oylamaya elverişli bir zemin sunmaktır.
 | **Uzlaşı Oy Pusulası (v1.3)** | Her gri alan için topluluk oylama pusulası (A/B/C/D/E) |
 | **index.html** | İndirme sayfası — yayında: [ta3hrj.github.io/amator-telsiz-mevzuat](https://ta3hrj.github.io/amator-telsiz-mevzuat/) |
 | **oylama.html** | Uzlaşı oylaması — [oylama sayfası](https://ta3hrj.github.io/amator-telsiz-mevzuat/oylama.html) |
+| **Uzlaşı Oylaması — Sayım Raporu (v1.0)** | 50 pusulanın madde madde sonucu, sayım usulü ve topluluk tercihleri |
+| **Uzlaşı Oylaması — Ham Veri (CSV)** | Tüm oyların zaman damgalı ham dökümü; kimlik içermez |
 
 > **Toplantı sunumu (38 slayt):** çevrim içi Ulusal Değerlendirme Toplantısı için hazırlanmıştır —
 > açılış ve gerekçe slaytları, 22 gri alan için oylama slaytları ve tıklanabilir bir terim sözlüğü içerir.

@@ -1,5 +1,50 @@
 # Değişiklik Günlüğü
 
+## Sürüm 1.4 — 11 Eylül 2026
+
+**Uzlaşı oylaması kapandı; sayım raporu ve ham veri yayımlandı.**
+
+Oylama 9 Ağustos'ta açılmış, toplantı sunumunda duyurulan takvim uyarınca **8 Eylül 2026 Salı
+23:59 (TSİ)** itibarıyla kapatılmıştır. Kapanışta **50 pusula** ve **1117 oy satırı** toplanmış,
+22 gri alanın tamamı oylanmıştır; madde başına katılım 41–49 pusula arasındadır.
+
+Yeni dosyalar: **Uzlaşı Oylaması — Sayım Raporu v1.0** (madde madde sonuçlar, sayım usulü,
+topluluk tercihleri) ve **Uzlaşı Oylaması — Ham Veri (CSV)** (tüm oyların zaman damgalı dökümü).
+Ham verinin yayımlanacağı oylama açılırken taahhüt edilmişti; kimlik toplanmadığı için dosya
+kişisel veri içermez.
+
+**İki maddede sonuç yakın çıktı** ve tek tercihe indirgenmedi: GA-SK (A:22 / D:21) ve GA-BAND-1
+(D:25 / C:23). Sunumda duyurulan usul yakın sonuçlarda her iki görüşün de rapora yazılmasını
+öngörüyordu; ancak "yakın"ın eşiği tanımlı değildi. Sayım aşamasında benimsenen ölçüt raporda
+açıkça yazılmıştır: fark, o maddeye katılan pusula sayısının %5'inden azsa sonuç yakın sayılır.
+
+**Süre sonrası bir pusula kaydedildi.** Kapatma anahtarı Worker üzerinde elle çevrildiği için
+sistem, ilan edilen sınırdan 68 dakika sonra bir pusula daha kabul etti. Bu pusula sayıma dahil
+edilmiş ve durum raporda belirtilmiştir; çıkarıldığında hiçbir maddede topluluk tercihi
+değişmemektedir.
+
+**Mükerrer oy incelemesi rapora eklendi.** Ham veride oy deseni birebir aynı olan üç pusula çifti
+bulunmaktadır; ikisi bir dakikadan kısa arayla gönderilmiş, birinde serbest görüş metinleri de
+aynıdır. Kimlik toplanmadığı için bu bir kanıt değil belirtidir ve sonuçlar ilan edilen usul
+gereği bütün pusulalar sayılarak verilmiştir. Bu pusulalar çıkarıldığında 21 maddede topluluk
+tercihi değişmez; **GA-SK berabere kalır** (A:22/D:21 yerine A:20/D:20). Madde zaten yakın
+sayıldığı için raporun sonucu değişmiyor, ancak bu maddede tek bir topluluk tercihinden söz
+edilemeyeceği ayrıca belirtilmiştir.
+
+**Serbest görüşler (E) aynen yayımlandı.** 13 pusuladan gelen 62 metin, yazım ve noktalamasına
+dokunulmadan rapora girdi. Bir pusula 22 maddenin tamamına aynı metni bıraktığı için o metin
+yirmi iki kez tekrarlanmak yerine bir kez verildi. Yayımdan önce kişisel bilgi taraması yapıldı;
+isim, çağrı işareti, e-posta veya telefon numarası bulunmadı.
+
+**index.html:** Oylama kutusunun kapalı durumdaki metni güncellendi. Kutu, oylama kapandıktan
+sonra da "görüşünüzü bildirin" diyerek artık mümkün olmayan bir katılıma çağırıyordu; yerine
+kapanış bilgisi ile sayım raporu ve ham veri bağlantıları kondu. Oylama durumu yine tek kaynaktan
+(Worker'daki `OYLAMA_ACIK`) okunuyor — değişken yeniden `1` yapılırsa davet metni geri gelir.
+
+Belgeler (Analiz, Envanter, Tablo B, Oy Pusulası, Sunum) bu sürümde değişmedi.
+
+---
+
 ## Sürüm 1.3 — 7 Ağustos 2026
 
 **GA-BAND-1 sorun tanımındaki belirsizlik giderildi.**
