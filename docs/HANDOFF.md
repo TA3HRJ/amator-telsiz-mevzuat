@@ -4,8 +4,14 @@ Son güncelleme: 11 Eylül 2026
 
 ## Nerede kalındı
 
-Uzlaşı oylaması **kapandı ve sonuçları yayımlandı**. Sıradaki iş Tablo B dilekçelerinin
-topluluk tercihlerine göre güncellenmesi.
+Uzlaşı oylaması **kapandı, sonuçları yayımlandı ve Tablo B talep yazıları bu sonuçlara göre
+yeniden düzenlendi (v1.2)**. Sıradaki iş kurum başvurularının yapılması.
+
+Tablo B v1.2'de ne değişti: GA-3 ve GA-RX/Kanal talepleri (toplulukça "mevcut durumu koru"
+oylandı) başvuru metninden çıkarılıp belgenin sonundaki Ek'e alındı — Taslak 12 tümüyle kalktı.
+GA-SK açıklama talebine çevrildi. GA-ARAC ve GA-LORA düzenleme talebine yükseltildi, GA-AREDN
+yazılı görüşe indirildi, GA-BAND-1'de iki talep birlikte iletiliyor. Kuruma giden talep 22'den
+20'ye indi.
 
 - Oylama 9 Ağustos'ta açıldı, duyurulan takvim uyarınca **8 Eylül 2026 23:59 (TSİ)** kapatıldı.
   Kapatma, Cloudflare'de `OYLAMA_ACIK` değişkeninin `0` yapılmasıyla yapıldı.
@@ -18,11 +24,12 @@ topluluk tercihlerine göre güncellenmesi.
 
 ## Açık kalanlar
 
-1. **Tablo B dilekçeleri** topluluk tercihlerine göre güncellenecek, sonra kurum başvuruları.
-2. **GA-SK'de tek bir tercihe dayanılamaz** — aşağıdaki tuzağa bakın. Dilekçe yazılırken
-   A ve D birlikte işlenmeli.
-3. **Sunum ve Oy Pusulası hâlâ v1.3** ve oylamayı açık anlatıyor. Bir daha dağıtılacaksa
+1. **Kurum başvuruları** Tablo B v1.2'deki taslaklarla yapılacak ve süreç kamuya açık izlenecek.
+2. **Sunum ve Oy Pusulası hâlâ v1.3** ve oylamayı açık anlatıyor. Bir daha dağıtılacaksa
    kapanış durumuna göre gözden geçirilmeli.
+3. **Tablo A (Analiz, Envanter) hâlâ v1.1.** GA-3 ve GA-RX/Kanal'ın artık talebe
+   dönüştürülmediği bilgisi oraya işlenmedi; Tablo A sorun tespitini anlatmaya devam ediyor,
+   bu tutarsızlık değil, ama bir daha elden geçirilirse not düşülebilir.
 
 ## Tuzaklar
 

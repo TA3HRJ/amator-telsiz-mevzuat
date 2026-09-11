@@ -1,6 +1,6 @@
 # Amatör Telsizcilik Mevzuatı — İnceleme ve Öneri Çalışması
 
-**Sürüm 1.3 · 7 Ağustos 2026**
+**Sürüm 1.5 · 11 Eylül 2026**
 
 **Yayın sayfası:** <https://ta3hrj.github.io/amator-telsiz-mevzuat/> — belgelerin indirme sayfası ve uzlaşı oylaması.
 
@@ -25,13 +25,49 @@ tartışmaya ve oylamaya elverişli bir zemin sunmaktır.
 >
 > Ayrıntılar: [CHANGELOG.md](CHANGELOG.md)
 
+## Uzlaşı oylaması sonucu
+
+22 gri alanın tamamı için yürütülen çevrim içi uzlaşı oylaması 9 Ağustos 2026'da açıldı ve
+8 Eylül 2026'da kapandı. **50 pusula**, **1117 oy satırı**; madde başına katılım 41–49 pusula.
+Ayrıca 13 pusuladan 62 serbest görüş geldi ve tamamı rapora olduğu gibi girdi.
+
+Oylama **bağlayıcı değildir**. Kimlik, çağrı işareti veya e-posta istenmediği ve IP saklanmadığı
+için mükerrer oy teknik olarak engellenememiştir; sonuçlar "kaç kişi" değil **"kaç oy"** olarak
+okunmalıdır. Ham veride oy deseni birebir aynı üç pusula çifti bulunmuştur — sayım raporunda
+ayrı bir bölüm olarak incelenmiştir.
+
+- [Sayım raporu](Uzlasi_Oylamasi_Sayim_Raporu_v1.0.md) — madde madde sonuçlar, sayım usulü,
+  mükerrer oy incelemesi ve serbest görüşlerin tam metni
+- [Ham veri (CSV)](Uzlasi_Oylamasi_Ham_Veri.csv) — zaman damgalı, kimlik içermez
+
+**İki maddede sonuç yakın çıktı** ve tek tercihe indirgenmedi: `GA-SK` (Silent Key ve çağrı
+işareti vesayeti) ile `GA-BAND-1` (sınıf yetki tablosu). GA-SK, mükerrer şüphesi taşıyan pusulalar
+çıkarıldığında berabere kalmaktadır.
+
+### Sonuçların Tablo B'ye etkisi
+
+Kurumlara gidecek talep yazıları oylama sonucuna göre yeniden düzenlendi (Tablo B v1.2):
+
+| Gri alan | Topluluk tercihi | Talep yazısına etkisi |
+|---|---|---|
+| `GA-3` | Mevcut durumu koru (35 / 4) | Başvurudan çıkarıldı, Ek'e alındı |
+| `GA-RX/Kanal` | Mevcut durumu koru (21 / 15) | Başvurudan çıkarıldı, Ek'e alındı |
+| `GA-SK` | Başa baş (22 / 21) | Mevzuat değişikliği yerine açıklama talebi |
+| `GA-ARAC`, `GA-LORA` | Mevzuat değişikliği | Kılavuz talebinden düzenleme talebine yükseltildi |
+| `GA-AREDN` | Yazılı görüş | Düzenleme talebinden teknik parametre talebine indirildi |
+| `GA-BAND-1` | Yakın (25 / 23) | İki talep birlikte iletiliyor |
+
+Toplulukça reddedilen talepler silinmedi; Tablo B'nin sonundaki **"Topluluk Tercihi Nedeniyle
+Başvuruya Dönüştürülmeyen Talepler"** ekinde oy sonuçları ve gerekçeleriyle birlikte duruyor.
+Kuruma giden talep sayısı 22'den 20'ye indi.
+
 ## İçindekiler
 
 | Belge | Açıklama |
 |-------|----------|
 | **Tablo A — Mevzuat Analizi (v1.1)** | Gri alanlar, IARU/CEPT eksikleri, karşılaştırmalı analiz, herkes için özet |
 | **Tablo A — Mevzuat Envanteri (v1.1)** | 24 maddelik mevzuat envanteri + resmî kaynak linkleri + gri alanlar tablosu |
-| **Tablo B — Kurumlara Talep Yazıları (v1.1, taslak)** | 22 talebin matrisi + kuruma göre örnek başvuru taslakları |
+| **Tablo B — Kurumlara Talep Yazıları (v1.2, taslak)** | Uzlaşı oylaması sonuçlarına göre revize; kuruma giden 20 talep + örnek başvuru taslakları |
 | **Uzlaşı Oy Pusulası (v1.3)** | Her gri alan için topluluk oylama pusulası (A/B/C/D/E) |
 | **index.html** | İndirme sayfası — yayında: [ta3hrj.github.io/amator-telsiz-mevzuat](https://ta3hrj.github.io/amator-telsiz-mevzuat/) |
 | **oylama.html** | Uzlaşı oylaması — [oylama sayfası](https://ta3hrj.github.io/amator-telsiz-mevzuat/oylama.html) |

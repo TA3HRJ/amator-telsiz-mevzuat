@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Amatör Telsizcilik Mevzuatı — İnceleme ve Öneri Çalışması (Sürüm 1.3)</title>
+<title>Amatör Telsizcilik Mevzuatı — İnceleme ve Öneri Çalışması (Sürüm 1.5)</title>
 <style>
   :root{ --navy:#1f3864; --blue:#2e75b6; --bg:#f6f8fb; --card:#fff; --line:#e2e8f0; --ink:#1f2933; --muted:#66727f; }
   *{ box-sizing:border-box; }
@@ -34,6 +34,16 @@
   .oyla .sonTarih{ background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.35);
                    border-radius:8px; padding:10px 12px; margin:0 0 14px; color:#fff;
                    font-size:.92rem; font-weight:600; }
+  .sonuc{ background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px; margin:24px 0; font-size:.94rem; }
+  .sonuc p{ margin:0 0 12px; }
+  .sonuc p:last-child{ margin-bottom:0; }
+  .sonuc table{ width:100%; border-collapse:collapse; font-size:.9rem; margin:0 0 14px; }
+  .sonuc th, .sonuc td{ border-bottom:1px solid var(--line); padding:7px 2px; text-align:left; }
+  .sonuc th{ color:var(--navy); font-weight:600; }
+  .sonuc td.n{ text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .sonuc ul{ margin:0 0 12px; padding-left:20px; } .sonuc li{ margin:6px 0; }
+  .sonuc .yakin{ background:#fff6e5; border:1px solid #f0c987; border-left:4px solid #d68910;
+                 border-radius:8px; padding:12px 14px; margin:0 0 12px; }
   .revnote{ background:#f4f7fb; border:1px solid #d7e3f0; border-left:4px solid var(--blue); border-radius:12px; padding:16px 20px; margin:24px 0; font-size:.9rem; }
   .revnote h3{ margin:0 0 8px; color:var(--navy); font-size:.95rem; }
   .revnote p{ margin:8px 0 0; }
@@ -50,7 +60,7 @@
     <p class="kicker">Türkiye</p>
     <h1>Amatör Telsizcilik Mevzuatı — İnceleme ve Öneri Çalışması</h1>
     <p class="sub">Gri Alanlar · IARU/CEPT Boşlukları · Kurumlara Talep Yazıları</p>
-    <p><span class="badge">Sürüm 1.3 · 7 Ağustos 2026</span></p>
+    <p><span class="badge">Sürüm 1.5 · 11 Eylül 2026</span></p>
   </header>
 
   <div class="oyla">
@@ -76,6 +86,62 @@
     camiaya açık, tartışmaya ve oylamaya elverişli bir zemin sunmaktır.
   </div>
 
+
+  <section id="sonucBolum">
+  <h2>Uzlaşı oylaması — sonuçlar</h2>
+  <div class="sonuc">
+    <p>Oylama 9 Ağustos 2026'da açıldı ve <strong>8 Eylül 2026</strong> akşamı kapandı. Sonuçlar
+    camianın eğilimini gösterir; <strong>bağlayıcı değildir</strong> ve hiçbir kurumu, derneği
+    veya kişiyi bağlamaz.</p>
+
+    <table>
+      <tr><th>Toplam pusula</th><td class="n">50</td></tr>
+      <tr><th>Toplam oy satırı</th><td class="n">1117</td></tr>
+      <tr><th>Madde başına katılım</th><td class="n">41–49 pusula</td></tr>
+      <tr><th>Oylanan gri alan</th><td class="n">22 / 22</td></tr>
+      <tr><th>Serbest görüş (E)</th><td class="n">13 pusuladan 62 metin</td></tr>
+    </table>
+
+    <p>Kimlik, çağrı işareti veya e-posta istenmedi ve IP adresi saklanmadı. Bunun bedeli, mükerrer
+    oyun teknik olarak engellenememesidir; bu yüzden sayılar <strong>&ldquo;kaç kişi&rdquo; değil
+    &ldquo;kaç oy&rdquo;</strong> olarak okunmalıdır. Ham veride oy deseni birebir aynı üç pusula
+    çifti bulundu; sayım raporunda bu inceleme ayrı bir bölüm olarak yazılıdır.</p>
+
+    <div class="yakin">
+      <strong>İki maddede sonuç yakın çıktı</strong> ve tek tercihe indirgenmedi:
+      <strong>GA-SK</strong> (Silent Key ve çağrı işareti vesayeti) ile
+      <strong>GA-BAND-1</strong> (sınıf yetki tablosu). GA-SK, mükerrer şüphesi taşıyan pusulalar
+      çıkarıldığında berabere kalmaktadır; bu maddede tek bir topluluk tercihinden söz edilemez.
+    </div>
+
+    <p><strong>Sonuçlar Tablo B'ye nasıl işlendi.</strong> Kurumlara gidecek talep yazıları
+    oylamanın sonucuna göre yeniden düzenlendi (v1.2):</p>
+    <ul>
+      <li><strong>İki talep başvuru metninden çıkarıldı.</strong> Topluluk <strong>GA-3</strong>
+      (CEPT ve B/C sınıfı HAREC boşluğu, 35 oya karşı 4) ile <strong>GA-RX/Kanal</strong>
+      (kanal hafızasında frekans kaydı, 21'e 15) maddelerinde mevcut durumun korunmasını tercih
+      etti. Metinler silinmedi; belgenin sonundaki ekte, oy sonuçları ve gerekçeleriyle duruyor.
+      Kuruma giden talep sayısı 22'den 20'ye indi.</li>
+      <li><strong>GA-SK açıklama talebine çevrildi.</strong> Madde başa baş bittiği için mevzuat
+      değişikliği yerine yürürlükteki düzenlemenin yazılı açıklanması isteniyor.</li>
+      <li><strong>İki talep güçlendirildi.</strong> Araçta kullanım (GA-ARAC) ve LoRa
+      (GA-LORA) maddelerinde topluluk yazılı görüş yerine düzenleme istediği için talepler
+      kılavuz seviyesinden mevzuat düzenlemesine yükseltildi.</li>
+      <li><strong>Bir talep hafifletildi.</strong> Amatör mesh ağı (GA-AREDN) maddesinde topluluk
+      teknik parametre talebini seçtiği için tür yazılı görüşe indirildi.</li>
+    </ul>
+
+    <p>Sayımın nasıl yapıldığı, madde madde sonuçlar ve serbest görüşlerin tam metni sayım
+    raporundadır. Ham veri, zaman damgalarıyla birlikte olduğu gibi yayımlanmıştır; isteyen
+    herkes sayımı baştan yapabilir.</p>
+
+    <p>
+      <a href="https://github.com/TA3HRJ/amator-telsiz-mevzuat/blob/main/Uzlasi_Oylamasi_Sayim_Raporu_v1.0.md">Sayım raporu</a> ·
+      <a href="Uzlasi_Oylamasi_Ham_Veri.csv">Ham veri (CSV)</a> ·
+      <a href="oylama.html">Madde madde sonuçlar</a>
+    </p>
+  </div>
+  </section>
 
   <h2>Mevzuat hiyerarşisi — bir bakışta</h2>
   <div class="intro" style="padding:14px 16px;">
@@ -167,9 +233,9 @@
       <span><span class="t">Tablo A — Mevzuat Envanteri (v1.1)</span><br><span class="d">24 maddelik mevzuat envanteri + resmî kaynak linkleri, gri alanlar tablosu</span></span>
       <span class="arrow">↓</span>
     </a>
-    <a class="file" href="Amator_Telsizcilik_Tablo_B_Kurum_Talep_Yazilari_Taslak_v1.1.docx">
+    <a class="file" href="Amator_Telsizcilik_Tablo_B_Kurum_Talep_Yazilari_Taslak_v1.2.docx">
       <span class="tag doc">DOCX</span>
-      <span><span class="t">Tablo B — Kurumlara Talep Yazıları (v1.1, taslak)</span><br><span class="d">22 talebin matrisi + kuruma göre örnek başvuru taslakları</span></span>
+      <span><span class="t">Tablo B — Kurumlara Talep Yazıları (v1.2, taslak)</span><br><span class="d">Uzlaşı oylaması sonuçlarına göre revize · kuruma giden 20 talep + örnek başvuru taslakları</span></span>
       <span class="arrow">↓</span>
     </a>
     <a class="file" href="Amator_Telsizcilik_Uzlasi_Oy_Pusulasi_v1.3.docx">
@@ -201,7 +267,7 @@
   </div>
 
   <footer>
-    Amatör telsiz camiasına açık katkı · Bireysel gönüllü çalışma · Sürüm 1.3
+    Amatör telsiz camiasına açık katkı · Bireysel gönüllü çalışma · Sürüm 1.5
   </footer>
 </div>
 
@@ -222,6 +288,7 @@ fetch("https://uzlasi-oylama.heo-520.workers.dev/sonuc", { cache: "no-store" })
     document.getElementById("oylamaAlt").textContent =
       "Sonuçlar canlı görünür · Oylama bağlayıcı değildir · Ham veri kapanışta yayımlanacaktır";
     document.getElementById("sonTarih").hidden = false;   // kapaninca kendiliginden gizlenir
+    document.getElementById("sonucBolum").hidden = true;  // acikken kapanis anlatimi gosterilmez
   })
   .catch(() => {});                            // ulasilamazsa notr metin kalir
 </script>

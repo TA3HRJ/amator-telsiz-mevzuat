@@ -1,5 +1,45 @@
 # Değişiklik Günlüğü
 
+## Sürüm 1.5 — 11 Eylül 2026
+
+**Tablo B talep yazıları, uzlaşı oylamasının sonucuna göre yeniden düzenlendi (v1.2).**
+
+Oylamada topluluk iki gri alanda mevcut durumun korunmasını tercih etti: **GA-3** (CEPT T/R
+61-01/61-02 ve B/C sınıfı HAREC boşluğu) 45 pusulanın 35'iyle, **GA-RX/Kanal** (kanal hafızasında
+frekans kaydı) 21'e 15 ile. Bu iki talep kurumlara giden başvuru metninden çıkarıldı: GA-3
+talepleri Taslak 1'den, GA-RX/Kanal için hazırlanmış Taslak 12 tümüyle. Sorun tespiti ortadan
+kalkmadığı için metinler silinmedi; belgenin sonuna eklenen **"Topluluk Tercihi Nedeniyle
+Başvuruya Dönüştürülmeyen Talepler"** ekinde, oy sonuçları ve gerekçeleriyle birlikte duruyorlar.
+Kuruma giden talep sayısı 22'den 20'ye indi.
+
+**GA-SK açıklama talebine dönüştürüldü.** Madde oylamada başa baş bitti (A:22 / D:21; mükerrer
+şüphesi taşıyan pusulalar çıkarıldığında 20-20). Taslak 9'daki mevzuat değişikliği talebi, yerini
+Md.7/2'nin on yıllık süre sonrasında hangi usule tabi olduğunun yazılı açıklanması talebine
+bıraktı; metinde topluluğun ikiye bölündüğü açıkça yazıyor.
+
+**Üç talep güçlendirildi, biri hafifletildi.** GA-ARAC ve GA-LORA'da topluluk yazılı görüş yerine
+düzenleme istediği için talepler kılavuz/açıklama seviyesinden mevzuat düzenlemesine yükseltildi;
+GA-NODE aynı sebeple matriste C+D'ye geçti. GA-AREDN'de tersi oldu: topluluk TAD parametre talebini
+(C) seçtiği için tür C olarak güncellendi. Yakın sonuçlanan GA-BAND-1'de iki talep birlikte
+iletiliyor: resmî yetki tablosunun yayımlanması ve Yönetmeliğin CEPT Tier yapısıyla uyumlu
+güncellenmesi.
+
+**Sonuçlar ana sayfada ve README'de anlatıldı.** Sürüm 1.4'te sayım raporu ve ham veri
+yayımlanmıştı, ancak siteye giren biri sonucun ne olduğunu ve belgeleri nasıl etkilediğini ancak
+raporu indirip okuyarak öğrenebiliyordu. Ana sayfaya katılım rakamlarını, iki yakın maddeyi ve
+tercihlerin Tablo B'ye nasıl işlendiğini anlatan bir bölüm eklendi; README'ye aynı özet ve gri
+alan başına etkiyi gösteren bir tablo girdi. Bölüm, oylama yeniden açılırsa kendiliğinden
+gizlenir — sayfa oylama durumunu yine tek kaynaktan, Worker'daki `OYLAMA_ACIK` değişkeninden
+okuyor.
+
+**Site ve README sürüm rozetleri düzeltildi.** Sürüm 1.4'te oylama sonuçları yayımlanırken rozetler
+`Sürüm 1.3 · 7 Ağustos 2026` olarak kalmıştı; artık 1.5 ve 11 Eylül 2026 gösteriyorlar.
+
+Tablo A (Analiz, Envanter), Oy Pusulası ve Sunum bu sürümde değişmedi. Sunum ve Oy Pusulası hâlâ
+oylamayı açık anlatmaktadır; yeniden dağıtılacaklarsa kapanış durumuna göre gözden geçirilmelidir.
+
+---
+
 ## Sürüm 1.4 — 11 Eylül 2026
 
 **Uzlaşı oylaması kapandı; sayım raporu ve ham veri yayımlandı.**
