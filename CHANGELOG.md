@@ -1,5 +1,33 @@
 # Değişiklik Günlüğü
 
+## Sürüm 1.10 — 25 Eylül 2026
+
+**GA-BAND-3, Milli Frekans Planı'nın ulusal sütununa göre yeniden ifade edildi (Tablo B v1.5,
+Tablo A v1.4).**
+
+BTK sitesindeki güncel MFP (2023 baskısı) sayfa konumlarıyla yeniden okundu. Planın sütunları "ITU
+Bölge-1 Planı" (İngilizce) ve "Milli Plan" (Türkçe); ulusal amatör tahsisleri "Amatör/AMATÖR" olarak
+yazılıyor.
+
+- **2,4 GHz'de ulusal amatör tahsisi yok.** 2300-2450 MHz satırında (s.93) ITU sütununda "Amateur"
+  var; Milli Plan sütunu SABİT, MOBİL, HAVA MOBİL ve Radar'dan oluşuyor ve ITU'daki "Amateur"un
+  hizasında **HAVA MOBİL** yazıyor. 3,4 GHz'de de (3300-3600 MHz) amatör yok.
+- **MFP'nin amatöre verdiği aralıklar, TAD ve FTM'nin tanımladığından geniş.** Milli Plan
+  sütununda amatör: 5650-5850 MHz (tali), 10-10,5 GHz (tali), 24-24,05 GHz (asli), 24,05-24,25 GHz
+  (tali). TAD08-01-06 ve FTM Tablo 25 bunların yalnızca 5650-5670, 5820-5850, 10450-10452 ve
+  24000-24050 MHz bölümlerini tanımlıyor. Dolayısıyla **5670-5820 MHz, 10000-10450 / 10452-10500 MHz
+  ve 24050-24250 MHz için "MFP var, TAD yok" öncülü doğru**; Sürüm 1.9'daki "tahsisli bantlarda TAD
+  zaten var" ifadesi yalnızca TAD'da tanımlı segmentler için geçerliydi.
+- **Tablo B, Taslak 2:** GA-BAND-3 gerekçesi bu tabloya göre yazıldı. Talep artık "MFP'de tahsisli
+  olup TAD ve FTM'de yer almayan aralıkların teknik şartlarıyla TAD'a ve FTM Tablo 25'e eklenmesi;
+  2,4 GHz için önce MFP'ye amatör tahsisin işlenmesi" diyor. Oylanan "TAD teknik şart" talebinin özü ve
+  2,4 GHz önceliği korundu.
+- **Tablo A ve Envanter:** Devir notunda açık kalan "3,4 / 10 / 24 GHz için MFP 2023 teyidi" kapandı;
+  GA-BAND-3 metinleri ve talep özeti buna göre güncellendi. `maddeler.json` GA-BAND-3 `sorun`
+  açıklaması düzeltildi, `surum` 1.3 oldu.
+
+---
+
 ## Sürüm 1.9 — 24 Eylül 2026
 
 **Tablo B'deki GA-BAND-1 talebi doğru öncülle yeniden ifade edildi (v1.4).**

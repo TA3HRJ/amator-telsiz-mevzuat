@@ -1,6 +1,6 @@
 # Devir Notu
 
-Son güncelleme: 24 Eylül 2026
+Son güncelleme: 25 Eylül 2026
 
 ## Nerede kalındı
 
@@ -31,18 +31,20 @@ okununca TAD08-01-06'nın tahsisi bulunan mikrodalga bantlarını zaten tanımla
 yanlış bir ifadeyi korumuştu**, v1.3'te düzeltildi. Ders: eski metinden devralınan bir öncülü, yeni
 yazılan cümlenin içinde de birincil metinden okumadan bırakmayın.
 
-**Tablo B'de başvurudan önce karar gereken tek öncül kaldı: GA-BAND-3 (Taslak 2, P35 ve P40).**
-Gerekçe "MFP'de tahsisi bulunan mikrodalga bantlarında TAD teknik şartları eksiktir" diyor, talep
-"TAD'a teknik şart eki" istiyor; TAD08-01-06 bu bantları zaten tanımlıyor. Oylanan tercih D "Öncelikli
-2,4 GHz TAD" (31 oy), ama 2,4 GHz'de tahsis yok. Dar yeniden ifade seçeneği: tahsisli bantlar için
-emisyon listesinin genişletilmesi + 2,4 GHz için önce tahsis. Kullanıcı onayı gerekiyor.
+**25 Eylül 2026 — Sürüm 1.10.** GA-BAND-3 düzeltildi (Tablo B v1.5, Tablo A v1.4). Kullanıcı
+"2,4 GHz'de tahsis olması lazım, defalarca geçmiştik" dedi; güncel MFP (BTK sitesi, 2023 baskısı)
+**sayfa konumlarıyla** yeniden okundu ve **2,4 GHz'de ulusal amatör tahsisi olmadığı kesinleşti**:
+s.93, 2300-2450 MHz satırında ITU sütunundaki "Amateur"un hizasında Milli Plan sütununda "HAVA
+MOBİL" yazıyor. Bu konu bir daha açılırsa aynı sayfaya bakın; tartışmayı yeniden başlatmayın.
+Aynı okumada MFP'nin amatöre verdiği 5,7 / 10 / 24 GHz aralıklarının TAD ve FTM'den geniş olduğu
+görüldü (açık aralıklar: 5670-5820 MHz, 10000-10450 / 10452-10500 MHz, 24050-24250 MHz). GA-BAND-3
+talebi bu aralıklara yöneltildi; 3,4/10/24 GHz MFP teyidi kapandı.
 
 **Sıradaki iş:**
-1. GA-BAND-3 öncülü (kullanıcı onayıyla).
-2. **Issue #2'nin kalanı: Sunum (.pptx) ve Oy Pusulası (.docx), ikisi de v1.3.** Tablo A'daki
+1. **Issue #2'nin kalanı: Sunum (.pptx) ve Oy Pusulası (.docx), ikisi de v1.3.** Tablo A'daki
    düzeltmelerin aynıları büyük olasılıkla buralarda da duruyor. `araclar/ooxml_metin.py` pptx için
    `Doc(xml, "a:p", "a:t")` ile kullanılabilir.
-3. Issue #2 GitHub'da henüz kapatılmadı; Sunum/Oy Pusulası bitince kapatılabilir.
+2. Issue #2 GitHub'da henüz kapatılmadı; Sunum/Oy Pusulası bitince kapatılabilir.
 
 **24 Eylül 2026 — Sürüm 1.6.** Buğra Canata'nın (@bcanata) 20 Ağustos'tan beri bekleyen PR #1'i
 birleştirildi (`b122c0b`, rebase ile, commit onun adıyla), ardından `0cfbb48` CHANGELOG'u ve
@@ -67,9 +69,6 @@ düzeltildi:
 
 Ayrıca GA-3'ün HAREC öncülü (Ek'te) doğrulanamadığı için şüpheli olarak işaretlendi.
 
-**3,4 / 10 / 24 GHz için MFP 2023 kontrolü hâlâ yarım.** Analiz v1.2 bunu açıkça "ayrıca teyit
-edilmeli" diye yazıyor. 2019 baskısında 3400 MHz'de amatör yok, 10 GHz'de 10450-10452 var; FTM
-Tablo 25 ise 5650-5670, 5820-5850, 10450-10452 ve 24000-24050 MHz'i A ve B sınıfına açıyor.
 
 Önceki durum (11 Eylül):
 
@@ -94,8 +93,10 @@ yazılı görüşe indirildi, GA-BAND-1'de iki talep birlikte iletiliyor. Kuruma
 ## Açık kalanlar
 
 0. **Issue #2 — Sunum ve Oy Pusulası.** Tablo A ve B bitti; yukarıya bak.
-1. **Kurum başvuruları** Tablo B v1.4'teki taslaklarla yapılacak ve süreç kamuya açık izlenecek.
-   Önce GA-AREDN (2,4 GHz) ve GA-DIG (emisyon tablosu) öncülleri için karar gerekiyor; yukarıya bak.
+1. **Kurum başvuruları** Tablo B v1.5'teki taslaklarla yapılacak ve süreç kamuya açık izlenecek.
+   Bilinen öncül sorunları giderildi. Yine de Taslak 2 gerekçesinde iki cümleye bakılmalı:
+   "915 MHz yasa dışı" (aşağıda 4. madde) ve "salt dinleme serbestisi kodifiye edilmemiş, satıcılar
+   dayanaksız RX kısıtlaması uyguluyor". İkincisi FTM Md.24'ün salt alıcıları muaf tuttuğunu anmıyor.
 2. **Sunum ve Oy Pusulası hâlâ v1.3** ve oylamayı açık anlatıyor. Bir daha dağıtılacaksa
    kapanış durumuna göre gözden geçirilmeli.
 3. **Tablo A'da §6 hâlâ "22 talep" diyor.** GA-3 ve GA-RX/Kanal'ın talebe dönüştürülmediği bilgisi
@@ -130,6 +131,14 @@ yazılı görüşe indirildi, GA-BAND-1'de iki talep birlikte iletiliyor. Kuruma
   `curl -L https://docdb.cept.org/download/<id>` ile inen PDF Read aracıyla okunabiliyor (poppler
   yok ama `pages` verilmeden 46 sayfalık FTM de okundu). eCFR engelli; law.cornell.edu kullanın.
   ECA tablosu için EFIS'in CSV indirmesi (`reports/ReportDownloader?reportid=3`) tarayıcıdan `fetch` ile okunabiliyor.
+- **MFP'yi okumak:** Planın sütunları "ITU Bölge-1 Planı" (İngilizce) ve "Milli Plan" (Türkçe).
+  Ulusal amatör tahsisi "Amatör/AMATÖR" diye yazılır; "Amateur" aramak yalnız ITU sütununu bulur.
+  Metin sırası sütunları karıştırdığı için hücreyi **x konumuyla** okuyun (2023 baskısında ITU
+  sütunu x≈132, Milli Plan x≈248; bant etiketi satırın ortasına yakın durur). Yöntem: yerleşik
+  tarayıcıda btk.gov.tr/milli-frekans-plani açıkken pdf.js'i
+  `import('https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/build/pdf.min.mjs')` ile yükleyip PDF'i aynı
+  kökenden `fetch` etmek; `getTextContent()` öğelerinin `transform[4]` (x) ve `transform[5]` (y)
+  değerleri. Canvas'a çizmek 45 sn sınırını aşıyor; gerekirse ekran görüntüsü yeterli.
 - **GA-SK sonucu kırılgan.** Ham veride oy deseni birebir aynı üç pusula çifti var (ikisi bir
   dakikadan kısa arayla gönderilmiş, birinde serbest görüş metinleri de aynı). Kimlik
   toplanmadığı için mükerrer oy kanıtlanamıyor, bu yüzden sonuçlar bütün pusulalarla verildi.

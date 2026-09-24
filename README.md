@@ -1,6 +1,6 @@
 # Amatör Telsizcilik Mevzuatı — İnceleme ve Öneri Çalışması
 
-**Sürüm 1.9 · 24 Eylül 2026**
+**Sürüm 1.10 · 25 Eylül 2026**
 
 **Yayın sayfası:** <https://ta3hrj.github.io/amator-telsiz-mevzuat/> — belgelerin indirme sayfası ve uzlaşı oylaması.
 
@@ -65,9 +65,9 @@ Kuruma giden talep sayısı 22'den 20'ye indi.
 
 | Belge | Açıklama |
 |-------|----------|
-| **Tablo A — Mevzuat Analizi (v1.3)** | Gri alanlar, IARU/CEPT eksikleri, karşılaştırmalı analiz, herkes için özet; madde atıfları birincil metinlerden doğrulandı |
-| **Tablo A — Mevzuat Envanteri (v1.3)** | 24 maddelik mevzuat envanteri + resmî kaynak linkleri + gri alanlar tablosu |
-| **Tablo B — Kurumlara Talep Yazıları (v1.4, taslak)** | Uzlaşı oylaması sonuçlarına göre revize, madde atıfları birincil metinlerden doğrulandı; kuruma giden 20 talep + örnek başvuru taslakları |
+| **Tablo A — Mevzuat Analizi (v1.4)** | Gri alanlar, IARU/CEPT eksikleri, karşılaştırmalı analiz, herkes için özet; madde atıfları birincil metinlerden doğrulandı |
+| **Tablo A — Mevzuat Envanteri (v1.4)** | 24 maddelik mevzuat envanteri + resmî kaynak linkleri + gri alanlar tablosu |
+| **Tablo B — Kurumlara Talep Yazıları (v1.5, taslak)** | Uzlaşı oylaması sonuçlarına göre revize, madde atıfları birincil metinlerden doğrulandı; kuruma giden 20 talep + örnek başvuru taslakları |
 | **Uzlaşı Oy Pusulası (v1.3)** | Her gri alan için topluluk oylama pusulası (A/B/C/D/E) |
 | **index.html** | İndirme sayfası — yayında: [ta3hrj.github.io/amator-telsiz-mevzuat](https://ta3hrj.github.io/amator-telsiz-mevzuat/) |
 | **oylama.html** | Uzlaşı oylaması — [oylama sayfası](https://ta3hrj.github.io/amator-telsiz-mevzuat/oylama.html) |

@@ -45,6 +45,7 @@ Kalıcı/devlet kaynakları önceliklendirildi (mevzuat.gov.tr, Resmî Gazete, B
 | 3621 Kıyı Kanunu Md.4-6 | https://www.mevzuat.gov.tr/mevzuatmetin/1.5.3621.pdf |
 | 2873 Milli Parklar Kanunu Md.2 | https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2873.pdf |
 | BTK güvensiz cihaz duyurusu (27.11.2019; özgün adres yanıt vermiyor, arşiv kopyası) | https://web.archive.org/web/20200226053829/https://www.btk.gov.tr/duyurular/kamuoyuna-duyurulur-guvensiz-oldugu-tespit-edilen-cihazlar |
+| BTK Milli Frekans Planı (2023 baskısı; s.93: 2300-2450 MHz, s.103-104: 5,7 GHz, s.114-115: 10 GHz, s.127: 24 GHz) | https://www.btk.gov.tr/milli-frekans-plani |
 | FT8/FT4 protokolü, QEX Temmuz/Ağustos 2020 | https://wsjt.sourceforge.io/FT4_FT8_QEX.pdf |
 | Winlink Open B2F protokolü | https://winlink.org/B2F |
 | FCC DA 13-1918 (RM-11699 şifreleme dilekçesinin reddi) | https://docs.fcc.gov/public/attachments/DA-13-1918A1.txt |
