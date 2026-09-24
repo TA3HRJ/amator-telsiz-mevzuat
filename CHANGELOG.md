@@ -1,5 +1,71 @@
 # Değişiklik Günlüğü
 
+## Sürüm 1.8 — 24 Eylül 2026
+
+**Tablo A (Analiz ve Envanter) birincil metinlere göre düzeltildi (v1.2).**
+
+Issue #2'nin Analiz ve Envanter'e düşen maddeleri ele alındı. Her düzeltme, iddiayı doğrulayan
+birincil metin okunarak yapıldı (mevzuat.gov.tr, CEPT docdb/EFIS, gesetze-im-internet.de,
+law.cornell.edu, legislation.gov.uk, BTK arşivi). Sürüm 1.7'de Tablo B'de düzeltilen atıflar
+(6112 Md.3/1-ff, KTK Md.32/72/73, 2004 yönetmeliğini kaldıran 2009 düzenlemesi, KEGM Md.4/1-a,
+2,4 GHz'de MFP tahsisinin yokluğu) Analiz ve Envanter'e de işlendi. Bunlara ek olarak:
+
+- **FTM Teknik Ölçütler 2022, Envanter'de hâlâ "yürürlüğe girmemiş taslak" görünüyordu.** 16. satır
+  "Taslak" statüsünde ve "içindeki değişiklikler uygulanmıyor" notuyla duruyordu; 15. satır da
+  "güncelleme taslağı henüz yürürlüğe girmemiş" diyordu. Kurul kararı (23.09.2022, 2022/İK-SYD/245)
+  ölçütleri onaylar ve yayımlanmasına karar verir; iki satır ve kaynak listesinin 15. maddesi buna
+  göre düzeltildi. LoRa bölümündeki "FTM 2022 Taslak Tablo" ifadesi de kaldırıldı.
+- **CEPT T/R 61-01'de "Tier 1 / Tier 2" ayrımı yok.** Yürürlükteki baskı (18 Ekim 2024) tek bir
+  "CEPT lisansı" düzeyi ve ülke denklik tablosu (Ek 2) içerir; Türkiye için listelenen sınıf A'dır.
+  T/R 61-02 Ek 2 ise Türkiye'nin HAREC karşılığını B olarak listeler. GA-2, GA-BAND-1 ve §4
+  tablosundaki Tier ifadeleri düzeltildi. **Not:** Tablo B'deki GA-BAND-1 talebi ("Yönetmeliğin CEPT
+  Tier yapısıyla uyumlu güncellenmesi") aynı öncüle dayanıyor ve bu sürümde değiştirilmedi.
+- **T/R 61-01'de genel bir "azami 3 ay / 90 gün" sınırı yok.** Süre "geçici kalış" ile tanımlı;
+  üç ay yalnızca Estonya ve Letonya dipnotlarında geçiyor. Belgelerdeki baskı tarihleri de
+  güncellendi: T/R 61-01 18 Ekim 2024, T/R 61-02 16 Şubat 2024.
+- **Yabancı amatörlerin Türkiye'deki çalışma usulü "tanımsız" değil.** KEGM Sınav ve Belgelendirme
+  Yönetmeliği Md.6/5-6 ve Md.19/1-b ile FTM Teknik Ölçütler Md.22 §8 bu usulü, mütekabiliyet ve
+  KEGM'ye bildirim şartıyla düzenliyor; ancak T/R 61-01'e atıf yapmıyor. GA-3 buna göre yeniden
+  yazıldı; "KEGM yalnız A sınıfına HAREC düzenler" ifadesi doğrulanamadığı için iddia olarak işaretlendi.
+- **Salt alıcılar için çerçeve var.** FTM Teknik Ölçütler Md.24, frekans tahsisine ihtiyaç
+  duymayan salt alıcı cihazları ruhsat ve izinden muaf tutar. GA-RX'teki "RX-only için çerçeve yok"
+  ifadesi düzeltildi. Mülga 2813 Md.36'ya yapılan "izinsiz dinleme" atfı, haberleşmenin gizliliğine
+  ilişkin güncel hüküm olan 5809 Md.51/2 ile değiştirildi.
+- **Almanya, ABD ve İngiltere "dinleme serbest, yalnız ifşa suç" örneği değil.** Abhörverbot TKG
+  §89'da değil TDDDG §5'te (eski link alakasız bir hükme gidiyordu); yalnız amatörlere ve genel kamuya
+  yönelik mesajlar dinlenebilir. ABD'de §2511(1)(a) dinlemeyi de yasaklar, amatör yayınları
+  (2)(g)(ii)(III) ile istisnadır; İngiltere'de WTA 2006 s.48(1)(a) dinlemeyi de suç sayar.
+- **5809 Md.51 spektrum izleme değil kişisel verilerin korunması.** İzleme Md.40, denetim Md.59,
+  Kurumun yetkisi Md.60 (GA-ENFORC).
+- **Kıyı Kanunu'nda "ilk 10 m" kuralı yok** (kıyıda yapı yasağı Md.6, sahil şeridi en az 100 m Md.4,
+  yapı yaklaşma sınırı 50 m Md.5); **milli parklar Tarım ve Orman Bakanlığı'na (DKMP) bağlı** (2873 Md.2).
+- **KTK Md.73/1 "kullanmayı" yasaklar ve eller serbest kullanım için istisna içermez.** Analiz'deki
+  "eller serbest kit bu riski giderir" ifadesi kanun metninde karşılığı olmadığı için kaldırıldı.
+- **Röleyi derneğe bağlayan hüküm** KEGM Md.4/1-e değil, FTM Teknik Ölçütler Md.22 §12, Tablo 25 ve
+  KEGM Md.6/2-ç.
+- **C sınıfı ve 430-440 MHz:** Tablo 25 bu bandı tek parça değil altı alt segment olarak verir; "C
+  sınıfı el telsizinde 5 W FM" iki ayrı kuralın birleşimiydi. Emisyon tablosunun başlığı "Tablo 26-1".
+- **Part 90 karşılaştırması tersine çevrildi:** §90.210 (maske B/C) 43 + 10 log(P) dB ister; el
+  telsizi sınıfında Part 97'nin 40 dB'sinden sıkıdır. ARRL rakamı "45 Baofeng'in %9'u" olarak
+  düzeltildi ve ikincil kaynaktan geldiği için iddia olarak işaretlendi. BTK duyurusunun tarihi
+  27 Kasım 2019.
+- **Küçük düzeltmeler:** Envanter #1 2813'ün RG tarihi 07.04.1983; ECA dipnotu ECA9; LoRa Sıra 15a'da
+  hariç tutulan "ses dışındaki" analog audio; IARU ETG'nin Türkçe baskısı tespit edilemedi; FT8
+  protokolü QEX Temmuz/Ağustos 2020'de yayımlandı; Winlink B2F'nin doğru sayfası `winlink.org/B2F`;
+  FCC DA 13-1918 bir "test" kurmaz, RM-11699 dilekçesini reddeder; KEGM ücretleri Harçlar Kanunu
+  değil Yönetim Kurulu kararıyla belirlenir; TAD'ın tarihi 2018; MFP 2023 baskısı; ölü IARU 70 MHz
+  linki ECA kaynağıyla, BTK duyurusu arşiv kopyasıyla değiştirildi.
+- **Şekil 1 yeniden çizildi** (TAD 2018, MFP 2023, ECA9, FTM teknik ölçütler 2022, "2009'dan beri
+  tek çatı yönetmelik yok"). Kaynak SVG arşivde `sekil1_bugun_v1.2.svg` olarak duruyor.
+
+**`maddeler.json`:** GA-3, GA-BAND-3 ve GA-AREDN'in `sorun` açıklamaları düzeltildi; `surum` 1.1
+oldu. Oylanan seçenek etiketleri ve açıklamaları değişmedi.
+
+Issue #2'nin Sunum ve Oy Pusulası'na ilişkin maddeleri duruyor. Belgeler XML doğrulamasından geçti;
+bu makinede LibreOffice bulunmadığı için sayfa düzeni görsel olarak denetlenemedi.
+
+---
+
 ## Sürüm 1.7 — 24 Eylül 2026
 
 **Tablo B'deki yanlış madde atıfları birincil metinlere göre düzeltildi (v1.3).**
