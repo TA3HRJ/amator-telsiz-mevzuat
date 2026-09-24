@@ -1,5 +1,38 @@
 # Değişiklik Günlüğü
 
+## Sürüm 1.6 — 24 Eylül 2026
+
+**Düz metin dosyalarında olgusal düzeltmeler (PR #1, Buğra Canata).** Belge seti birincil
+kaynaklara karşı denetlendi; düz metin dosyalarındaki hatalar düzeltildi. Her biri birleştirmeden
+önce birincil metinden yeniden teyit edildi.
+
+- **"2813 Md.36" atıfları** `maddeler.json`'dan kaldırıldı. 2813'ün 36. maddesi yürütme
+  maddesidir ("Bu Kanun hükümlerini Bakanlar Kurulu yürütür"); 26-34. maddeleri 2008'de 5809 ile
+  kaldırılmıştır. Kodlu/kriptolu haberleşmenin bugünkü dayanağı **5809 Md.39**, cezası Md.63/6.
+- **TAD 2021 → TAD (2018)**: BTK'nın belgesinin kapağı "28 Aralık 2018, Versiyon 1.0"; başka
+  sürümü yok. `index.html`, `maddeler.json`.
+- **MFP 2019 → 2023** (`index.html` infografiği): BTK'nın güncel Milli Frekans Planı'nın her
+  sayfası 2023 baskısıdır.
+- **KTK Md.29 → Md.32** (GA-ARAC): araç üzerindeki değişiklik Md.32'dir, Md.29 tip onayıdır.
+- **GA-4**: "T/R 61-01 TR'de uygulanmaz" ifadesi GA-3 ile çelişiyordu; "gümrük uygulamasına
+  yansımamıştır" olarak düzeltildi.
+- **Kaynak listesi**: T/R 61-01 bağlantısı güncel baskıya (18 Ekim 2024) çevrildi; "Harcı (492)"
+  satırı KEGM'nin ücret tarifesi olarak düzeltildi.
+
+**Oylanmış bir seçeneğin etiketi değişti.** GA-BAND-2'nin D seçeneği oylamada "ERC/REC 25-10
+Çerçevesinde Müzakere" olarak görünüyordu; ERC/REC 25-10 PMSE video bağlantılarıyla ilgilidir,
+70 MHz ile değil. `maddeler.json`'da artık "ECC Çerçevesinde Müzakere". **Sayım Raporu v1.0 ve
+ham veri değiştirilmedi**: oylananı kaydediyorlar ve eski etiketi o haliyle taşımaları doğrudur.
+GA-RX ve GA-DIG seçeneklerinin açıklamalarındaki atıflar da aynı şekilde düzeltildi.
+
+**Office belgeleri bu sürümde değişmedi.** Aynı denetimin Office belgelerine (Analiz, Envanter,
+Tablo B, Sunum) ilişkin bulguları #2 numaralı issue'da takip ediliyor. Bunlar arasında kurumlara
+gidecek talep yazılarındaki yanlış madde atıfları var (5809 Md.51, KTK "73/c", Kıyı Kanunu
+"ilk 10 m", milli parkların bağlı olduğu bakanlık); yazılar gönderilmeden önce düzeltilmeleri
+gerekir.
+
+---
+
 ## Sürüm 1.5 — 11 Eylül 2026
 
 **Tablo B talep yazıları, uzlaşı oylamasının sonucuna göre yeniden düzenlendi (v1.2).**

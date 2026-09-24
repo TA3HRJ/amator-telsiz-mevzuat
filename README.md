@@ -1,6 +1,6 @@
 # Amatör Telsizcilik Mevzuatı — İnceleme ve Öneri Çalışması
 
-**Sürüm 1.5 · 11 Eylül 2026**
+**Sürüm 1.6 · 24 Eylül 2026**
 
 **Yayın sayfası:** <https://ta3hrj.github.io/amator-telsiz-mevzuat/> — belgelerin indirme sayfası ve uzlaşı oylaması.
 
