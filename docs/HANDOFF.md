@@ -1,8 +1,30 @@
 # Devir Notu
 
-Son güncelleme: 11 Eylül 2026
+Son güncelleme: 24 Eylül 2026
 
 ## Nerede kalındı
+
+**24 Eylül 2026 — Sürüm 1.6.** Buğra Canata'nın (@bcanata) 20 Ağustos'tan beri bekleyen PR #1'i
+birleştirildi (`b122c0b`, rebase ile, commit onun adıyla), ardından `0cfbb48` CHANGELOG'u ve
+sürüm rozetlerini 1.6'ya çekti. PR'a teşekkür yorumu yazıldı. PR yalnız düz metin dosyalarını
+düzeltti (`maddeler.json`, `index.html`, `Resmi_Kaynaklar_Linkler.md`): mülga 2813 Md.36 → 5809
+Md.39, TAD 2018, MFP 2023, KTK Md.32, T/R 61-01 güncel baskısı, KEGM ücret tarifesi. Her biri
+birleştirmeden önce birincil metinden teyit edildi (mevzuat.gov.tr PDF'leri, BTK TAD ve MFP
+PDF'leri, CEPT docdb). GA-BAND-2 D etiketi oylanmış haliyle değişti; Sayım Raporu ve ham veri
+**bilerek** değiştirilmedi, fark CHANGELOG'da yazılı.
+
+**Sıradaki iş: issue #2** — aynı denetimin Office belgelerine (Analiz, Envanter, Tablo B, Sunum,
+Oy Pusulası) ilişkin 22 maddelik kontrol listesi. **Kurum başvurularından önce yapılmalı**,
+çünkü "Kritik" bölümündeki yanlış madde atıflarının bazıları Tablo B talep yazılarında:
+5809 Md.51 (aslında kişisel veriler, 2014'te AYM iptal; spektrum izleme Md.40), KTK "73/c"
+(böyle bent yok; telefon yasağı 73/1, cihaz kullanımı başlığı Md.72), Kıyı Kanunu "ilk 10 m",
+milli parkların bakanlığı (2873 Md.2: Tarım ve Orman). 5809 Md.51/40 ve KTK Md.72/73 teyit
+edildi; diğerleri henüz birincil metinden okunmadı. KTK Md.73/2 **12 Şubat 2026'da değişti**
+(7574/25, ceza 5.000 TL) — GA-ARAC'a yansıtılmalı. Öneri sırası: önce Tablo B'deki kritik
+atıflar, sonra Tablo A, en son Sunum/Oy Pusulası. Her belge değişikliği sürüm numarası ve
+CHANGELOG kaydı ister (bkz. CLAUDE.md "Sürüm disiplini").
+
+Önceki durum (11 Eylül):
 
 Uzlaşı oylaması **kapandı, sonuçları yayımlandı ve Tablo B talep yazıları bu sonuçlara göre
 yeniden düzenlendi (v1.2)**. Sıradaki iş kurum başvurularının yapılması.
@@ -24,6 +46,7 @@ yazılı görüşe indirildi, GA-BAND-1'de iki talep birlikte iletiliyor. Kuruma
 
 ## Açık kalanlar
 
+0. **Issue #2 — Office belgelerindeki olgusal düzeltmeler.** Kurum başvurularından önce; yukarıya bak.
 1. **Kurum başvuruları** Tablo B v1.2'deki taslaklarla yapılacak ve süreç kamuya açık izlenecek.
 2. **Sunum ve Oy Pusulası hâlâ v1.3** ve oylamayı açık anlatıyor. Bir daha dağıtılacaksa
    kapanış durumuna göre gözden geçirilmeli.
