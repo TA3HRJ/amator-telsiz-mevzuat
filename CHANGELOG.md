@@ -1,5 +1,62 @@
 # Değişiklik Günlüğü
 
+## Sürüm 1.9 — 24 Eylül 2026
+
+**Tablo B'deki GA-BAND-1 talebi doğru öncülle yeniden ifade edildi (v1.4).**
+
+Uzlaşı oylamasında GA-BAND-1 yakın bitmişti ve iki tercih birlikte kaydedilmişti: D "CEPT T/R 61-01
+Uyum" (25 oy) ve C "KEGM Resmi Tablo Talebi" (23 oy). D seçeneğinin açıklaması, KEGM Yönetmeliğinin
+"CEPT Tier 1/Tier 2 yapısıyla uyumlu" güncellenmesini istiyordu. Ancak T/R 61-01'in yürürlükteki
+baskısında (18 Ekim 2024) böyle bir yapı yoktur. Tavsiye tek bir "CEPT lisansı" düzeyi tanımlar;
+her ülkenin bu düzeye denk ulusal sınıfları Ek 2'de listelenir (Türkiye için A).
+
+- **Talep (ii)** artık "Yönetmeliğin CEPT T/R 61-01 ile uyumlu biçimde kapsamlı olarak
+  güncellenmesi" diyor. Seçeneğin özü olan CEPT uyumu ve kapsamlı güncelleme korundu; yalnızca
+  var olmayan yapıya yapılan atıf çıkarıldı.
+- **Gerekçedeki** "Tier kurgusu" cümlesi, Tavsiyenin gerçek yapısını ve KEGM Yönetmeliğinin sınıfları
+  bu çerçeveyle ilişkilendiren bir hüküm içermediğini (Md.25 yalnızca CEPT kararlarının KEGM'ce uygun
+  görülmesi hâlinde uygulanacağını söyler) anlatan cümleyle değiştirildi.
+- **Yeniden ifade bilerek dar tutuldu.** Sınıfların HAREC karşılıklarının Yönetmelikte gösterilmesi
+  gibi ayrıntılar eklenmedi: bunlar GA-3'ün konusudur ve topluluk GA-3'te mevcut durumun korunmasını
+  tercih etmiştir (35/45).
+- **`maddeler.json`:** D seçeneğinin açıklaması aynı biçimde düzeltildi; etiket ("CEPT T/R 61-01
+  Uyum") değişmedi, `surum` 1.2 oldu. **Sayım Raporu v1.0 ve ham veri değiştirilmedi**; oylananı
+  kaydediyorlar (Sürüm 1.6'daki GA-BAND-2 örneğiyle aynı usul).
+
+**Tablo A v1.2 ile eşitleme.** Tablo B'de kalan "TAD 2021" (8 yer) → TAD (2018), "EU9" → ECA9,
+"Tablo 25-1" → Tablo 26-1 ve LoRa satırındaki "FTM 2022 Taslak" → FTM Teknik Ölçütler (2022) olarak
+düzeltildi; künyedeki eşlik eden dosyalar v1.2'ye çekildi.
+
+**GA-AREDN ve GA-DIG öncülleri TAD ve FTM metinlerine göre düzeltildi.** TAD (2018) birincil
+metinden okundu:
+
+- **TAD08-01-06, tahsisi bulunan mikrodalga bantlarını zaten tanımlıyor.** 1240-1300, 5650-5670,
+  5820-5850, 10450-10452, 24000-24050 MHz ve üzeri dokuz aralık, A ve B sınıfı için azami 75 W verici
+  gücü / 400 W p.e.p. ve 21 emisyon tipiyle listeleniyor. "Mikrodalga bantlarında TAD'da teknik şart
+  yok" öncülü yanlıştı; **Tablo A v1.2 bu yanlış ifadeyi korumuştu**, v1.3'te düzeltildi. TAD'da gerçekten
+  eksik olan, emisyon listesinde veri (D) sınıfı ya da Wi-Fi türü geniş bantlı sayısal emisyon
+  bulunmaması.
+- **GA-AREDN (Taslak 3):** Talep "2,4/5,8 GHz için TAD teknik parametreleri" yerine "5,8 GHz amatör
+  segmentinde AREDN'in kullandığı geniş bantlı sayısal emisyonların TAD08-01-06 emisyon listesine
+  eklenmesi" oldu. 2,4 GHz'de MFP tahsisi olmadığından bu banda ilişkin talebin Taslak 2'de
+  (GA-BAND-3) iletildiği belirtildi. Oylanan tercih (C, "TAD Parametre Talebi") korunuyor.
+- **GA-DIG (Taslak 2):** "TAD ve FTM yalnızca geleneksel emisyon tiplerini (A1A, J3E, F3E)
+  listelemektedir" cümlesi yanlıştı. FTM Tablo 26-1, A1D, F1D ve J2D gibi veri emisyonları dahil 24 tip
+  sayar ve Tablo 25 HF bantlarında J2D'ye izin verir. TAD'ın HF listesi (TAD08-01-03) ise bu veri
+  emisyonlarını içermez; iki belge bu noktada ayrılır. Gerçek boşluk, dijital modların adıyla
+  anılmaması ve hangi emisyon sınıfına girdiklerinin açıklanmamasıdır. Talep değişmedi.
+- **`maddeler.json`:** GA-AREDN C seçeneğinin açıklaması ve GA-BAND-3 ile GA-AREDN `sorun` metinleri
+  aynı biçimde düzeltildi.
+
+**Tablo A v1.3 (Analiz ve Envanter):** GA-BAND-3, GA-AREDN, GA-5 ve GA-DIG'deki TAD ve emisyon
+listesi ifadeleri yukarıdaki olgulara göre düzeltildi.
+
+**Dokunulmadı, karar bekliyor:** Taslak 2'deki GA-BAND-3 gerekçesi ("MFP'de tahsisi bulunan mikrodalga
+bantlarında TAD teknik şartları eksiktir") ve talebi ("TAD'a teknik şart eki") aynı yanlış öncüle
+dayanıyor. Oylanmış bir talep olduğu için değiştirilmedi.
+
+---
+
 ## Sürüm 1.8 — 24 Eylül 2026
 
 **Tablo A (Analiz ve Envanter) birincil metinlere göre düzeltildi (v1.2).**

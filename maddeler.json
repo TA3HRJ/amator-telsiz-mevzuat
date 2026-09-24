@@ -1,5 +1,5 @@
 {
- "surum": "1.1",
+ "surum": "1.2",
  "maddeler": [
   {
    "kod": "GA-1",
@@ -331,7 +331,7 @@
     {
      "harf": "D",
      "etiket": "CEPT T/R 61-01 Uyum",
-     "aciklama": "KEGM Sınav Yönetmeliği'nin CEPT Tier 1/Tier 2 yapısıyla uyumlu kapsamlı güncellemesi talep edilir."
+     "aciklama": "KEGM Sınav Yönetmeliği'nin CEPT T/R 61-01 ile uyumlu kapsamlı güncellemesi talep edilir."
     },
     {
      "harf": "E",
@@ -378,7 +378,7 @@
   {
    "kod": "GA-BAND-3",
    "ad": "Mikrodalga Bantları (2,4 / 5,7 / 10 / 24 GHz) — MFP Var, TAD Yok",
-   "sorun": "BTK MFP bazı mikrodalga bantlarını (ör. 5830-5850 MHz) ikincil amatör tahsisli listeler; ancak TAD (2018) bu bantlar için teknik parametreler içermiyor. 2400-2450 MHz'de ise MFP'nin Milli Plan sütununda amatör tahsisi yok; 'Amateur' yalnızca ITU Bölge-1 sütununda görünüyor.",
+   "sorun": "BTK MFP bazı mikrodalga bantlarını (ör. 5830-5850 MHz) ikincil amatör tahsisli listeler; TAD (2018) bu bantları güç ve emisyon tipleriyle tanımlar, ancak emisyon listesi geniş bantlı sayısal emisyonları kapsamaz. 2400-2450 MHz'de ise MFP'nin Milli Plan sütununda amatör tahsisi yok; 'Amateur' yalnızca ITU Bölge-1 sütununda görünüyor.",
    "sade": "Mikrodalga bantlar frekans planında amatörlere ayrılmış, ama teknik şartları hiç yazılmamış.",
    "secenekler": [
     {
@@ -480,7 +480,7 @@
   {
    "kod": "GA-AREDN",
    "ad": "AREDN Amatör Mesh Ağı (2,4 / 5,8 GHz)",
-   "sorun": "AREDN, değiştirilmiş WiFi donanımıyla 2,4 ve 5,8 GHz amatör bantlarda mesh ağ kurar. Türkiye'de 5,8 GHz'in bir bölümü ikincil amatör tahsisli, ancak TAD'da teknik parametre yoktur. 2,4 GHz'de MFP'de amatör tahsisi yok; bu bantta yalnızca FTM'nin lisanssız Wi-Fi/KET sınırları geçerli.",
+   "sorun": "AREDN, değiştirilmiş WiFi donanımıyla 2,4 ve 5,8 GHz amatör bantlarda mesh ağ kurar. Türkiye'de 5,8 GHz'in bir bölümü ikincil amatör tahsisli ve TAD'da güç ve emisyon tipleriyle tanımlı; ancak emisyon listesi AREDN'in kullandığı geniş bantlı sayısal emisyonları kapsamıyor. 2,4 GHz'de MFP'de amatör tahsisi yok; bu bantta yalnızca FTM'nin lisanssız Wi-Fi/KET sınırları geçerli.",
    "sade": "WiFi donanımıyla amatör bantta mesh ağ kurmak teknik olarak mümkün, hukuken belirsiz.",
    "secenekler": [
     {
@@ -496,7 +496,7 @@
     {
      "harf": "C",
      "etiket": "TAD Parametre Talebi",
-     "aciklama": "BTK'ya 2,4/5,8 GHz amatör kullanımı için TAD (2018)'e teknik parametre maddesi eklenmesi."
+     "aciklama": "BTK'ya 5,8 GHz amatör segmentinde AREDN'in kullandığı geniş bantlı sayısal emisyonların TAD (2018) emisyon listesine eklenmesi talep edilir (2,4 GHz'de MFP tahsisi yok)."
     },
     {
      "harf": "D",

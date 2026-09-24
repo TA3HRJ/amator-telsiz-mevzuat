@@ -18,10 +18,27 @@ yapısı yok**; **FTM Md.24 salt alıcıları muaf tutuyor**; **FTM Md.22 §8 ve
 amatör usulünü düzenliyor**; **röle-dernek bağı FTM Md.22 §12'de**; **KTK Md.73/1 eller serbest
 istisnası içermiyor**; Şekil 1'deki etiketler (TAD 2021, MFP 2019, EU9, "2004'ten beri").
 
+**24 Eylül 2026 — Sürüm 1.9.** Kullanıcının kararıyla Tablo B'deki GA-BAND-1 talebi yeniden
+ifade edildi (v1.4): "Tier 1/Tier 2" yerine "Yönetmeliğin CEPT T/R 61-01 ile uyumlu kapsamlı
+güncellenmesi". Yeniden ifade **bilerek dar**: HAREC eşlemesi gibi ayrıntılar GA-3'ün konusu ve
+GA-3 toplulukça reddedildi; GA-BAND-1'e bunlar eklenirse reddedilen içerik başka kapıdan girmiş olur.
+`maddeler.json` D açıklaması da düzeltildi; sayım raporu ve ham veri dokunulmadı. Aynı sürümde Tablo B'de
+kalan TAD 2021/EU9/Tablo 25-1/FTM Taslak ifadeleri Tablo A ile eşitlendi.
+
+Aynı sürümde, kullanıcı onayıyla **GA-AREDN ve GA-DIG** öncülleri de düzeltildi. TAD (2018)
+okununca TAD08-01-06'nın tahsisi bulunan mikrodalga bantlarını zaten tanımladığı görüldü (A/B,
+75 W / 400 W p.e.p., 21 emisyon tipi; veri ve geniş bantlı sayısal emisyon yok). **Tablo A v1.2 bu konuda
+yanlış bir ifadeyi korumuştu**, v1.3'te düzeltildi. Ders: eski metinden devralınan bir öncülü, yeni
+yazılan cümlenin içinde de birincil metinden okumadan bırakmayın.
+
+**Tablo B'de başvurudan önce karar gereken tek öncül kaldı: GA-BAND-3 (Taslak 2, P35 ve P40).**
+Gerekçe "MFP'de tahsisi bulunan mikrodalga bantlarında TAD teknik şartları eksiktir" diyor, talep
+"TAD'a teknik şart eki" istiyor; TAD08-01-06 bu bantları zaten tanımlıyor. Oylanan tercih D "Öncelikli
+2,4 GHz TAD" (31 oy), ama 2,4 GHz'de tahsis yok. Dar yeniden ifade seçeneği: tahsisli bantlar için
+emisyon listesinin genişletilmesi + 2,4 GHz için önce tahsis. Kullanıcı onayı gerekiyor.
+
 **Sıradaki iş:**
-1. **Kullanıcı kararı — GA-BAND-1 ve Tier.** Tablo B v1.3'teki GA-BAND-1 talebi "Yönetmeliğin CEPT
-   Tier yapısıyla uyumlu güncellenmesi" diyor; T/R 61-01'in yürürlükteki baskısında Tier yok.
-   Oylanmış bir talep olduğu için bu oturumda değiştirilmedi. Başvurudan önce karar gerekiyor.
+1. GA-BAND-3 öncülü (kullanıcı onayıyla).
 2. **Issue #2'nin kalanı: Sunum (.pptx) ve Oy Pusulası (.docx), ikisi de v1.3.** Tablo A'daki
    düzeltmelerin aynıları büyük olasılıkla buralarda da duruyor. `araclar/ooxml_metin.py` pptx için
    `Doc(xml, "a:p", "a:t")` ile kullanılabilir.
@@ -77,8 +94,8 @@ yazılı görüşe indirildi, GA-BAND-1'de iki talep birlikte iletiliyor. Kuruma
 ## Açık kalanlar
 
 0. **Issue #2 — Sunum ve Oy Pusulası.** Tablo A ve B bitti; yukarıya bak.
-1. **Kurum başvuruları** Tablo B v1.3'teki taslaklarla yapılacak ve süreç kamuya açık izlenecek.
-   Önce GA-BAND-1'deki Tier öncülü için karar gerekiyor.
+1. **Kurum başvuruları** Tablo B v1.4'teki taslaklarla yapılacak ve süreç kamuya açık izlenecek.
+   Önce GA-AREDN (2,4 GHz) ve GA-DIG (emisyon tablosu) öncülleri için karar gerekiyor; yukarıya bak.
 2. **Sunum ve Oy Pusulası hâlâ v1.3** ve oylamayı açık anlatıyor. Bir daha dağıtılacaksa
    kapanış durumuna göre gözden geçirilmeli.
 3. **Tablo A'da §6 hâlâ "22 talep" diyor.** GA-3 ve GA-RX/Kanal'ın talebe dönüştürülmediği bilgisi

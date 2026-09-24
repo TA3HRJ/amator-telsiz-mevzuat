@@ -31,7 +31,7 @@ Kalıcı/devlet kaynakları önceliklendirildi (mevzuat.gov.tr, Resmî Gazete, B
 
 *Not: 7, 9 ve 10 numaralı maddeler mülga/konsolide olduğundan, 15 numaralı madde Resmî Gazete'de değil Kurum internet sitesinde yayımlandığından en yakın resmî kaynağa yönlendirilmiştir. 15 numaralı madde önceki sürümlerde "taslak" olarak gösteriliyordu; Kurul kararı ölçütleri onaylamış ve yayımlanmasına karar vermiştir.*
 
-## Tablo A v1.2 düzeltmelerinde kullanılan ek birincil kaynaklar
+## Tablo A v1.2-v1.3 düzeltmelerinde kullanılan ek birincil kaynaklar
 
 | Konu | Kaynak |
 |------|--------|
