@@ -1,5 +1,51 @@
 # Değişiklik Günlüğü
 
+## Sürüm 1.7 — 24 Eylül 2026
+
+**Tablo B'deki yanlış madde atıfları birincil metinlere göre düzeltildi (v1.3).**
+
+Bu düzeltmeler issue #2'nin "Kritik" bölümünden geliyor ve kurumlara gidecek talep yazılarının
+içindeydi; başvurular yapılmadan önce düzeltilmeleri gerekiyordu. Her biri, iddiayı doğrulayan
+birincil metin okunarak değiştirildi:
+
+- **6112'de yayın tanımı Md.2'de değil Md.3'te.** Belgede Md.2'ye atıfla alıntılanan "kamuya açık
+  eş zamanlı içerik iletimi" ibaresi kanunda geçmiyor; Md.2 Kanunun kapsam maddesi. Gerçek tanım
+  Md.3/1-ff'de ve **"bireysel iletişim hariç olmak üzere"** istisnasını içeriyor. Bu istisna
+  GA-NODE'un savını zayıflatmıyor, güçlendiriyor: Taslak 6'nın gerekçesi tanımın gerçek metniyle
+  yeniden yazıldı.
+- **2918 sayılı KTK'da "Md.73/c" diye bir bent yok.** Sürüş sırasında haberleşme cihazı kullanma
+  yasağı 73 üncü maddenin birinci fıkrasında; araçlarda cihaz kullanımının başlığı 72 nci madde;
+  araç üzerindeki teknik değişiklik ve bildirim zorunluluğu ise 32 nci madde — anten montajı için
+  doğru dayanak Md.29 değil Md.32. Md.73'ün ikinci fıkrası 12/2/2026 tarihli ve 7574 sayılı
+  Kanunla değişti; GA-ARAC talebi bu çerçeveye göre yeniden yazıldı.
+- **Amatör Telsizcilik Yönetmeliği 2004'te kaldırılmadı, 2004'te yayımlandı.** 18/3/2004 tarihli ve
+  25406 sayılı Resmî Gazete'de yayımlanmış, 18/7/2009 tarihli ve 27292 sayılı Resmî Gazete'de
+  yayımlanan Özel Telsiz Sistemleri Yönetmeliğinin 6 ncı maddesiyle yürürlükten kaldırılmıştır.
+  (Taslak 1.)
+- **KEGM Yönetmeliği Md.4/1-e amaç saymıyor.** (e) bendi amatör telsiz istasyonunu tanımlar ve
+  acil/olağanüstü durum haberleşmesinde görev alan kuruluşları istasyon kullanabilecekler arasında
+  sayar; amatörler bakımından acil durum ve afet haberleşmesini tanımlayan bent (a)'dır. Taslak
+  10'un giriş cümlesi ve matris dayanakları buna göre düzeltildi.
+- **2,4 GHz'de Milli Frekans Planı'nda amatör tahsisi yok.** Planın 2400 MHz satırında "Amateur"
+  yalnızca ITU Bölge-1 sütununda görünüyor; Milli Plan sütununda amatör tahsisi hiç yer almıyor.
+  Dolayısıyla bu bantta eksik olan TAD teknik şartı değil tahsisin kendisi. Taslak 2'nin gerekçesi
+  ve talebi ayrıştırıldı: tahsisi bulunan bantlar için teknik şart, 2,4 GHz için önce tahsis.
+
+**GA-3'ün HAREC öncülü şüpheli olarak işaretlendi.** Ek'teki "KEGM yalnızca A sınıfına dört dilde
+HAREC belgesi düzenler" ve "B sınıfının HAREC muadili yoktur" ifadeleri birincil kaynakla
+doğrulanamadı; T/R 61-02'nin 2 numaralı ekinde Türkiye'nin HAREC karşılığı ulusal belgesi B olarak
+listeleniyor. İfadeler kaldırılmadı ama talep yeniden ele alınırsa örnek belgeyle
+desteklenmeden kullanılmamaları gerektiği yazıldı.
+
+**Alt bilgi sürüm numarası düzeltildi.** Sürüm 1.6'da başlık ve rozet güncellenirken ana sayfanın
+alt bilgisi `Sürüm 1.5` olarak kalmıştı.
+
+Issue #2'nin kalan maddeleri (Analiz, Envanter, Sunum, Oy Pusulası ve `maddeler.json`) bu sürümde
+ele alınmadı. Belge XSD doğrulamasından geçti; bu makinede LibreOffice bulunmadığı için sayfa
+düzeni görsel olarak denetlenemedi.
+
+---
+
 ## Sürüm 1.6 — 24 Eylül 2026
 
 **Düz metin dosyalarında olgusal düzeltmeler (PR #1, Buğra Canata).** Belge seti birincil

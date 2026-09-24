@@ -13,16 +13,31 @@ birleştirmeden önce birincil metinden teyit edildi (mevzuat.gov.tr PDF'leri, B
 PDF'leri, CEPT docdb). GA-BAND-2 D etiketi oylanmış haliyle değişti; Sayım Raporu ve ham veri
 **bilerek** değiştirilmedi, fark CHANGELOG'da yazılı.
 
-**Sıradaki iş: issue #2** — aynı denetimin Office belgelerine (Analiz, Envanter, Tablo B, Sunum,
-Oy Pusulası) ilişkin 22 maddelik kontrol listesi. **Kurum başvurularından önce yapılmalı**,
-çünkü "Kritik" bölümündeki yanlış madde atıflarının bazıları Tablo B talep yazılarında:
-5809 Md.51 (aslında kişisel veriler, 2014'te AYM iptal; spektrum izleme Md.40), KTK "73/c"
-(böyle bent yok; telefon yasağı 73/1, cihaz kullanımı başlığı Md.72), Kıyı Kanunu "ilk 10 m",
-milli parkların bakanlığı (2873 Md.2: Tarım ve Orman). 5809 Md.51/40 ve KTK Md.72/73 teyit
-edildi; diğerleri henüz birincil metinden okunmadı. KTK Md.73/2 **12 Şubat 2026'da değişti**
-(7574/25, ceza 5.000 TL) — GA-ARAC'a yansıtılmalı. Öneri sırası: önce Tablo B'deki kritik
-atıflar, sonra Tablo A, en son Sunum/Oy Pusulası. Her belge değişikliği sürüm numarası ve
-CHANGELOG kaydı ister (bkz. CLAUDE.md "Sürüm disiplini").
+**24 Eylül 2026 — Sürüm 1.7.** Issue #2'nin **Tablo B'ye düşen kısmı bitti** (Tablo B v1.3).
+Kurumlara gidecek metinlerdeki beş yanlış atıf, iddiayı doğrulayan birincil metin okunarak
+düzeltildi:
+
+| Düzeltme | Doğrulandığı kaynak |
+|---|---|
+| 6112'de yayın tanımı Md.2 değil **Md.3/1-ff**; "kamuya açık eş zamanlı içerik iletimi" ibaresi kanunda yok; tanım "bireysel iletişim hariç" içeriyor | arşivdeki RG metni |
+| KTK'da "**73/c**" bent yok: yasak Md.73/1, ceza Md.73/2 (12/2/2026-7574/25), cihaz kullanımı Md.72, araç değişikliği Md.32 | mevzuat.gov.tr `1.5.2918.pdf` |
+| Amatör Telsizcilik Yönetmeliği **18/3/2004-25406**'da yayımlandı, **18/7/2009-27292** ÖTSY Md.6 ile kaldırıldı | resmigazete.gov.tr `20090718-7` |
+| KEGM Md.4/1-**e** amaç saymıyor (istasyon tanımı); amatörler için afet haberleşmesini tanımlayan bent **(a)** | arşivdeki RG metni |
+| **2,4 GHz'de MFP'de amatör tahsisi yok** — "Amateur" yalnız ITU Bölge-1 sütununda | arşivdeki MFP s.93 |
+
+Ayrıca GA-3'ün HAREC öncülü (Ek'te) doğrulanamadığı için şüpheli olarak işaretlendi.
+
+**Sıradaki iş: issue #2'nin kalanı** — aynı düzeltmeler Analiz, Envanter, Sunum, Oy Pusulası ve
+`maddeler.json`'da duruyor. Henüz birincil metinden okunmamış olanlar: Kıyı Kanunu "ilk 10 m"
+(Md.4/5/6), milli parkların bakanlığı (2873 Md.2), Almanya TTDSG/TDDDG atfı, Part 90 §90.210
+karşılaştırması, T/R 61-01'de "3 ay" sınırı. 5809 Md.51/40 önceki oturumda teyit edilmişti ve
+Analiz'de duruyor. Öneri sırası: Tablo A (Analiz + Envanter), sonra Sunum/Oy Pusulası. Her belge
+değişikliği sürüm numarası ve CHANGELOG kaydı ister (bkz. CLAUDE.md "Sürüm disiplini").
+
+**3,4 ve 24 GHz için MFP kontrolü yarım kaldı.** 2019 baskısında 3400 MHz sayfalarında amatör
+hiç geçmiyor, 10 GHz'de 10450-10452 aralığında tahsis var, 24 GHz'de bulunamadı. Güncel 2023
+baskısı elde yok; Analiz'deki mikrodalga öncülü yazılırken bu bantlar tek tek 2023 baskısından
+okunmalı.
 
 Önceki durum (11 Eylül):
 
